@@ -1,0 +1,14 @@
+Key,English,Russian,Spanish
+hptooltip,Health points1,Health points1,Health points1
+attacktooltip,Attack strength,Attack strength,Attack strength
+Reset,Reset,Reset,Reset
+Levellabel,Level,Level,Level
+Moveslabel,Moves,Moves,Moves
+Bestmoveslabel,Best,Best,Best
+Nextlevel,Next Level,Next Level,Next Level
+Winlevel,Level Won,Level Won,Level Won
+NewGameButton,New Game,New Game,New Game
+ContinueGameButton,Continue,Continue,Continue
+EditorGameButton,Editor,Editor,Editor
+TestLevelButton,Test Level,Test Level,Test Level
+OptionsGameButton,Options,Options,Options

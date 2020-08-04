@@ -4,22 +4,136 @@
     <e p="C:\Users\User\.Rider2019.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\User\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_golfpuzzle.96000208.00" t="ExcludeRecursive" />
     <e p="E:\git_repo\golfpuzzle\golfpuzzle" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Demigiant" t="Include">
+          <e p="DOTween" t="Include">
+            <e p="Modules" t="Include">
+              <e p="DOTweenModuleAudio.cs" t="Include" />
+              <e p="DOTweenModulePhysics.cs" t="Include" />
+              <e p="DOTweenModulePhysics2D.cs" t="Include" />
+              <e p="DOTweenModuleSprite.cs" t="Include" />
+              <e p="DOTweenModuleUI.cs" t="Include" />
+              <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+              <e p="DOTweenModuleUtils.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
+        <e p="JsonDotNet" t="Include">
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="LevelGenerator.cs" t="Include" />
+        <e p="MainMenuUIManager.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="NativeShare" t="Include">
+            <e p="Android" t="Include">
+              <e p="NSCallbackHelper.cs" t="Include" />
+              <e p="NSShareResultCallbackAndroid.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="NSPostProcessBuild.cs" t="Include" />
+            </e>
+            <e p="iOS" t="Include">
+              <e p="NSShareResultCallbackiOS.cs" t="Include" />
+            </e>
+            <e p="NativeShare.cs" t="Include" />
+            <e p="readme.txt" t="Include" />
+          </e>
+        </e>
         <e p="Resources" t="Include">
           <e p="levels" t="Include">
+            <e p="level 1.txt" t="Include" />
             <e p="level.txt" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="Box.cs" t="Include" />
-          <e p="GameManager.cs" t="Include" />
-          <e p="LevelBuilder.cs" t="Include" />
-          <e p="Levels.cs" t="Include" />
-          <e p="Player.cs" t="Include" />
+          <e p="common" t="Include">
+            <e p="SceneMover.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+          </e>
+          <e p="consts" t="Include">
+            <e p="StringConstants.cs" t="Include" />
+          </e>
+          <e p="Highscores" t="Include">
+            <e p="HighscoreManager.cs" t="Include" />
+          </e>
+          <e p="Level" t="Include">
+            <e p="ColorToPrefab.cs" t="Include" />
+            <e p="LevelBuilder.cs" t="Include" />
+            <e p="Levels.cs" t="Include" />
+          </e>
+          <e p="leveleditor" t="Include">
+            <e p="EditorTile.cs" t="Include" />
+            <e p="LevelEditor.cs" t="Include" />
+            <e p="MapObjectEd.cs" t="Include" />
+            <e p="TouchMapObjectEd.cs" t="Include" />
+            <e p="UIManagerEditor.cs" t="Include" />
+          </e>
+          <e p="managers" t="Include">
+            <e p="GameManager.cs" t="Include" />
+            <e p="UIManager.cs" t="Include" />
+          </e>
+          <e p="MapObjects" t="Include">
+            <e p="Ball.cs" t="Include" />
+            <e p="BallControl.cs" t="Include" />
+            <e p="GrayBall.cs" t="Include" />
+            <e p="HoleTarget.cs" t="Include" />
+            <e p="iBall.cs" t="Include" />
+            <e p="sand.cs" t="Include" />
+            <e p="Water.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="LocalizedTextMeshPro.cs" t="Include" />
+            <e p="WinLevelPanel.cs" t="Include" />
+          </e>
         </e>
+        <e p="SimpleLocalization" t="Include">
+          <e p="Downloader.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="LocalizationSyncEditor.cs" t="Include" />
+          </e>
+          <e p="Example.cs" t="Include" />
+          <e p="LocalizationManager.cs" t="Include" />
+          <e p="LocalizationSync.cs" t="Include" />
+          <e p="LocalizedDropdown.cs" t="Include" />
+          <e p="LocalizedText.cs" t="Include" />
+          <e p="Sheet.cs" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+          </e>
+        </e>
+        <e p="TouchEditorTile.cs" t="Include" />
       </e>
       <e p="golfpuzzle.sln" t="IncludeFlat" />
+      <e p="NativeShare.Editor.csproj" t="IncludeRecursive" />
+      <e p="NativeShare.Runtime.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />

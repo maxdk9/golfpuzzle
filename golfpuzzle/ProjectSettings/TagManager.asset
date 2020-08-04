@@ -7,6 +7,7 @@ TagManager:
   - Box
   - Wall
   - Cross
+  - Ball
   layers:
   - Default
   - TransparentFX
@@ -43,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UILayer
+    uniqueID: 827243175
     locked: 0
