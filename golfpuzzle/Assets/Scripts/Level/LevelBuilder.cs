@@ -68,22 +68,34 @@ public class LevelBuilder : MonoBehaviour
     }
 
 
+
+    public ColorToPrefab GetColorToPrefab(Color c)
+    {
+        foreach (ColorToPrefab colorToPrefab in colorMappings)
+        {
+            if (colorToPrefab.color.Equals(c))
+            {
+                return colorToPrefab;
+            }
+        }
+
+        return null;
+    }
+
     public void BuildTestMap()
     {
-        Level level=new Level();
-        level.mMapPath = LevelEditor.GetCurrentMapPath();
-        byte[] pngBytes = System.IO.File.ReadAllBytes(level.mMapPath);
-        Texture2D tex = new Texture2D(LevelEditor.GetSavedMapWidth(), LevelEditor.GetSavedMapHeight());
-        tex.LoadImage(pngBytes);
-        level.map = tex;
-        level.bestMoves = 5;
-        level.levelNumber = 1;
-        level.solveMoveNumber = 5;
-        level.width = level.map.width;
-        level.height = level.map.height;
+        
 
+        Texture2D tex;
+        if (LevelEditor.GlobalCurrentLevel == null)
+        {
 
-        mLevel = level;
+            return;
+        }
+        
+
+        
+        mLevel = LevelEditor.GlobalCurrentLevel;
         
         Texture2D map = mLevel.map;
         for (int x = 0; x < map.width; x++)

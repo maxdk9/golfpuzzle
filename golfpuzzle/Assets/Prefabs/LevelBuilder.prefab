@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6826686436948209269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6826686436948209266}
+  - component: {fileID: 6826686436948209267}
+  - component: {fileID: 6826686436948209268}
+  m_Layer: 0
+  m_Name: LevelBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6826686436948209266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6826686436948209269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.61292344, y: 2.0434077, z: -0.7915334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6826686436948209267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6826686436948209269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60ed0af42f0dbe04783762e9bb87bca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mCurrentLevel: 33
+  colorMappings:
+  - color: {r: 0, g: 0, b: 0, a: 1}
+    prefab: {fileID: 3946434457637875793, guid: 3a09c82a3071cd84cb1cce68f9efa8d6,
+      type: 3}
+  - color: {r: 0, g: 1, b: 0, a: 1}
+    prefab: {fileID: 6212564437981670486, guid: fe77c65c2e319bf4d9ae5d8f16efe5b4,
+      type: 3}
+  - color: {r: 1, g: 0, b: 0, a: 1}
+    prefab: {fileID: 3343444251498217140, guid: 83128c117710940448d467dfbfca1618,
+      type: 3}
+  - color: {r: 1, g: 0.84705883, b: 0, a: 1}
+    prefab: {fileID: 1296111638409800991, guid: 5d68054a05d4b3448973c57fdb04557b,
+      type: 3}
+  - color: {r: 0, g: 0, b: 1, a: 1}
+    prefab: {fileID: 1296111638409800991, guid: 28e3653e8ada67449ae5b702d23813a6,
+      type: 3}
+  - color: {r: 0.69803923, g: 0, b: 1, a: 1}
+    prefab: {fileID: 3343444251498217140, guid: 04e03aea192f10b42a608f254efcc7ae,
+      type: 3}
+  - color: {r: 0.7137255, g: 1, b: 0, a: 1}
+    prefab: {fileID: 3946434457637875793, guid: 21ee8ed7aa9f70844b5372d64a14d007,
+      type: 3}
+  - color: {r: 0, g: 1, b: 1, a: 1}
+    prefab: {fileID: 3946434457637875793, guid: ba0816a7b5b493b46a93c18f63cf8aba,
+      type: 3}
+  - color: {r: 0.9671146, g: 0.9716981, b: 0.9716981, a: 0}
+    prefab: {fileID: 3946434457637875793, guid: 17ce5e98aa3b8c941af319facff5837c,
+      type: 3}
+  - color: {r: 0.9411765, g: 0, b: 0.50980395, a: 1}
+    prefab: {fileID: 3946434457637875793, guid: 692ad0e829aaf5a48ae406841d394cfe,
+      type: 3}
+  - color: {r: 1, g: 1, b: 0.19607843, a: 1}
+    prefab: {fileID: 3343444251498217140, guid: f89e4496d64699243a613a60a6bd996d,
+      type: 3}
+  - color: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+    prefab: {fileID: 3946434457637875793, guid: e828ae23783b95d4ba989ca207fcf71d,
+      type: 3}
+--- !u!114 &6826686436948209268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6826686436948209269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad1c5bd40a4d4ab5dcc1187b8b98c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fileName: 
+  mLevels: []

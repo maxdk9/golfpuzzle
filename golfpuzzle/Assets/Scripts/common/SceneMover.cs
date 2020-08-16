@@ -44,7 +44,7 @@ namespace common
             }
 
             LevelEditor levelEditor = FindObjectOfType<LevelEditor>();
-            levelEditor.SetStartParams();
+            
         }
 
         private IEnumerator LoadSampleSceneRoutine()

@@ -19,11 +19,13 @@ public class WinLevelPanel : MonoBehaviour
     public List<Image> StarImages; 
     public float moveDuration = .3f;
     public Button NextLevelButton;
-    
+
+    private Vector3 startPosition=new Vector3(0,50);
     // Start is called before the first frame update
     void Start()
     {
         
+        this.transform.position=new Vector3(0,-1000,0);
         
         NextLevelButton.onClick.AddListener(Hide);
         NextLevelButton.onClick.AddListener(GameManager.Instance.NextLevel);
@@ -38,7 +40,7 @@ public class WinLevelPanel : MonoBehaviour
     public void Show(int winLevel)
     {
         this.gameObject.SetActive(true);
-        WindowImage.DOLocalMove(new Vector3(0,-2000),0);
+        
         
         SetStarImages(winLevel);    
         
@@ -64,7 +66,9 @@ public class WinLevelPanel : MonoBehaviour
     {
         
         yield return new WaitForSeconds(.1f);
-        WindowImage.DOLocalMove(new Vector3(0,0),moveDuration);
+        
+        transform.DOLocalMove(startPosition,moveDuration);
+        //WindowImage.DOLocalMove(new Vector3(0,0),moveDuration);
         yield return new WaitForSeconds(moveDuration);
         
     }
@@ -76,7 +80,7 @@ public class WinLevelPanel : MonoBehaviour
 
     private IEnumerator HideCoroutine()
     {
-        WindowImage.DOLocalMove(new Vector3(0,-2000),moveDuration);
+        transform.DOLocalMove(new Vector3(0,-1000),moveDuration);
         yield return new WaitForSeconds(moveDuration);
         this.gameObject.SetActive(false);
     }

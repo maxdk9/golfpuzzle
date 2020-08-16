@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Cross
   - Ball
+  - Gate
   layers:
   - Default
   - TransparentFX

@@ -15,7 +15,13 @@ public class Water : MonoBehaviour
             if (ball != null)
             {
                 //ball.DestroySunk();
-                GameObject.Destroy(ball.gameObject);
+
+                
+                    ball.Explode();
+                                
+                
+                
+                
                 GameManager.Instance.SetBalls();
               //  GameManager.Instance.CheckBallStop();
             }

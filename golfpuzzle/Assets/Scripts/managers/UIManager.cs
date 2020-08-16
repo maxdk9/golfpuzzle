@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Management.Instrumentation;
 using System.Security.Cryptography.X509Certificates;
 using Assets.SimpleLocalization;
+using common;
 using consts;
 using Highscores;
 using TMPro;
@@ -18,6 +19,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI BestResultCounter;
     public Button ResetButton;
     public Button NextLevelButton;
+    public Button ToEditorButton;
     public WinLevelPanel winLevelPanel;
 
     public TextMeshProUGUI TestLabel;
@@ -37,9 +39,30 @@ public class UIManager : MonoBehaviour
         UpdateGameUIEvent.AddListener(UpdateMoveCounter);
         UpdateGameUIEvent.AddListener(UpdateBestResultCounter);
         UpdateMoveCounterEvent.AddListener(UpdateMoveCounter);
+        ToEditorButton.onClick.AddListener(ToEditorButtonClick);
+        ToEditorButton.gameObject.SetActive(GameManager.TestMap);
+        NextLevelButton.onClick.AddListener(NextLevelButtonClick);
+        ResetButton.onClick.AddListener(ResetButtonOnClick);
+        
         GameObject winLevelPanelGO = GameObject.Instantiate(prefabWinLevelPanel, UICanvas.transform);
         winLevelPanel = winLevelPanelGO.GetComponent<WinLevelPanel>();
         winLevelPanelGO.SetActive(false);
+        
+    }
+
+    private void ToEditorButtonClick()
+    {
+        SceneMover.Instance.SetCurrentScreen(SceneMover.enumScreen.editor);
+    }
+
+    private void ResetButtonOnClick()
+    {
+        GameManager.Instance.ResetScene();
+    }
+
+    private void NextLevelButtonClick()
+    {
+        GameManager.Instance.NextLevel();
     }
 
     // Update is called once per frame
@@ -65,8 +88,11 @@ public class UIManager : MonoBehaviour
     {
 
         int hsresult=HighscoreManager.GetInstance().GetLevelScore(GameManager.Instance.mLevelBuilder.GetCurrentLevel().levelNumber);
+
+        string solution = GameManager.Instance.mLevelBuilder.GetCurrentLevel().solution;
+        
         BestResultCounter.text = LocalizationManager.Localize(StringConstants.Bestmoveslabel) + ":" +
-                                 hsresult.ToString();
+                                 hsresult.ToString()+" "+solution;
     }
     
 }

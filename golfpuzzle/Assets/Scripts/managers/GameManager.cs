@@ -11,8 +11,6 @@ public class GameManager : Singleton<GameManager>
 {
 
     public static bool TestMap = false;
-    
-    
     [SerializeField] public bool mReadyForInput;
     
     public LevelBuilder mLevelBuilder;
@@ -27,25 +25,87 @@ public class GameManager : Singleton<GameManager>
     private bool LevelSolved = false;
     public static UnityEvent WinLevelEvent=new UnityEvent();
     public static UnityEvent CheckWinLevelEvent=new UnityEvent();
-    
+    public static UnityEvent KeyActivatedEvent=new UnityEvent();
+    public static UnityEvent OpenAllGateEvent=new UnityEvent();
+    public static UnityEvent CloseAllGateEvent=new UnityEvent();
     
     private void Start()
     {
     
-        
+        KeyActivatedEvent.AddListener(CheckAllKeyActivation);
         CheckWinLevelEvent.AddListener(CheckWinLevel);
         WinLevelEvent.AddListener(WinLevel);
+        OpenAllGateEvent.AddListener(OpenAllGame);
+        CloseAllGateEvent.AddListener(CloseAllGate);
+        SetGameObjects();
+    }
+
+    private void CloseAllGate()
+    {
+        Gate[] gates = FindObjectsOfType<Gate>();
+        foreach (Gate gate in gates)
+        {
+            if (gate.mOpen)
+            {
+                gate.Close();    
+            }
+            
+        }
+    }
+
+    private void OpenAllGame()
+    {
+        Gate[] gates = FindObjectsOfType<Gate>();
+        foreach (Gate gate in gates)
+        {
+            if (!gate.mOpen)
+            {
+                gate.Open();
+            }
+        }
+    }
+
+    private void CheckAllKeyActivation()
+    {
+        bool allKeysActivated = true;
+        Key [] keys=FindObjectsOfType<Key>();
+        foreach (Key key in keys)
+        {
+            if (!key.activated)
+            {
+                allKeysActivated = false;
+            }
+        }
+
+        if (allKeysActivated)
+        {
+            OpenAllGateEvent.Invoke();
+        }
+        else
+        {
+            CloseAllGateEvent.Invoke();
+        }
+        
     }
 
     private void WinLevel()
     {
-        mReadyForInput = false;
-        HighscoreManager.GetInstance().SetLevelScore(mLevelBuilder.GetCurrentLevel().levelNumber,MoveCounter);
-        //UIManager.Instance.NextLevelButton.gameObject.active = true;
+        if (TestMap)
+        {
+            
+                uiManager.TestLabel.text = "Solution="+this.ballControl.SolutionSave;
+            
+        }
+        else
+        {
+            mReadyForInput = false;
+            HighscoreManager.GetInstance().SetLevelScore(mLevelBuilder.GetCurrentLevel().levelNumber,MoveCounter);
+            uiManager.winLevelPanel.Show(GetWinLevelScoreStar());
+            Debug.Log("Level win");
+            
+            
+        }
         
-                
-        uiManager.winLevelPanel.Show(GetWinLevelScoreStar());
-        Debug.Log("Level win");
     }
 
     private int GetWinLevelScoreStar()
@@ -153,7 +213,7 @@ public class GameManager : Singleton<GameManager>
 
     private void SetMainCamera()
     {
-        float borderSize = .2f;
+        float borderSize = .01f;
         MainCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
 
         int width = mLevelBuilder.GetCurrentLevel().width;
@@ -167,6 +227,13 @@ public class GameManager : Singleton<GameManager>
         float horizontalSize = ((float) height / 2f + (float) borderSize) / aspectRatio;
             
         MainCamera.orthographicSize = (verticalSize > horizontalSize) ? verticalSize : horizontalSize;
+
+
+        if (MainCamera.orthographicSize > 10)
+        {
+            MainCamera.orthographicSize = MainCamera.orthographicSize - .5f;    
+        }
+        
         MainCamera.transform.position = new Vector3(borderSize+(float)(width-1)/2.0f, (float) (MainCamera.orthographicSize) / 2.0f, -10);
         ballControl.boxCollider2d.transform.position=new Vector3(MainCamera.transform.position.x,MainCamera.transform.position.y,0);
         
@@ -178,7 +245,7 @@ public class GameManager : Singleton<GameManager>
 
     public void NextLevel()
     {
-        uiManager.NextLevelButton.gameObject.active = false;
+        //uiManager.NextLevelButton.gameObject.active = false;
         mLevelBuilder.NextLevel();
         StartCoroutine(ResetSceneAsync());
     }
@@ -232,7 +299,8 @@ public class GameManager : Singleton<GameManager>
 
         mLevelBuilder.BuildCurrentLevel();
         StartNewLevel();
-       
+        ballControl.SolutionSave = "";
+
     }
 
     public void ResetScene()
@@ -262,5 +330,15 @@ public class GameManager : Singleton<GameManager>
         mLevelBuilder = FindObjectOfType<LevelBuilder>();
         uiManager = FindObjectOfType<UIManager>();
         ballControl = FindObjectOfType<BallControl>();
+    }
+
+    public void ResetBalls()
+    {
+        SetBalls();
+        foreach (var VARIABLE in Balls)
+        
+        {
+            VARIABLE.ResetBall();    
+        }
     }
 }

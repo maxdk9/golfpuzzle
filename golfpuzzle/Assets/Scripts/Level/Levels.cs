@@ -49,24 +49,57 @@ public class Level
 {
     public int levelNumber;
     public int solveMoveNumber;
-    public int bestMoves;
     public string mMapPath;
-    [NonSerialized]
     public int width;
-    [NonSerialized]
     public int height;
+    public string solution;
+    public string []  colorArray;
+    
     [NonSerialized]
     public Texture2D map;
-
+    
+    
     public void Init()
     {
-        
         map = Resources.Load<Texture2D>(mMapPath);
         width = map.width;
         height = map.height;
     }
-    
-    
+
+
+    public void SetColorArray()
+    {
+        colorArray = new string [width * height];
+        int m = 0;
+        for (int i = 0; i < width; i++)
+        {
+            for (int j = 0; j < height; j++)
+            {
+                Color c = map.GetPixel(i, j);
+                string s=ColorUtility.ToHtmlStringRGBA(c);
+                colorArray[m] = "#"+s;
+                m++;
+            }
+        }
+    }
+
+    public void SetTextureFromColorArray()
+    {
+        map=new Texture2D(width,height);
+        
+        int m = 0;
+        for (int i = 0; i < width; i++)
+        {
+            for (int j = 0; j < height; j++)
+            {
+                string colorString = colorArray[m];
+                Color color;
+                ColorUtility.TryParseHtmlString(colorString, out color);
+                map.SetPixel(i,j,color);
+                m++;
+            }
+        }
+    }
     
     
 }

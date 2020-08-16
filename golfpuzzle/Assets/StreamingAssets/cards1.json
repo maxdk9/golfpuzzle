@@ -1,21 +1,21 @@
 [
 	{
 		"levelNumber": 1,
-		"bestMoves": 3,
+		
 		"solveMoveNumber": 3,
 		"mMapPath": 	"LevelStorage/1"
 
 	},
 	{
 		"levelNumber": 2,
-		"bestMoves": 6,
+		
 		"solveMoveNumber": 6,
 		"mMapPath": 	"LevelStorage/2"
 
 	},
 	{
 		"levelNumber": 3,
-		"bestMoves": 5,
+		
 		"solveMoveNumber": 5,
 		"mMapPath": 	"LevelStorage/3"
 
@@ -23,49 +23,49 @@
 
 	{
 		"levelNumber": 4,
-		"bestMoves": 7,
+		
 		"solveMoveNumber": 7,
 		"mMapPath": 	"LevelStorage/4"
 
 	},
 	{
 		"levelNumber": 5,
-		"bestMoves": 3,
+		
 		"solveMoveNumber": 3,
 		"mMapPath": 	"LevelStorage/5"
 
 	},
 	{
 		"levelNumber": 6,
-		"bestMoves": 5,
+		
 		"solveMoveNumber": 5,
 		"mMapPath": 	"LevelStorage/6"
 
 	},
 	{
 		"levelNumber": 7,
-		"bestMoves": 5,
+		
 		"solveMoveNumber": 5,
 		"mMapPath": 	"LevelStorage/7"
 
 	},
 	{
 		"levelNumber": 8,
-		"bestMoves": 4,
+		
 		"solveMoveNumber": 4,
 		"mMapPath": 	"LevelStorage/8"
 
 	},
 	{
 		"levelNumber": 9,
-		"bestMoves": 5,
+		
 		"solveMoveNumber": 5,
 		"mMapPath": 	"LevelStorage/9"
 
 	},
 	{
 		"levelNumber": 10,
-		"bestMoves": 5,
+		
 		"solveMoveNumber": 5,
 		"mMapPath": 	"LevelStorage/10"
 
@@ -73,70 +73,70 @@
 
 	{
 		"levelNumber": 11,
-		"bestMoves": 4,
+		
 		"solveMoveNumber": 4,
 		"mMapPath": 	"LevelStorage/11"
 
 	},
 	{
 		"levelNumber": 12,
-		"bestMoves": 5,
+		
 		"solveMoveNumber": 5,
 		"mMapPath": 	"LevelStorage/12"
 
 	},
 	{
 		"levelNumber": 13,
-		"bestMoves": 6,
+		
 		"solveMoveNumber": 6,
 		"mMapPath": 	"LevelStorage/13"
 
 	},
 	{
 		"levelNumber": 14,
-		"bestMoves": 6,
+		
 		"solveMoveNumber": 6,
 		"mMapPath": 	"LevelStorage/14"
 
 	},
 	{
 		"levelNumber": 15,
-		"bestMoves": 6,
+		
 		"solveMoveNumber": 6,
 		"mMapPath": 	"LevelStorage/15"
 
 	},
 	{
 		"levelNumber": 16,
-		"bestMoves": 4,
+		
 		"solveMoveNumber": 4,
 		"mMapPath": 	"LevelStorage/16"
 
 	},
 	{
 		"levelNumber": 17,
-		"bestMoves": 10,
+		
 		"solveMoveNumber": 10,
 		"mMapPath": 	"LevelStorage/17"
 
 	},
 	{
 		"levelNumber": 18,
-		"bestMoves": 8,
+		
 		"solveMoveNumber": 8,
 		"mMapPath": 	"LevelStorage/18"
 
 	},
 	{
 		"levelNumber": 19,
-		"bestMoves": 5,
+		
 		"solveMoveNumber": 5,
 		"mMapPath": 	"LevelStorage/19"
 
 	},
 	{
 		"levelNumber": 20,
-		"bestMoves": 10,
+		
 		"solveMoveNumber": 10,
 		"mMapPath": 	"LevelStorage/20"
 
@@ -145,85 +145,372 @@
 
 
 	{
-		"levelNumber": 22,
-		"bestMoves": 8,
+		"levelNumber": 21,
+		
 		"solveMoveNumber": 8,
+		"mMapPath": 	"LevelStorage/21"
+
+	},
+	{
+		"levelNumber": 22,
+		
+		"solveMoveNumber": 11,
 		"mMapPath": 	"LevelStorage/22"
 
 	},
 	{
 		"levelNumber": 23,
-		"bestMoves": 11,
-		"solveMoveNumber": 11,
+		
+		"solveMoveNumber": 5,
 		"mMapPath": 	"LevelStorage/23"
 
 	},
 	{
 		"levelNumber": 24,
-		"bestMoves": 5,
-		"solveMoveNumber": 5,
+		
+		"solveMoveNumber": 11,
 		"mMapPath": 	"LevelStorage/24"
 
 	},
 	{
 		"levelNumber": 25,
-		"bestMoves": 11,
-		"solveMoveNumber": 11,
+		
+		"solveMoveNumber": 5,
 		"mMapPath": 	"LevelStorage/25"
 
 	},
 	{
 		"levelNumber": 26,
-		"bestMoves": 5,
-		"solveMoveNumber": 5,
+		
+		"solveMoveNumber": 8,
 		"mMapPath": 	"LevelStorage/26"
 
 	},
 	{
 		"levelNumber": 27,
-		"bestMoves": 8,
-		"solveMoveNumber": 8,
+		
+		"solveMoveNumber": 9,
 		"mMapPath": 	"LevelStorage/27"
 
 	},
 	{
 		"levelNumber": 28,
-		"bestMoves": 9,
-		"solveMoveNumber": 9,
-		"mMapPath": 	"LevelStorage/28"
-
-	},
-	{
-		"levelNumber": 29,
-		"bestMoves": 7,
+		
 		"solveMoveNumber": 7,
-		"mMapPath": 	"LevelStorage/29"
+		"mMapPath": 	"LevelStorage/28"
 
 	},
 	
 	{
-		"levelNumber": 30,
-		"bestMoves": 12,
+		"levelNumber": 29,
+		
 		"solveMoveNumber": 12,
+		"mMapPath": 	"LevelStorage/29"
+
+	},
+	{
+		"levelNumber": 30,
+		
+		"solveMoveNumber": 13,
 		"mMapPath": 	"LevelStorage/30"
 
 	},
 	{
 		"levelNumber": 31,
-		"bestMoves": 13,
-		"solveMoveNumber": 13,
+		
+		"solveMoveNumber": 20,
 		"mMapPath": 	"LevelStorage/31"
 
 	},
 	{
 		"levelNumber": 32,
-		"bestMoves": 20,
-		"solveMoveNumber": 20,
+		
+		"solveMoveNumber": 10,
 		"mMapPath": 	"LevelStorage/32"
 
+	},
+	{
+		"levelNumber": 33,
+		
+		"solveMoveNumber": 10,
+		"mMapPath": 	"LevelStorage/33"
+
+	},
+
+	{
+		"levelNumber": 34,
+		
+		"solveMoveNumber": 10,
+		"mMapPath": 	"LevelStorage/34"
+
+	},
+
+	{
+		"levelNumber": 35,
+		
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/35"
+
+	},
+
+	{
+		"levelNumber": 36,
+		
+		"solveMoveNumber": 4,
+		"mMapPath": 	"LevelStorage/36"
+
+	},
+	{
+		"levelNumber": 37,
+		
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/37"
+
+	},
+
+	{
+		"levelNumber": 38,
+		
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/38"
+
+	},
+
+	{
+		"levelNumber": 39,
+		
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/39"
+
+	},
+	{
+		"levelNumber": 40,
+		
+		"solveMoveNumber": 9,
+		"mMapPath": 	"LevelStorage/40"
+
+	},
+	{
+		"levelNumber": 41,
+		
+		"solveMoveNumber": 7,
+		"mMapPath": 	"LevelStorage/41"
+
+	},
+
+	{
+		"levelNumber": 42,
+		
+		"solveMoveNumber": 7,
+		"mMapPath": 	"LevelStorage/42"
+
+	},
+
+	{
+		"levelNumber": 42,
+		
+		"solveMoveNumber": 9,
+		"mMapPath": 	"LevelStorage/42"
+
+	},
+	{
+		"levelNumber": 43,
+		
+		"solveMoveNumber": 6,
+		"mMapPath": 	"LevelStorage/43"
+
+	},
+	{
+		"levelNumber": 44,
+		
+		"solveMoveNumber": 6,
+		"mMapPath": 	"LevelStorage/44"
+
+	},
+	{
+		"levelNumber": 45,
+		
+		"solveMoveNumber": 13,
+		"mMapPath": 	"LevelStorage/45"
+
 	}
-	
-	
+,
+	{
+		"levelNumber": 46,
+		
+		"solveMoveNumber": 13,
+		"mMapPath": 	"LevelStorage/46"
+
+	}
+,
+	{
+		"levelNumber": 47,
+		
+		"solveMoveNumber": 6,
+		"mMapPath": 	"LevelStorage/47"
+
+	}
+,
+	{
+		"levelNumber": 48,
+		
+		"solveMoveNumber": 13,
+		"mMapPath": 	"LevelStorage/48"
+
+	}
+,
+	{
+		"levelNumber": 49,
+		
+		"solveMoveNumber": 13,
+		"mMapPath": 	"LevelStorage/49"
+
+	}
+,
+	{
+		"levelNumber": 50,
+		
+		"solveMoveNumber": 10,
+		"mMapPath": 	"LevelStorage/50"
+
+	}
+,
+	{
+		"levelNumber": 51,
+		
+		"solveMoveNumber": 10,
+		"mMapPath": 	"LevelStorage/51"
+
+	}
+,
+	{
+		"levelNumber": 52,
+		
+		"solveMoveNumber": 11,
+		"mMapPath": 	"LevelStorage/52"
+
+	}
+,
+	{
+		"levelNumber": 53,
+		
+		"solveMoveNumber": 10,
+		"mMapPath": 	"LevelStorage/53"
+
+	}
+,
+	{
+		"levelNumber": 54,
+		
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/54"
+
+	},
+	{
+		"levelNumber": 55,
+		
+		"solveMoveNumber": 12,
+		"mMapPath": 	"LevelStorage/55"
+
+	},
+	{
+		"levelNumber": 56,
+		
+		"solveMoveNumber": 4,
+		"mMapPath": 	"LevelStorage/56"
+
+	},
+	{
+		"levelNumber": 57,
+		
+		"solveMoveNumber": 4,
+		"mMapPath": 	"LevelStorage/57"
+
+	},
+	{
+		"levelNumber": 58,
+		
+		"solveMoveNumber": 3,
+		"mMapPath": 	"LevelStorage/58"
+
+	},
+	{
+		"levelNumber": 59,
+		
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/59"
+
+	},
+
+	{
+		"levelNumber": 60,
+		"solution":"drdrrur",
+		"solveMoveNumber": 7,
+		"mMapPath": 	"LevelStorage/60"
+
+	},
+	{
+		"levelNumber": 61,
+
+		"solution": "ruurulld",
+		"solveMoveNumber": 8,
+		"mMapPath": 	"LevelStorage/61"
+
+	},
+	{
+		"levelNumber": 62,
+
+		"solution":"udldr",
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/62"
+
+	},
+	{
+		"levelNumber": 63,
+
+		"solution":"dludru",
+		"solveMoveNumber": 6,
+		"mMapPath": 	"LevelStorage/63"
+
+	},
+	{
+		"levelNumber": 64,
+
+		"solution":"lruldr",
+		"solveMoveNumber": 6,
+		"mMapPath": 	"LevelStorage/64"
+
+	},
+	{
+		"levelNumber": 65,
+
+		"solution":"druld",
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/65"
+
+	},
+	{
+		"levelNumber": 66,
+
+		"solution":"dluldrur",
+		"solveMoveNumber": 8,
+		"mMapPath": 	"LevelStorage/66"
+
+	},
+	{
+		"levelNumber": 67,
+		"solution":"uldlu",
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/67"
+
+	},
+	{
+		"levelNumber": 68,
+		"solution":"rrrdrd",
+		"solveMoveNumber": 6,
+		"mMapPath": 	"LevelStorage/68"
+
+	}
 ]
 	
 	

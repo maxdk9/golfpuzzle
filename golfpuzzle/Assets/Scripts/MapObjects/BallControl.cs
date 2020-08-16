@@ -22,7 +22,8 @@ public class BallControl : MonoBehaviour
     private float minXLength;
     private float minYLength;
     public BoxCollider2D boxCollider2d;
-    
+    public string SolutionSave="";
+    private FollowTrail _followTrail;
 
     private void Start()
     {
@@ -30,21 +31,24 @@ public class BallControl : MonoBehaviour
         minXLength = (Screen.width) * .1f;
         minYLength = (Screen.height) * .1f;
         boxCollider2d = GetComponent<BoxCollider2D>();
+        _followTrail = GameObject.FindObjectOfType<FollowTrail>();
     }
 
-    
-    
-    
 
-    
-
-
-    
-    
     private void Update()
     {
+    #if UNITY_STANDALONE || UNITY_WEBPLAYER || UNITY_EDITOR
         Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        
+
+        if (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y))
+        {
+            moveInput.y = 0;
+        }
+        else
+        {
+            moveInput.x = 0;
+        }
+
         //Vector2 moveInput=new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
         moveInput.Normalize();
         if (moveInput.SqrMagnitude() > .5f)
@@ -53,24 +57,25 @@ public class BallControl : MonoBehaviour
             {
                 GameManager.Instance.mReadyForInput = false;
                 GameManager.Instance.MoveCounter++;
+                GameManager.Instance.ResetBalls();
+                AddMoveToSolutionSave(moveInput);
+                
                 foreach (iBall iBall in GameManager.Instance.Balls)
-                {           
-                    iBall.Move(moveInput);    
+                {
+                    iBall.Move(moveInput);
                 }
-                UIManager.UpdateMoveCounterEvent.Invoke();       
+
+                UIManager.UpdateMoveCounterEvent.Invoke();
             }
         }
-        else
-        {
-            //mReadyForInput = true;
-        }
-        #if UNITY_ANDROID
+    #endif
+
+#if UNITY_ANDROID && !UNITY_EDITOR
                 if (GameManager.Instance.mReadyForInput)
                 {
                     OnTouch();
                 }
-        #endif
-        
+#endif
     }
 
     private void OnTouch()
@@ -82,37 +87,87 @@ public class BallControl : MonoBehaviour
             // Move the cube if the screen has the finger moving.
             if (touch.phase == TouchPhase.Began)
             {
-                startPositionTouch = touch.position;
-                GameManager.Instance.uiManager.TestLabel.text = "SP;X= " + startPositionTouch.x + " Y= " + startPositionTouch.y;
+                  startPositionTouch = touch.position;
+                  _followTrail.transform.position = startPositionTouch;
             }
             
             if (touch.phase == TouchPhase.Ended)
             {
+                
+                GameManager.Instance.mReadyForInput = false;
                 finPositionTouch = touch.position;
-                GameManager.Instance.uiManager.TestLabel.text = "FP;X= " + finPositionTouch.x + " Y= " + finPositionTouch.y;
+                
                 Vector2 moveInput = finPositionTouch-startPositionTouch;
                 if((Mathf.Abs(moveInput.x)<=minXLength)&&(Mathf.Abs(moveInput.y)<=minYLength))
                 {
+                    
+                    GameManager.Instance.mReadyForInput = true;
                     return;
                 }
-            
+
+                if  (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y))
+                {
+                    moveInput.y = 0;
+                    
+                }
+                else
+                {
+                    moveInput.x = 0;
+                }
+                
                 moveInput.Normalize();
                 if (moveInput.SqrMagnitude() > .5f)
                 {
-                    GameManager.Instance.mReadyForInput = false;
+                    
+                    GameManager.Instance.SetBalls();
                     GameManager.Instance.MoveCounter++;
+                    GameManager.Instance.uiManager.TestLabel.text = "Ball number = "+GameManager.Instance.Balls.Length;
+                    AddMoveToSolutionSave(moveInput);
                     foreach (iBall iBall in GameManager.Instance.Balls)
                     {           
                         iBall.Move(moveInput);    
+                        _followTrail.Move(moveInput);
                     }
                     UIManager.UpdateMoveCounterEvent.Invoke();   
+                }
+                else
+                {
+                    GameManager.Instance.mReadyForInput = true;
                 }
             }
 
             
         }
     }
+
+    private void AddMoveToSolutionSave(Vector2 moveInput)
+    {
+        string move="";
+        if (moveInput.Equals(Vector2.down))
+        {
+            move = "s";
+        }
+        
+        if (moveInput.Equals(Vector2.up))
+        {
+            move = "n";
+        }
+        
+        if (moveInput.Equals(Vector2.left))
+        {
+            move = "w";
+        }
+        
+        if (moveInput.Equals(Vector2.right))
+        {
+            move = "e";
+        }
+
+        SolutionSave =SolutionSave+ move;
+        
+    
     }
+}
 
         
     

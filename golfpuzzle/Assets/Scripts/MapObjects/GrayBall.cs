@@ -39,20 +39,12 @@ public class GrayBall : iBall
     
     private bool MoveBall(Vector2 direction)
     {
-        if (Mathf.Abs(direction.x) < .5f)
+        
+        if (isSunked)
         {
-            direction.x = 0;
+            transform.DOMove(transform.position + new Vector3(direction.x, direction.y), moveDuration);
+            return false;
         }
-
-        if (Mathf.Abs(direction.y) < .5f)
-        {
-            direction.y = 0;
-        }
-        
-        
-        direction.Normalize();
-        
-        
         
         if (Blocked(transform.position, direction))
         {
@@ -60,7 +52,7 @@ public class GrayBall : iBall
         }
         else
         {
-            if(!this.isSunked){
+            if(!this.isSunked&&!inSand){
                 transform.DOMove(transform.position + new Vector3(direction.x,direction.y), moveDuration);
                 return true;    
             }
@@ -74,67 +66,7 @@ public class GrayBall : iBall
     
     
     
-    public bool Blocked(Vector2 position, Vector2 direction)
-    {
-        
-        Vector2 newPos=new Vector2(position.x,position.y)+direction;
-        GameObject[] walls = GameObject.FindGameObjectsWithTag("Wall");
-        foreach (var VARIABLE in walls)
-        {
-            if (VARIABLE.transform.position.x == newPos.x && VARIABLE.transform.position.y == newPos.y)
-            {
-                return true;
-            }
-        }
+  
 
-
-        GameObject[] boxes = GameObject.FindGameObjectsWithTag("Ball");
-        foreach (var VARIABLE in boxes)
-        {
-            if (VARIABLE.transform.position.x == newPos.x && VARIABLE.transform.position.y == newPos.y)
-            {
-                Ball ball = VARIABLE.gameObject.GetComponent<Ball>();
-                if (ball )
-                {
-                    if (ball.docked)
-                    {
-                        continue;
-                    }
-                    if (ball.Blocked(ball.transform.position,direction))
-                    {
-                        return true;    
-                    }
-                    else
-                    {
-                        return false;
-                    }
-                }
-
-                GrayBall grayBall = VARIABLE.gameObject.GetComponent<GrayBall>();
-                if (grayBall)
-                {
-                    if (grayBall.Blocked(grayBall.transform.position,direction))
-                    {
-                        return true;    
-                    }
-                    else
-                    {
-                        return false;
-                    }
-                }
-
-            }
-            
-        }
-        
-        
-        
-        return false;
-    }
-
-    public override void DestroySunk()
-    {
-        this.isSunked = true;
-        this.transform.position=new Vector3(-200,-200);
-    }
+   
 }

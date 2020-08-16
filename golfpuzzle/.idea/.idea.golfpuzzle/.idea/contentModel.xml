@@ -7,6 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="AudioManager.cs" t="Include" />
         <e p="Demigiant" t="Include">
           <e p="DOTween" t="Include">
             <e p="Modules" t="Include">
@@ -21,11 +22,13 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
+        <e p="FollowTrail.cs" t="Include" />
         <e p="JsonDotNet" t="Include">
           <e p="link.xml" t="Include" />
         </e>
         <e p="LevelGenerator.cs" t="Include" />
         <e p="MainMenuUIManager.cs" t="Include" />
+        <e p="MyFileBrowser.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="NativeShare" t="Include">
             <e p="Android" t="Include">
@@ -40,6 +43,26 @@
             </e>
             <e p="NativeShare.cs" t="Include" />
             <e p="readme.txt" t="Include" />
+          </e>
+          <e p="SimpleFileBrowser" t="Include">
+            <e p="Android" t="Include">
+              <e p="FBCallbackHelper.cs" t="Include" />
+              <e p="FBDirectoryReceiveCallbackAndroid.cs" t="Include" />
+              <e p="FBPermissionCallbackAndroid.cs" t="Include" />
+            </e>
+            <e p="readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="FileBrowser.cs" t="Include" />
+              <e p="FileBrowserHelpers.cs" t="Include" />
+              <e p="FileBrowserItem.cs" t="Include" />
+              <e p="FileBrowserMovement.cs" t="Include" />
+              <e p="FileBrowserQuickLink.cs" t="Include" />
+              <e p="SimpleRecycledListView" t="Include">
+                <e p="IListViewAdapter.cs" t="Include" />
+                <e p="ListItem.cs" t="Include" />
+                <e p="RecycledListView.cs" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
         <e p="Resources" t="Include">
@@ -78,10 +101,17 @@
           <e p="MapObjects" t="Include">
             <e p="Ball.cs" t="Include" />
             <e p="BallControl.cs" t="Include" />
+            <e p="Bomb.cs" t="Include" />
+            <e p="Gate.cs" t="Include" />
             <e p="GrayBall.cs" t="Include" />
             <e p="HoleTarget.cs" t="Include" />
             <e p="iBall.cs" t="Include" />
+            <e p="iWall.cs" t="Include" />
+            <e p="Key.cs" t="Include" />
+            <e p="MetalBlock.cs" t="Include" />
             <e p="sand.cs" t="Include" />
+            <e p="Wall.cs" t="Include" />
+            <e p="WallDestructable.cs" t="Include" />
             <e p="Water.cs" t="Include" />
           </e>
           <e p="UI" t="Include">
@@ -136,6 +166,7 @@
       <e p="NativeShare.Runtime.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
+      <e p="SimpleFileBrowser.Runtime.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>

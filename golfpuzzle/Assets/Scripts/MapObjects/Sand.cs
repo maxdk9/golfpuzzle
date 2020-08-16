@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using MapObjects;
 using UnityEngine;
 
 public class Sand : MonoBehaviour
@@ -8,7 +9,7 @@ public class Sand : MonoBehaviour
     {
         if (other.transform.tag.CompareTo("Ball") == 0)
         {
-            Ball ball=other.GetComponent<Ball>();
+            iBall ball=other.GetComponent<iBall>();
             if (ball != null)
             {
                 ball.inSand = true;    
