@@ -39,7 +39,7 @@ public class Bomb : iBall
 
     private void Start()
     {
-        this.particleExplosion.SetActive(false);
+        
         spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
     }
 
@@ -135,13 +135,16 @@ public class Bomb : iBall
             WallDestructable destructable=other.GetComponent<WallDestructable>();
             if (destructable != null)
             {
-                GameObject.Destroy(destructable.gameObject);    
+                destructable.Explode();
+                //GameObject.Destroy(destructable.gameObject);    
             }
 
             //this.Exploded = true;
             this.StartCoroutine(ExlosionRoutine());
             
         }
+        
+        
         
         
         
@@ -175,6 +178,13 @@ public class Bomb : iBall
         }
         
         
+        if (other.transform.tag.CompareTo("Gate")==0)
+        {
+            moved = false;
+            this.StartCoroutine(ExlosionRoutine());   
+        }
+        
+        
         
         
     }
@@ -184,9 +194,15 @@ public class Bomb : iBall
         this.Exploded = true;
         this.BombIsMoved = false;
         this.GetComponent<SpriteRenderer>().enabled = false;
-        this.particleExplosion.SetActive(true);
-        yield return new WaitForSeconds(durationExplosion);
-        GameObject.Destroy(gameObject);
+
         
+        GameObject explosion = Instantiate(GameManager.Instance.mPrefabDatabase.RedExplosionPrefab,
+            this.transform.position, Quaternion.identity);
+        
+        
+        // this.particleExplosion.SetActive(true);
+        // yield return new WaitForSeconds(durationExplosion);
+        GameObject.Destroy(gameObject);
+        yield return null;
     }
 }

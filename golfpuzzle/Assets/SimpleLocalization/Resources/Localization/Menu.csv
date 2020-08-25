@@ -12,3 +12,72 @@ ContinueGameButton,Continue,Continue,Continue
 EditorGameButton,Editor,Editor,Editor
 TestLevelButton,Test Level,Test Level,Test Level
 OptionsGameButton,Options,Options,Options
+tooltipBomb,"Bomb. Explodes on impact with the wall
+ or any moving objects. Explodes
+ an asteroid or warehouse on impact","Explodes on impact against a wall
+ or other moving object. Explodes
+ an asteroid or destructible wall on impact","Explodes on impact against a wall
+ or other moving object. Explodes
+ an asteroid or destructible wall on impact"
+tooltipAsteroid,"Asteroid which you must
+ move to the warp hole. 
+Can only be moved 
+in one direction per turn.
+Stops only if blocked
+","Asteroid which you must move to the warp hole. 
+Can only be moved in one direction per turn.
+Stops only if blocked
+","Asteroid which you must move to the warp hole. 
+Can only be moved in one direction per turn.
+Stops only if blocked
+"
+tooltipGrayball,"Empty asteroid. 
+Can only be moved in one direction per turn.
+Stops only if blocked. 
+It can not be moved to the warp hole","Empty asteroid. 
+Can only be moved in one direction per turn.
+Stops only if blocked. 
+It can not be moved to the warp hole","Empty asteroid. 
+Can only be moved in one direction per turn.
+Stops only if blocked. 
+It can not be moved to the warp hole"
+tooltipKey,"Key to open doors on the level.
+ The doors will open as soon as 
+all keys are pressed simultaneously","Key to open doors on the level.
+ The doors will open as soon as 
+all keys are pressed simultaneously","Key to open doors on the level.
+ The doors will open as soon as 
+all keys are pressed simultaneously"
+tooltipMark,"Warp hole. You must move asteroid 
+to this target. Remember, One asteroid 
+- one warp hole","Warp hole. You must move asteroid to this target.
+Remember, One asteroid - one warp hole","Warp hole. You must move asteroid to this target.
+Remember, One asteroid - one warp hole"
+tooltipMetalblock,"Heavy factory platforms.
+Always move only one tile,
+then stop","Heavy factory platforms. Always move only one tile, then stop","Heavy factory platforms. Always move only one tile, then stop"
+tooltipSand,"Small ""sandy"" nebula. 
+Slows down any moving body","Small ""sandy"" nebula. 
+Slows down any moving body","Small ""sandy"" nebula. 
+Slows down any moving body"
+tooltipWall,"Space station wall. 
+Can not move. 
+Blocks moving objects. 
+Can't be destroyed","Space station wall. 
+Can not move. 
+Blocks moving objects. 
+Can't be destroyed","Space station wall. 
+Can not move. 
+Blocks moving objects. 
+Can't be destroyed"
+tooltipDestructibleWall,"Warehouse platform. 
+Can not move. 
+Blocks moving objects.
+ Can be destroyed","Warehouse platform. 
+Can not move. 
+Blocks moving objects.
+ Can be destroyed","Warehouse platform. 
+Can not move. 
+Blocks moving objects.
+ Can be destroyed"
+tooltipWater,Black hole. Any object caught in it is destroyed,Black hole. Any object caught in it is destroyed,Black hole. Any object caught in it is destroyed

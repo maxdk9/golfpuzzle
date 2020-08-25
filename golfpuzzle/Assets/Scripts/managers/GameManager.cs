@@ -12,6 +12,9 @@ public class GameManager : Singleton<GameManager>
 
     public static bool TestMap = false;
     [SerializeField] public bool mReadyForInput;
+    [SerializeField] public PrefabDatabase mPrefabDatabase;
+    [SerializeField] public ImageDatabase MImageDatabase;
+    
     
     public LevelBuilder mLevelBuilder;
     public iBall[] Balls;
@@ -28,7 +31,11 @@ public class GameManager : Singleton<GameManager>
     public static UnityEvent KeyActivatedEvent=new UnityEvent();
     public static UnityEvent OpenAllGateEvent=new UnityEvent();
     public static UnityEvent CloseAllGateEvent=new UnityEvent();
+    public static bool TooltipModeActivated;
+
     
+    
+
     private void Start()
     {
     
@@ -37,6 +44,7 @@ public class GameManager : Singleton<GameManager>
         WinLevelEvent.AddListener(WinLevel);
         OpenAllGateEvent.AddListener(OpenAllGame);
         CloseAllGateEvent.AddListener(CloseAllGate);
+        AudioManager.Instance.Initialization();
         SetGameObjects();
     }
 
@@ -235,7 +243,7 @@ public class GameManager : Singleton<GameManager>
         }
         
         MainCamera.transform.position = new Vector3(borderSize+(float)(width-1)/2.0f, (float) (MainCamera.orthographicSize) / 2.0f, -10);
-        ballControl.boxCollider2d.transform.position=new Vector3(MainCamera.transform.position.x,MainCamera.transform.position.y,0);
+        //ballControl.boxCollider2d.transform.position=new Vector3(MainCamera.transform.position.x,MainCamera.transform.position.y,0);
         
 
     }
@@ -341,4 +349,22 @@ public class GameManager : Singleton<GameManager>
             VARIABLE.ResetBall();    
         }
     }
+
+    public void ActivateTooltipMode()
+    {
+        TooltipModeActivated = !TooltipModeActivated;
+        
+        // if (TooltipModeActivated)
+        // {
+        //     ballControl.boxCollider2d.enabled = false;
+        // }
+        // else
+        // {
+        //     ballControl.boxCollider2d.enabled = true;
+        // }
+                
+        
+    }
+    
+    
 }

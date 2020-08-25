@@ -7,7 +7,6 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="AudioManager.cs" t="Include" />
         <e p="Demigiant" t="Include">
           <e p="DOTween" t="Include">
             <e p="Modules" t="Include">
@@ -72,12 +71,25 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Audio" t="Include">
+            <e p="AudioEvents.cs" t="Include" />
+            <e p="AudioManager.cs" t="Include" />
+            <e p="ButtonClickSfx.cs" t="Include" />
+          </e>
           <e p="common" t="Include">
             <e p="SceneMover.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
           </e>
+          <e p="configs" t="Include">
+            <e p="ImageDatabase.cs" t="Include" />
+            <e p="PrefabDatabase.cs" t="Include" />
+          </e>
           <e p="consts" t="Include">
             <e p="StringConstants.cs" t="Include" />
+          </e>
+          <e p="Control" t="Include">
+            <e p="BallControl.cs" t="Include" />
+            <e p="SwipeDetector.cs" t="Include" />
           </e>
           <e p="Highscores" t="Include">
             <e p="HighscoreManager.cs" t="Include" />
@@ -100,8 +112,8 @@
           </e>
           <e p="MapObjects" t="Include">
             <e p="Ball.cs" t="Include" />
-            <e p="BallControl.cs" t="Include" />
             <e p="Bomb.cs" t="Include" />
+            <e p="Explosion.cs" t="Include" />
             <e p="Gate.cs" t="Include" />
             <e p="GrayBall.cs" t="Include" />
             <e p="HoleTarget.cs" t="Include" />
@@ -116,6 +128,10 @@
           </e>
           <e p="UI" t="Include">
             <e p="LocalizedTextMeshPro.cs" t="Include" />
+            <e p="Tooltip" t="Include">
+              <e p="Tooltip.cs" t="Include" />
+              <e p="TooltipController.cs" t="Include" />
+            </e>
             <e p="WinLevelPanel.cs" t="Include" />
           </e>
         </e>

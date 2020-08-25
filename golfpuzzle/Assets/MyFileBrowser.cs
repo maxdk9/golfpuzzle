@@ -112,6 +112,7 @@ public class MyFileBrowser : MonoBehaviour
 			// Contrary to File.ReadAllBytes, this function works on Android 10+, as well
 			byte[] bytes = FileBrowserHelpers.ReadBytesFromFile( FileBrowser.Result[0] );
 			Texture2D texture2D=new Texture2D(2,2);
+			
 			texture2D.LoadImage(bytes);
 			callback(texture2D);
 

@@ -20,7 +20,9 @@ public class UIManager : MonoBehaviour
     public Button ResetButton;
     public Button NextLevelButton;
     public Button ToEditorButton;
+    public Button ActivateTootlipModeButton;
     public WinLevelPanel winLevelPanel;
+    
 
     public TextMeshProUGUI TestLabel;
     
@@ -94,5 +96,21 @@ public class UIManager : MonoBehaviour
         BestResultCounter.text = LocalizationManager.Localize(StringConstants.Bestmoveslabel) + ":" +
                                  hsresult.ToString()+" "+solution;
     }
+
+    public void ActivateTooltipModeButtonClick()
+    {
+        GameManager.Instance.ActivateTooltipMode();
+        if (GameManager.TooltipModeActivated)
+        {
+            ActivateTootlipModeButton.image.sprite = GameManager.Instance.MImageDatabase.tooltipButtonImageActive;
+        }
+        else
+        {
+            ActivateTootlipModeButton.image.sprite = GameManager.Instance.MImageDatabase.tooltipButtonImageNormal;
+        }
+        
+        
+    }
+    
     
 }

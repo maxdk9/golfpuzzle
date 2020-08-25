@@ -10,9 +10,6 @@ namespace MapObjects
 
         public bool isSunked;
         public bool inSand;
-   
-        
-        public GameObject particleExplosion;
         public float durationExplosion=.5f;
         public UnityEvent ballStopped = new UnityEvent();
 
@@ -188,10 +185,12 @@ namespace MapObjects
             this.moved = false;
             this.isSunked = true;
             this.GetComponent<SpriteRenderer>().enabled = false;
-            this.particleExplosion.SetActive(true);
-            yield return new WaitForSeconds(durationExplosion);
+            
+            GameObject explosion = Instantiate(GameManager.Instance.mPrefabDatabase.BlueExplosionPrefab,
+                this.transform.position, Quaternion.identity);
             GameObject.Destroy(gameObject);
-        
+            yield return null;
+
         }
     }
 }

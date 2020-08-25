@@ -18,7 +18,7 @@ public class Ball : iBall
     
     
     private SpriteRenderer spriteRenderer;
-    private static Color dockedColor = Color.yellow;
+    private static Color dockedColor = Color.green;
 
 
     public override void Move(Vector2 direction)
@@ -48,7 +48,7 @@ public class Ball : iBall
 
     private void Start()
     {
-        particleExplosion.SetActive(false);
+        
         spriteRenderer = this.gameObject.GetComponent<SpriteRenderer>();
     }
 

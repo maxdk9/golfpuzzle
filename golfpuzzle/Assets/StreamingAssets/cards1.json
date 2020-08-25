@@ -247,16 +247,16 @@
 
 	{
 		"levelNumber": 35,
-		
-		"solveMoveNumber": 5,
+		"solution": "nwswwne",
+		"solveMoveNumber": 7,
 		"mMapPath": 	"LevelStorage/35"
 
 	},
 
 	{
 		"levelNumber": 36,
-		
-		"solveMoveNumber": 4,
+		"solution": "newwenw",
+		"solveMoveNumber": 7,
 		"mMapPath": 	"LevelStorage/36"
 
 	},
@@ -315,7 +315,7 @@
 	},
 	{
 		"levelNumber": 43,
-		
+		"solution":"neeewh",
 		"solveMoveNumber": 6,
 		"mMapPath": 	"LevelStorage/43"
 
@@ -510,7 +510,116 @@
 		"solveMoveNumber": 6,
 		"mMapPath": 	"LevelStorage/68"
 
+	},
+	{
+		"levelNumber": 69,
+		"solution":"nwese",
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/69"
+
+	},
+	{
+		"levelNumber": 70,
+		"solution":"wwnsse",
+		"solveMoveNumber": 6,
+		"mMapPath": 	"LevelStorage/70"
+
+	},
+	{
+		"levelNumber": 71,
+		"solution":"wssws",
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/71"
+
+	},
+	{
+		"levelNumber": 72,
+		"solution":"nwswws",
+		"solveMoveNumber": 6,
+		"mMapPath": 	"LevelStorage/72"
+
+	},
+	{
+		"levelNumber": 73,
+		"solution":"nwnwwn",
+		"solveMoveNumber": 6,
+		"mMapPath": 	"LevelStorage/73"
+
+	},
+	{
+		"levelNumber": 74,
+		"solution":"wnwnnesswn",
+		"solveMoveNumber": 10,
+		"mMapPath": 	"LevelStorage/74"
+
+	},
+	{
+		"levelNumber": 75,
+		"solution":"enwwss",
+		"solveMoveNumber": 6,
+		"mMapPath": 	"LevelStorage/75"
+
+	},
+	{
+		"levelNumber": 76,
+		"solution":"nnseseesse",
+		"solveMoveNumber": 10,
+		"mMapPath": 	"LevelStorage/76"
+
+	},
+	{
+		"levelNumber": 77,
+		"solution":"wsnwn",
+		"solveMoveNumber": 5,
+		"mMapPath": 	"LevelStorage/77"
+
+	},
+	{
+		"levelNumber": 78,
+		"solution":"wseneswewn",
+		
+		"solveMoveNumber": 10,
+		"mMapPath": 	"LevelStorage/78"
+
+	},
+
+
+	{
+		"levelNumber": 79,
+		"solution":"nnnneswsnwne",
+
+		"solveMoveNumber": 12,
+		"mMapPath": 	"LevelStorage/79"
+
+	},
+	{
+		"levelNumber": 80,
+		"solution":"enenwswneee",
+
+		"solveMoveNumber": 11,
+		"mMapPath": 	"LevelStorage/80"
+
+	},
+	{
+		"levelNumber": 81,
+		"solution":"ssssnene",
+
+		"solveMoveNumber": 8,
+		"mMapPath": 	"LevelStorage/81"
+
+	},
+	{
+		"levelNumber": 82,
+		"solution":"nnwnwwsesesensesennwnwnwnwnnwesesesese",
+		"solveMoveNumber": 38,
+		"mMapPath": 	"LevelStorage/82"
+
 	}
+
+
+	
+	
+	
 ]
 	
 	

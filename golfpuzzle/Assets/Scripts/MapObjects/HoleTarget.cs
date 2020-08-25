@@ -2,9 +2,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class HoleTarget : MonoBehaviour
 {
+    
+    
+    public static UnityEvent DockBallInHoleEvent=new UnityEvent();
     public bool mBusy;
 
     public GameObject particleNormal;
@@ -31,7 +35,7 @@ public class HoleTarget : MonoBehaviour
                 
                 
                 ball.SetDocked(true);
-                  
+                DockBallInHoleEvent.Invoke(); 
             }
             
         }

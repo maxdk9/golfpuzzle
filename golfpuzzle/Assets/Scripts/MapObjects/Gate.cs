@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Gate : MonoBehaviour
 {
+
+    public static UnityEvent OpenGateEvent=new UnityEvent();
+    
     public bool mOpen;
     private SpriteRenderer renderer;
     [SerializeField]
@@ -37,6 +41,7 @@ public class Gate : MonoBehaviour
         mOpen = true;
         renderer.sprite = null;
         mAnimator.SetBool("Hide",true);
+        OpenGateEvent.Invoke();
         
     }
 }
