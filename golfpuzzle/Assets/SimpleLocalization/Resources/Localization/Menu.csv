@@ -1,4 +1,4 @@
-Key,English,Russian,Spanish
+Key,English,Russian,Ukrainian
 hptooltip,Health points1,Health points1,Health points1
 attacktooltip,Attack strength,Attack strength,Attack strength
 Reset,Reset,Reset,Reset
@@ -12,50 +12,70 @@ ContinueGameButton,Continue,Continue,Continue
 EditorGameButton,Editor,Editor,Editor
 TestLevelButton,Test Level,Test Level,Test Level
 OptionsGameButton,Options,Options,Options
-tooltipBomb,"Bomb. Explodes on impact with the wall
- or any moving objects. Explodes
- an asteroid or warehouse on impact","Explodes on impact against a wall
- or other moving object. Explodes
- an asteroid or destructible wall on impact","Explodes on impact against a wall
- or other moving object. Explodes
- an asteroid or destructible wall on impact"
+tooltipBomb,"Bomb. Explodes on impact 
+with the wall or any moving
+objects. Explodes  an asteroid
+or warehouse on impact","Bomb. Explodes on impact 
+with the wall or any moving
+objects. Explodes  an asteroid
+or warehouse on impact","Bomb. Explodes on impact 
+with the wall or any moving
+objects. Explodes  an asteroid
+or warehouse on impact"
 tooltipAsteroid,"Asteroid which you must
  move to the warp hole. 
 Can only be moved 
 in one direction per turn.
-Stops only if blocked
-","Asteroid which you must move to the warp hole. 
-Can only be moved in one direction per turn.
-Stops only if blocked
-","Asteroid which you must move to the warp hole. 
-Can only be moved in one direction per turn.
-Stops only if blocked
-"
+Stops only if blocked","Asteroid which you must
+ move to the warp hole. 
+Can only be moved 
+in one direction per turn.
+Stops only if blocked","Asteroid which you must
+ move to the warp hole. 
+Can only be moved 
+in one direction per turn.
+Stops only if blocked"
 tooltipGrayball,"Empty asteroid. 
-Can only be moved in one direction per turn.
-Stops only if blocked. 
-It can not be moved to the warp hole","Empty asteroid. 
-Can only be moved in one direction per turn.
-Stops only if blocked. 
-It can not be moved to the warp hole","Empty asteroid. 
-Can only be moved in one direction per turn.
-Stops only if blocked. 
-It can not be moved to the warp hole"
-tooltipKey,"Key to open doors on the level.
- The doors will open as soon as 
-all keys are pressed simultaneously","Key to open doors on the level.
- The doors will open as soon as 
-all keys are pressed simultaneously","Key to open doors on the level.
- The doors will open as soon as 
-all keys are pressed simultaneously"
+Can only be moved in one
+direction per turn. Stops only
+if blocked. It can not be moved
+ to the warp hole","Empty asteroid. 
+Can only be moved in one
+direction per turn. Stops only
+if blocked. It can not be moved
+ to the warp hole","Empty asteroid. 
+Can only be moved in one
+direction per turn. Stops only
+if blocked. It can not be moved
+ to the warp hole"
+tooltipKey,"Tumbler  to open power shields
+on the level. The power shields
+will open as soon as all tumblers
+are pressed simultaneously","Tumbler  to open power shields
+on the level. The power shields
+will open as soon as all tumblers
+are pressed simultaneously","Tumbler  to open power shields
+on the level. The power shields
+will open as soon as all tumblers
+are pressed simultaneously"
 tooltipMark,"Warp hole. You must move asteroid 
 to this target. Remember, One asteroid 
-- one warp hole","Warp hole. You must move asteroid to this target.
-Remember, One asteroid - one warp hole","Warp hole. You must move asteroid to this target.
-Remember, One asteroid - one warp hole"
+- one warp hole","Warp hole. You must move asteroid 
+to this target. Remember, One asteroid 
+- one warp hole","Warp hole. You must move asteroid 
+to this target. Remember, One asteroid 
+- one warp hole"
 tooltipMetalblock,"Heavy factory platforms.
 Always move only one tile,
-then stop","Heavy factory platforms. Always move only one tile, then stop","Heavy factory platforms. Always move only one tile, then stop"
+then stop","Heavy factory platforms.
+Always move only one tile,
+then stop","Heavy factory platforms.
+Always move only one tile,
+then stop"
+tooltipGate,"Power shields. Blocks objects. 
+Can be disconnected by a tumbler","Power shields. Blocks objects. 
+Can be disconnected by a tumbler","Power shields. Blocks objects. 
+Can be disconnected by a tumbler"
 tooltipSand,"Small ""sandy"" nebula. 
 Slows down any moving body","Small ""sandy"" nebula. 
 Slows down any moving body","Small ""sandy"" nebula. 
@@ -73,11 +93,49 @@ Can't be destroyed"
 tooltipDestructibleWall,"Warehouse platform. 
 Can not move. 
 Blocks moving objects.
- Can be destroyed","Warehouse platform. 
+Can be destroyed","Warehouse platform. 
 Can not move. 
 Blocks moving objects.
- Can be destroyed","Warehouse platform. 
+Can be destroyed","Warehouse platform. 
 Can not move. 
 Blocks moving objects.
- Can be destroyed"
-tooltipWater,Black hole. Any object caught in it is destroyed,Black hole. Any object caught in it is destroyed,Black hole. Any object caught in it is destroyed
+Can be destroyed"
+tooltipWater,"Black hole. Any object
+caught in it is destroyed","Black hole. Any object
+caught in it is destroyed","Black hole. Any object
+caught in it is destroyed"
+tutorial1,Swipe screen to move objects . Get a red asteroid to the warp hole. Swipe upwards,Swipe screen to move objects . Get a red asteroid to the warp hole. Swipe upwards,Swipe screen to move objects . Get a red asteroid to the warp hole. Swipe upwards
+tutorialMetalblock,"All objects move together, 
+but some of them have
+different behaviour. Metal block 
+moved on one space, then stop","All objects move together, 
+but some of them have
+different behaviour. Metal block 
+moved on one space, then stop","All objects move together, 
+but some of them have
+different behaviour. Metal block 
+moved on one space, then stop"
+tutorialSand,"Some objects on the map are static, they do not move. The yellow nebula helps you to navigate. Move left and you asteroid stops in yellow nebula",The yellow nebula helps you to navigate. ,The yellow nebula helps you to navigate. 
+tutorialWater,"Avoid red holes, any moving object caught in it will be destroyed","Avoid red holes, any moving object caught in it will be destroyed","Avoid red holes, any moving object caught in it will be destroyed"
+tutorialBomb,With bomb you can clean warehouse platforms and open the way. Swipe up.,With bomb you can clean warehouse platforms and open the way.,With bomb you can clean warehouse platforms and open the way.
+loading,Loading,Loading,Loading
+tutorial2,Swipe to right. ,Swipe to right. ,Swipe to right. 
+tutorial3,Swipe down towards the warp hole,Swipe down towards the warp hole,Swipe down towards the warp hole
+tutorial5,Swipe up one more time to move the remaining block. ,Swipe up one more time to move the remaining block. ,Swipe up one more time to move the remaining block. 
+tutorial6,"Then, move asteroid to the warp hole!","Then, move asteroid to the warp hole!","Then, move asteroid to the warp hole!"
+tutorial8,"Avoid red holes, any moving object caught in it will be destroyed. Keep the moving via yellow nebulas to the warp hole.","Avoid red holes, any moving object caught in it will be destroyed. Keep the moving via yellow nebulas to the warp hole.","Avoid red holes, any moving object caught in it will be destroyed. Keep the moving via yellow nebulas to the warp hole."
+OptionsHeader,Options,Options,Options
+sfxMute,Mute SFX,Отключить SFX,вимкнути SFX
+musicMute,Mute Music,Отключить Музыку,вимкнути Музыку
+languageDropdown,Language,Language,Language
+disableTutorial,Disable Tutorial,Disable Tutorial,Disable Tutorial
+CreditsHeader,Credits,Credits,Credits
+tutorial12,"Gray asteroids can be used as helpful tools, for example for disable force barriers. Swipe right.","Gray asteroids can be used as helpful tools, for example for disable force barriers. Swipe right.","Gray asteroids can be used as helpful tools, for example for disable force barriers. Swipe right."
+tutorial13,Then swipe up and the force barriers will unlock.,Then swipe up and the force barriers will unlock.,Then swipe up and the force barriers will unlock.
+tutorial14,"If you made a wrong move, you can always start the level over, just press the reset button. now swipe to the left","If you made a wrong move, you can always start the level over, just press the reset button. now swipe to the left","If you made a wrong move, you can always start the level over, just press the reset button. now swipe to the left"
+tutorial15,"Finally finish the level, swipe up","Finally finish the level, swipe up","Finally finish the level, swipe up"
+tutorial17,Destroy other platforms - move down.,Destroy other platforms - move down.,Destroy other platforms - move down.
+tutorial18,Now the path is clear and you can send the asteroid to warp hole. Swipe left.,Now the path is clear and you can send the asteroid to warp hole. Swipe left.,Now the path is clear and you can send the asteroid to warp hole. Swipe left.
+Options.LanguageEnglish,English,Английский,Английська
+Options.LanguageRussian,Russian,Русский,Росийська
+Options.LanguageUkrainian,Ukrainian,Украинский,Украинська

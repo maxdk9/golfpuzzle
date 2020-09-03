@@ -1,22 +1,30 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using common;
+using Tutorial;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class LevelBuilder : MonoBehaviour
 {
     public int mCurrentLevel;
     public List<ColorToPrefab> colorMappings;
     private Level mLevel;
-
-    
+    public static IntEvent OnBuildLevelEvent=new IntEvent();
 
 
     public void BuildCurrentLevel()
     {
+        
         if (mLevel == null)
         {
-            mLevel = GetComponent<Levels>().mLevels[mCurrentLevel];
+            if (DataHolder.ChosenLevelNumber > 0)
+            {
+                mCurrentLevel = DataHolder.ChosenLevelNumber;    
+            }
+            
+            SetCurrentLevel();
         }
         Texture2D map = mLevel.map;
         for (int x = 0; x < map.width; x++)
@@ -26,7 +34,7 @@ public class LevelBuilder : MonoBehaviour
                 GenerateTile(x, y);
             }
         }
-        
+        OnBuildLevelEvent.Invoke(mLevel.levelNumber);
     }
 
     public void NextLevel()
@@ -36,7 +44,20 @@ public class LevelBuilder : MonoBehaviour
         {
             mCurrentLevel = 0;
         }
-        mLevel = GetComponent<Levels>().mLevels[mCurrentLevel];
+
+        SetCurrentLevel();
+    }
+
+    private void SetCurrentLevel()
+    {
+        foreach (Level level in GetComponent<Levels>().mLevels)
+        {
+            if (level.levelNumber == mCurrentLevel)
+            {
+                mLevel = level;
+                break;
+            }
+        }
     }
 
 

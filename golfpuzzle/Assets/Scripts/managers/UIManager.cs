@@ -7,6 +7,7 @@ using common;
 using consts;
 using Highscores;
 using TMPro;
+using Tutorial;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
@@ -17,20 +18,27 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI LevelCounter;
     public TextMeshProUGUI MoveCounter;
     public TextMeshProUGUI BestResultCounter;
+    public TextMeshProUGUI SolutionLabel;
+    
     public Button ResetButton;
     public Button NextLevelButton;
     public Button ToEditorButton;
     public Button ActivateTootlipModeButton;
     public WinLevelPanel winLevelPanel;
-    
 
+    public MessageWindow messageWindow;
+
+    public Image LoadingImage;
     public TextMeshProUGUI TestLabel;
     
     public static UnityEvent UpdateGameUIEvent=new UnityEvent();
     public static UnityEvent UpdateMoveCounterEvent=new UnityEvent();
+    
 
     [SerializeField]
     public GameObject prefabWinLevelPanel;
+
+    public GameObject prefabMessageWindow;
     [SerializeField]
     public Canvas UICanvas;
     
@@ -40,6 +48,8 @@ public class UIManager : MonoBehaviour
         UpdateGameUIEvent.AddListener(UpdateLevelCounter);
         UpdateGameUIEvent.AddListener(UpdateMoveCounter);
         UpdateGameUIEvent.AddListener(UpdateBestResultCounter);
+        UpdateGameUIEvent.AddListener(UpdateSolutionCounter);
+        
         UpdateMoveCounterEvent.AddListener(UpdateMoveCounter);
         ToEditorButton.onClick.AddListener(ToEditorButtonClick);
         ToEditorButton.gameObject.SetActive(GameManager.TestMap);
@@ -49,8 +59,17 @@ public class UIManager : MonoBehaviour
         GameObject winLevelPanelGO = GameObject.Instantiate(prefabWinLevelPanel, UICanvas.transform);
         winLevelPanel = winLevelPanelGO.GetComponent<WinLevelPanel>();
         winLevelPanelGO.SetActive(false);
+
+        GameObject messageWindowGO = GameObject.Instantiate(prefabMessageWindow, UICanvas.transform);
+        messageWindow = messageWindowGO.GetComponent<MessageWindow>();
+        
+        GameManager.WinLevelEvent.AddListener(messageWindow.Hide);
+            //TutorialManager.ClearLastTutorialPointEvent.AddListener(messageWindow.Hide);
+        TutorialManager.ShowTutorialMessageEvent.AddListener(messageWindow.ShowKey);
+        
         
     }
+
 
     private void ToEditorButtonClick()
     {
@@ -97,6 +116,15 @@ public class UIManager : MonoBehaviour
                                  hsresult.ToString()+" "+solution;
     }
 
+
+    public void UpdateSolutionCounter()
+    {
+        string solution = HighscoreManager.GetInstance()
+            .GetLevelSolution(GameManager.Instance.mLevelBuilder.GetCurrentLevel().levelNumber);
+        SolutionLabel.text = solution;
+        
+    }
+
     public void ActivateTooltipModeButtonClick()
     {
         GameManager.Instance.ActivateTooltipMode();
@@ -111,6 +139,8 @@ public class UIManager : MonoBehaviour
         
         
     }
+
+
     
     
 }

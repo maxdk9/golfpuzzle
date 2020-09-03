@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Highscores
@@ -6,6 +7,9 @@ namespace Highscores
     {
 
         public static string hsLevelPrefix = "hs_user_levelscore";
+        public static string hsLevelSolution = "hs_user_levelsolution";
+        
+        
         private static HighscoreManager Instance;
 
         public static HighscoreManager GetInstance()
@@ -39,6 +43,20 @@ namespace Highscores
             }
             
             
+        }
+
+        public void SetLevelSolution(int levelNumber, string solution)
+        {
+            String oldscore=GetLevelSolution(levelNumber);
+            if (oldscore.Equals("") || oldscore.Length > solution.Length)
+            {
+                PlayerPrefs.SetString(hsLevelSolution+levelNumber.ToString(),solution);
+            }
+        }
+
+        public string GetLevelSolution(int levelNumber)
+        {
+            return PlayerPrefs.GetString(hsLevelSolution + levelNumber.ToString(), "");
         }
     }
 }

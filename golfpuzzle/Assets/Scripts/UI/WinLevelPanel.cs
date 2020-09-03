@@ -20,7 +20,7 @@ public class WinLevelPanel : MonoBehaviour
     public float moveDuration = .3f;
     public Button NextLevelButton;
 
-    private Vector3 startPosition=new Vector3(0,50);
+    private Vector3 startPosition=new Vector3(0,150);
     // Start is called before the first frame update
     void Start()
     {

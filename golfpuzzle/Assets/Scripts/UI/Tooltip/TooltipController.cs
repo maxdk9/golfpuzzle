@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,17 +6,20 @@ using UnityEngine.UI;
 public class TooltipController : MonoBehaviour
 {
     private Image Panel;
-    private Text TooltipText;
+    private TextMeshProUGUI TooltipText;
     private RectTransform Rect;
     private int ShowInFrames = -1;
     private bool ShowNow = false;
-    private Vector3 tooltipPosition=new Vector3(100,1500,0);
+    private Vector3 tooltipPosition;
     private void Awake()
     {
-        TooltipText = GetComponentInChildren<Text>();
+        TooltipText = GetComponentInChildren<TextMeshProUGUI>();
         Panel = GetComponent<Image>();
         Rect = GetComponent<RectTransform>();
         HideTooltip();
+        
+        tooltipPosition=new Vector3((float)Screen.width*.1f,(float)Screen.height*.8f,0);
+        TooltipText.fontSize = (int)((float) Screen.width * .05f);
     }
 
     void Update()

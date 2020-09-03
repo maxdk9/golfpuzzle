@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb190ade87c460fa3b5e988ea6cda43, type: 3}
   m_Name: Tutorial17
   m_EditorClassIdentifier: 
-  levelNumber: 5
+  levelNumber: 38
   MessageKey: tutorial17
-  position: {x: 1, y: 3}
+  position: {x: 2, y: 3}
   TutorialEventName: Tutorial17

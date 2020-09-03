@@ -9,6 +9,11 @@ public class Levels : MonoBehaviour
 {
     public string fileName;
     public List<Level> mLevels=new List<Level>();
+    public List<LevelResult> mResults=new List<LevelResult>();
+    public static string LevelResultListKey = "LevelResultListKey";
+    
+    
+    
     
     public void LoadLevels()
     {
@@ -41,6 +46,129 @@ public class Levels : MonoBehaviour
     private void Awake()
     {
         LoadLevels();
+        LoadLevelsResult();
+    }
+
+    private void LoadLevelsResult()
+    {
+        string levelResultString = PlayerPrefs.GetString(LevelResultListKey, "");
+
+        if (levelResultString.Equals(""))
+        {
+            foreach (Level l in mLevels)
+            {
+                LevelResult levelResult=new LevelResult();
+                levelResult.levelNumber = l.levelNumber;
+                levelResult.starNumber = 0;
+                levelResult.playerSolution = "";        
+                mResults.Add(levelResult);
+            }
+
+            string levelResultNewString = JsonConvert.SerializeObject(mResults);
+            PlayerPrefs.SetString(LevelResultListKey,levelResultNewString);
+            PlayerPrefs.Save();
+
+        }
+        else
+        {
+            mResults = JsonConvert.DeserializeObject<List<LevelResult>>(levelResultString);
+        }
+
+        AddNewResults();
+
+
+    }
+
+    private void AddNewResults()
+    {
+        if (! (mLevels.Count>mResults.Count))
+        {
+            return;
+        }
+        
+        foreach (Level level in mLevels)
+        {
+            bool resultFinded = false;
+            
+            
+            foreach (LevelResult result in mResults)
+            {
+                if (result.levelNumber == level.levelNumber)
+                {
+                    resultFinded = true;
+                    break;
+                }
+            }
+
+            if (!resultFinded)
+            {
+                LevelResult levelResult=new LevelResult();
+                levelResult.levelNumber = level.levelNumber;
+                levelResult.starNumber = 0;
+                levelResult.playerSolution = "";        
+                mResults.Add(levelResult);
+            }
+            
+            
+            
+        }
+        string levelResultNewString = JsonConvert.SerializeObject(mResults);
+        PlayerPrefs.SetString(LevelResultListKey,levelResultNewString);
+        PlayerPrefs.Save();
+        
+        
+        
+    }
+
+
+    public void AddResult(LevelResult result)
+    {
+
+        bool entryFound = false;
+        for (int i=0;i<mResults.Count;i++)
+        {
+
+            LevelResult tekresult = mResults[i];
+            
+            
+            if (result.levelNumber == tekresult.levelNumber)
+            {
+                entryFound = true;
+                if (result.starNumber > tekresult.starNumber)
+                {
+                    int tekresultIndex = mResults.IndexOf(tekresult);
+                    mResults[tekresultIndex] = result;
+        
+                }
+            }
+        }
+
+        if (!entryFound)
+        {
+            mResults.Add(result);    
+        }
+        string levelResultNewString = JsonConvert.SerializeObject(mResults);
+        PlayerPrefs.SetString(LevelResultListKey,levelResultNewString);
+        PlayerPrefs.Save();
+        
+        
+        
+        
+    }
+
+
+    public int GetLastLevelSolved()
+    {
+        int res = 0;
+        foreach (var VARIABLE in mResults)
+        {
+            if (VARIABLE.starNumber > 0&& VARIABLE.levelNumber>res)
+            {
+                res = VARIABLE.levelNumber;
+            }
+        }
+
+        return res;
     }
 }
 
@@ -101,6 +229,16 @@ public class Level
         }
     }
     
+    
+}
+
+
+[System.Serializable]
+public class LevelResult
+{
+    public int levelNumber;
+    public string playerSolution;
+    public int starNumber;
     
 }
 

@@ -10,6 +10,7 @@ namespace Audio
     {
         public AudioClip music1;
         public AudioClip music2;
+        public AudioClip music3;
         public AudioClip sfxSwipe;
         public AudioClip sfxOpenDoor;
         public AudioClip sfxExplosion;
@@ -27,24 +28,7 @@ namespace Audio
 
 
         private void Start()
-        {
-
-            music1 = Resources.Load<AudioClip>("Sound/inspired");
-            music2 = Resources.Load<AudioClip>("Sound/inspired"); 
-            
-            sfxSwipe=Resources.Load<AudioClip>("Sfx/swipe");
-            sfxButtonClick=Resources.Load<AudioClip>("Sfx/uibutton");
-            
-            sfxOpenDoor=Resources.Load<AudioClip>("Sfx/opendoor");            
-            sfxExplosion=Resources.Load<AudioClip>("Sfx/explosion");
-            sfxSand=Resources.Load<AudioClip>("Sfx/sand");
-            sfxDocking=Resources.Load<AudioClip>("Sfx/docking");
-            
-            
-            
-            
-            
-            
+        {   
             Sand.EnterToSandEvent.AddListener((() =>
             {
                 AudioManager.Instance.PlaySFX(sfxSand);
@@ -74,9 +58,27 @@ namespace Audio
 
         private void Awake()
         {
+            lastPlayedMusicIndex = -1;
+            music1 = Resources.Load<AudioClip>("Sound/inspired");
+            music2 = Resources.Load<AudioClip>("Sound/millionlightyears");
+            music3 = Resources.Load<AudioClip>("Sound/spacebackground"); 
+            
+            
+            sfxSwipe=Resources.Load<AudioClip>("Sfx/swipe");
+            sfxButtonClick=Resources.Load<AudioClip>("Sfx/uibutton");
+            
+            sfxOpenDoor=Resources.Load<AudioClip>("Sfx/opendoor");            
+            sfxExplosion=Resources.Load<AudioClip>("Sfx/explosion");
+            sfxSand=Resources.Load<AudioClip>("Sfx/sand");
+            sfxDocking=Resources.Load<AudioClip>("Sfx/docking");
+            
             listForRandomPlaying.Add(music1);
             listForRandomPlaying.Add(music2);
+            listForRandomPlaying.Add(music3);
             commonButtonClickEvent.AddListener(PlayCommonButtonClick);
+            //GameManager.WinLevelEvent.AddListener(PlayRandomMusicOnSilence);
+            
+            PlayRandomMusicOnSilence();
         }
 
         
@@ -89,9 +91,7 @@ namespace Audio
             if (AudioManager.Instance.IsSilence())
             {
                 AudioManager.Instance.PlayMusicWithCrossFade(GetRandomTrack());    
-            }
-                
-            
+            }   
         }
 
         private AudioClip GetRandomTrack()

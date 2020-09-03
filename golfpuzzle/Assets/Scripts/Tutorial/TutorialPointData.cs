@@ -9,5 +9,5 @@ using UnityEngine.UI;
         public int levelNumber;
         public string MessageKey;
         public Vector2 position;
-        public string TutorialImageName;
+        public string TutorialEventName;
     }

@@ -32,6 +32,9 @@ namespace common
                 case enumScreen.mainmenu:
                     SceneManager.LoadSceneAsync("MainMenuScene");
                     break;
+                case enumScreen.chooselevel:
+                    SceneManager.LoadSceneAsync("ChooseLevelScene");
+                    break;
             }
         }
 
@@ -65,7 +68,8 @@ namespace common
             mainmenu,
             editor,
             game,
-            gametesmap
+            gametesmap,
+            chooselevel
         }
 
 

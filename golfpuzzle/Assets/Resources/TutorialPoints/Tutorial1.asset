@@ -15,4 +15,4 @@ MonoBehaviour:
   levelNumber: 1
   MessageKey: tutorial1
   position: {x: 1, y: 1}
-  TutorialImageName: 
+  TutorialEventName: Tutorial1

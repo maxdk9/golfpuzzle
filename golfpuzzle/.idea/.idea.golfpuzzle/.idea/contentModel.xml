@@ -21,13 +21,10 @@
             <e p="readme.txt" t="Include" />
           </e>
         </e>
-        <e p="FollowTrail.cs" t="Include" />
         <e p="JsonDotNet" t="Include">
           <e p="link.xml" t="Include" />
         </e>
-        <e p="LevelGenerator.cs" t="Include" />
-        <e p="MainMenuUIManager.cs" t="Include" />
-        <e p="MyFileBrowser.cs" t="Include" />
+        <e p="MessageWindowCommon.cs" t="Include" />
         <e p="Plugins" t="Include">
           <e p="NativeShare" t="Include">
             <e p="Android" t="Include">
@@ -77,6 +74,7 @@
             <e p="ButtonClickSfx.cs" t="Include" />
           </e>
           <e p="common" t="Include">
+            <e p="DataHolder.cs" t="Include" />
             <e p="SceneMover.cs" t="Include" />
             <e p="Singleton.cs" t="Include" />
           </e>
@@ -98,11 +96,14 @@
             <e p="ColorToPrefab.cs" t="Include" />
             <e p="LevelBuilder.cs" t="Include" />
             <e p="Levels.cs" t="Include" />
+            <e p="LevelView.cs" t="Include" />
+            <e p="LevelViewManager.cs" t="Include" />
           </e>
           <e p="leveleditor" t="Include">
             <e p="EditorTile.cs" t="Include" />
             <e p="LevelEditor.cs" t="Include" />
             <e p="MapObjectEd.cs" t="Include" />
+            <e p="TouchEditorTile.cs" t="Include" />
             <e p="TouchMapObjectEd.cs" t="Include" />
             <e p="UIManagerEditor.cs" t="Include" />
           </e>
@@ -126,8 +127,30 @@
             <e p="WallDestructable.cs" t="Include" />
             <e p="Water.cs" t="Include" />
           </e>
+          <e p="Preferences" t="Include">
+            <e p="GamePreferences.cs" t="Include" />
+          </e>
+          <e p="Tools" t="Include">
+            <e p="FollowTrail.cs" t="Include" />
+            <e p="GolfTools.cs" t="Include" />
+            <e p="LevelGenerator.cs" t="Include" />
+          </e>
+          <e p="Tutorial" t="Include">
+            <e p="IntEvent.cs" t="Include" />
+            <e p="ScaledChosenComponent.cs" t="Include" />
+            <e p="TutorialManager.cs" t="Include" />
+            <e p="TutorialMonobeh.cs" t="Include" />
+            <e p="TutorialPoint.cs" t="Include" />
+            <e p="TutorialPointData.cs" t="Include" />
+          </e>
           <e p="UI" t="Include">
+            <e p="HideBeyondScreenComponent.cs" t="Include" />
             <e p="LocalizedTextMeshPro.cs" t="Include" />
+            <e p="MainMenuMover.cs" t="Include" />
+            <e p="MainMenuUIManager.cs" t="Include" />
+            <e p="MessageWindow.cs" t="Include" />
+            <e p="MyFileBrowser.cs" t="Include" />
+            <e p="OptionsMenu.cs" t="Include" />
             <e p="Tooltip" t="Include">
               <e p="Tooltip.cs" t="Include" />
               <e p="TooltipController.cs" t="Include" />
@@ -141,6 +164,7 @@
             <e p="LocalizationSyncEditor.cs" t="Include" />
           </e>
           <e p="Example.cs" t="Include" />
+          <e p="LocalizationLoad.cs" t="Include" />
           <e p="LocalizationManager.cs" t="Include" />
           <e p="LocalizationSync.cs" t="Include" />
           <e p="LocalizedDropdown.cs" t="Include" />
@@ -175,7 +199,6 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
-        <e p="TouchEditorTile.cs" t="Include" />
       </e>
       <e p="golfpuzzle.sln" t="IncludeFlat" />
       <e p="NativeShare.Editor.csproj" t="IncludeRecursive" />

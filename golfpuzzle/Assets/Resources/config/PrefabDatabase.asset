@@ -16,3 +16,9 @@ MonoBehaviour:
     type: 3}
   BlueExplosionPrefab: {fileID: 4926920084124403220, guid: 6b96bcc927101ec478df07b715a84c07,
     type: 3}
+  TutorialPointPrefab: {fileID: 2834353309633239543, guid: e74e9c64ca1e9344f8c968617cbbef8f,
+    type: 3}
+  TutorialArrowPrefab: {fileID: 4840331526595044152, guid: 018d442474d11a148b9422bb45a3109c,
+    type: 3}
+  MessageWindowCommonGO: {fileID: 2046216983487626756, guid: b13353e0409c749418205c52c8fae3d9,
+    type: 3}

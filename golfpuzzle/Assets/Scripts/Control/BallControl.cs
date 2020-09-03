@@ -195,22 +195,22 @@ public class BallControl : MonoBehaviour
         string move="";
         if (moveInput.Equals(Vector2.down))
         {
-            move = "s";
+            move = "d";
         }
         
         if (moveInput.Equals(Vector2.up))
         {
-            move = "n";
+            move = "u";
         }
         
         if (moveInput.Equals(Vector2.left))
         {
-            move = "w";
+            move = "l";
         }
         
         if (moveInput.Equals(Vector2.right))
         {
-            move = "e";
+            move = "r";
         }
 
         SolutionSave =SolutionSave+ move;

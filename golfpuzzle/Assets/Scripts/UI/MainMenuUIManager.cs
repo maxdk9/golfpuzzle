@@ -30,7 +30,7 @@ public class MainMenuUIManager : MonoBehaviour
     private void newGameButtonOnClick()
     {
         //GameManager.TestMap = false;
-        SceneMover.Instance.SetCurrentScreen(SceneMover.enumScreen.game);
+        SceneMover.Instance.SetCurrentScreen(SceneMover.enumScreen.chooselevel);
         //SceneManager.LoadSceneAsync("SampleScene");
     }
 

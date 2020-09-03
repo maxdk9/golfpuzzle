@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using Audio;
+using Preferences;
 using UnityEngine;
 
 public class AudioManager : Singleton<AudioManager>
@@ -36,8 +37,8 @@ public class AudioManager : Singleton<AudioManager>
         musicSource2 = this.gameObject.AddComponent<AudioSource>();
         sfxSource = this.gameObject.AddComponent<AudioSource>();
         
-        //   OptionsMenu.MuteMusicEvent.AddListener(MuteMusic);
-        //OptionsMenu.MuteSfxEvent.AddListener(MuteSfx);
+        OptionsMenu.MuteMusicEvent.AddListener(MuteMusic);
+        OptionsMenu.MuteSfxEvent.AddListener(MuteSfx);
         
         
     }
@@ -45,7 +46,7 @@ public class AudioManager : Singleton<AudioManager>
     private void MuteSfx()
     {
 
-        bool sfxDisabled = PlayerPrefs.GetInt(SFXDisabled) > 0;
+        bool sfxDisabled = GamePreferences.GetMuteSfx();
         sfxSource.mute = sfxDisabled;
         
     }
@@ -53,7 +54,7 @@ public class AudioManager : Singleton<AudioManager>
     private void MuteMusic()
     {
 
-        bool musicDisabled = PlayerPrefs.GetInt("MusicDisabled")>0;
+        bool musicDisabled = GamePreferences.GetMuteMusic();
         musicSource.mute = musicDisabled;
         musicSource2.mute = musicDisabled;
     }

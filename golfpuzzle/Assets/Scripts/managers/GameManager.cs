@@ -32,9 +32,8 @@ public class GameManager : Singleton<GameManager>
     public static UnityEvent OpenAllGateEvent=new UnityEvent();
     public static UnityEvent CloseAllGateEvent=new UnityEvent();
     public static bool TooltipModeActivated;
+    
 
-    
-    
 
     private void Start()
     {
@@ -45,8 +44,12 @@ public class GameManager : Singleton<GameManager>
         OpenAllGateEvent.AddListener(OpenAllGame);
         CloseAllGateEvent.AddListener(CloseAllGate);
         AudioManager.Instance.Initialization();
+    
+        
         SetGameObjects();
     }
+
+    
 
     private void CloseAllGate()
     {
@@ -107,8 +110,26 @@ public class GameManager : Singleton<GameManager>
         else
         {
             mReadyForInput = false;
-            HighscoreManager.GetInstance().SetLevelScore(mLevelBuilder.GetCurrentLevel().levelNumber,MoveCounter);
-            uiManager.winLevelPanel.Show(GetWinLevelScoreStar());
+
+            string solution = this.ballControl.SolutionSave;
+            int starNumber = GetWinLevelScoreStar();
+            int currentLevelNumber = mLevelBuilder.GetCurrentLevel().levelNumber;
+            
+            
+            
+            LevelResult levelResult=new LevelResult();
+            levelResult.levelNumber = currentLevelNumber;
+            levelResult.starNumber = starNumber;
+            levelResult.playerSolution = solution;
+            
+            
+            HighscoreManager.GetInstance().SetLevelScore(currentLevelNumber,MoveCounter);
+            HighscoreManager.GetInstance().SetLevelSolution(currentLevelNumber,solution);
+            
+            mLevelBuilder.GetComponent<Levels>().AddResult(levelResult);
+            
+            uiManager.TestLabel.text = "Solution="+this.ballControl.SolutionSave;
+            uiManager.winLevelPanel.Show(starNumber);
             Debug.Log("Level win");
             
             
@@ -118,14 +139,20 @@ public class GameManager : Singleton<GameManager>
 
     private int GetWinLevelScoreStar()
     {
-        int tekresult = MoveCounter - mLevelBuilder.GetCurrentLevel().solveMoveNumber;
-        if (tekresult <= 2)
+        int tekresult =  mLevelBuilder.GetCurrentLevel().solveMoveNumber-MoveCounter;
+        
+        if (tekresult >= 0)
         {
-            return 3-tekresult;
+            return 3;
         }
-
-
-        return 0;
+        else
+        {
+            if (tekresult == -1)
+            {
+                return 2;
+            }
+        }
+        return 1;
     }
 
     private void CheckWinLevel()
@@ -285,6 +312,7 @@ public class GameManager : Singleton<GameManager>
 
     private IEnumerator ResetSceneAsync()
     {
+        
         if (SceneManager.sceneCount > 1)
         {
             AsyncOperation asyncOperation = SceneManager.UnloadSceneAsync("LevelScene");
