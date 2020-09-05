@@ -120,7 +120,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.31
+  bundleVersion: 0.32
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -167,7 +167,7 @@ PlayerSettings:
     Android: mazzy.and.spacepuzzle
     Standalone: com.Company.ProductName
   buildNumber: {}
-  AndroidBundleVersionCode: 31
+  AndroidBundleVersionCode: 32
   AndroidMinSdkVersion: 22
   AndroidTargetSdkVersion: 29
   AndroidPreferredInstallLocation: 1
@@ -625,7 +625,19 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLWasmStreaming: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    1: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    4: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    7: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    13: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    14: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    19: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    21: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    25: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    26: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    27: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    28: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
+    29: EASY_MOBILE;EASY_MOBILE_PRO;EM_UIAP
   platformArchitecture: {}
   scriptingBackend:
     Android: 1

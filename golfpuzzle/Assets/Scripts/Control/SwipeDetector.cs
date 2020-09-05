@@ -16,7 +16,7 @@ namespace Control
         private void Start()
         {
             aspectRatio = (float)Screen.width / (float)Screen.height;
-            minDistanceForSwipe = (float)(Screen.width) * .15f;
+            minDistanceForSwipe = (float)(Screen.width) * .2f;
             
             
         }

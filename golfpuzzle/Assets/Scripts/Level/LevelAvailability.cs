@@ -1,5 +1,5 @@
 
-    public class LevelPurchase
+    public class LevelAvailability
     {
         public static bool LevelPurchased(int levelNumber)
         {

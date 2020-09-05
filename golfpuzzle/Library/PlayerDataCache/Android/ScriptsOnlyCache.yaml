@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - EasyMobile.Editor.EM_SettingsEditor
+    - EasyMobile.Editor.EM_SettingsWindow
     Assembly-CSharp.dll:
     - Assets.SimpleLocalization.LocalizationSync
     - Assets.SimpleLocalization.LocalizedDropdown
@@ -9,6 +12,8 @@ ScriptsOnlyBuild:
     - BallControl
     - Bomb
     - Control.SwipeDetector
+    - EasyMobile.EM_Settings
+    - EasyMobileManager
     - EditorTile
     - FollowTrail
     - GameManager
@@ -66,6 +71,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.RiderScriptEditorData
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_InputField
@@ -123,35 +130,37 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9722}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9954}
+      Script: {instanceID: 10154}
     - Class: 114
-      Script: {instanceID: 10014}
+      Script: {instanceID: 10234}
     - Class: 114
-      Script: {instanceID: 10056}
+      Script: {instanceID: 10296}
     - Class: 114
-      Script: {instanceID: 10070}
+      Script: {instanceID: 10312}
     - Class: 114
-      Script: {instanceID: 10394}
+      Script: {instanceID: 10470}
     - Class: 114
-      Script: {instanceID: 10604}
+      Script: {instanceID: 10778}
     - Class: 114
-      Script: {instanceID: 10826}
+      Script: {instanceID: 11102}
     - Class: 114
-      Script: {instanceID: 11064}
+      Script: {instanceID: 11468}
     - Class: 114
-      Script: {instanceID: 11068}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 11812}
     - Class: 114
-      Script: {instanceID: 11238}
+      Script: {instanceID: 12018}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 12072}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 12114}
     - Class: 114
-      Script: {instanceID: 11740}
+      Script: {instanceID: 12196}
+    - Class: 114
+      Script: {instanceID: 12814}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -198,75 +207,75 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9722}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9742}
+      Script: {instanceID: 9858}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 10090}
     - Class: 114
-      Script: {instanceID: 9954}
+      Script: {instanceID: 10154}
     - Class: 114
-      Script: {instanceID: 9980}
+      Script: {instanceID: 10192}
     - Class: 114
-      Script: {instanceID: 9984}
+      Script: {instanceID: 10196}
     - Class: 114
-      Script: {instanceID: 10014}
+      Script: {instanceID: 10234}
     - Class: 114
-      Script: {instanceID: 10174}
+      Script: {instanceID: 10470}
     - Class: 114
-      Script: {instanceID: 10190}
+      Script: {instanceID: 10486}
     - Class: 114
-      Script: {instanceID: 10316}
+      Script: {instanceID: 10670}
     - Class: 114
-      Script: {instanceID: 10366}
+      Script: {instanceID: 10740}
     - Class: 114
-      Script: {instanceID: 10382}
+      Script: {instanceID: 10762}
     - Class: 114
-      Script: {instanceID: 10394}
+      Script: {instanceID: 10778}
     - Class: 114
-      Script: {instanceID: 10406}
+      Script: {instanceID: 10798}
     - Class: 114
-      Script: {instanceID: 10408}
+      Script: {instanceID: 10800}
     - Class: 114
-      Script: {instanceID: 10652}
+      Script: {instanceID: 11176}
     - Class: 114
-      Script: {instanceID: 10826}
+      Script: {instanceID: 11468}
     - Class: 114
-      Script: {instanceID: 11060}
+      Script: {instanceID: 11802}
     - Class: 114
-      Script: {instanceID: 11068}
+      Script: {instanceID: 11812}
     - Class: 114
-      Script: {instanceID: 11178}
+      Script: {instanceID: 11980}
     - Class: 114
-      Script: {instanceID: 11180}
+      Script: {instanceID: 11984}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 12018}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 12108}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 12114}
     - Class: 114
-      Script: {instanceID: 11328}
+      Script: {instanceID: 12184}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 12196}
     - Class: 114
-      Script: {instanceID: 11440}
+      Script: {instanceID: 12346}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 12594}
     - Class: 114
-      Script: {instanceID: 11668}
+      Script: {instanceID: 12682}
     - Class: 114
-      Script: {instanceID: 11680}
+      Script: {instanceID: 12718}
     - Class: 114
-      Script: {instanceID: 11682}
+      Script: {instanceID: 12720}
     - Class: 114
-      Script: {instanceID: 11736}
+      Script: {instanceID: 12808}
     - Class: 114
-      Script: {instanceID: 11740}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 12908}
     - Class: 114
-      Script: {instanceID: 11800}
+      Script: {instanceID: 12910}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -332,147 +341,149 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9722}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9736}
+      Script: {instanceID: 9850}
     - Class: 114
-      Script: {instanceID: 9742}
+      Script: {instanceID: 9858}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 10090}
     - Class: 114
-      Script: {instanceID: 9914}
+      Script: {instanceID: 10092}
     - Class: 114
-      Script: {instanceID: 9916}
+      Script: {instanceID: 10096}
     - Class: 114
-      Script: {instanceID: 9954}
+      Script: {instanceID: 10154}
     - Class: 114
-      Script: {instanceID: 9960}
+      Script: {instanceID: 10164}
     - Class: 114
-      Script: {instanceID: 9962}
+      Script: {instanceID: 10166}
     - Class: 114
-      Script: {instanceID: 9984}
+      Script: {instanceID: 10196}
     - Class: 114
-      Script: {instanceID: 10038}
+      Script: {instanceID: 10276}
     - Class: 114
-      Script: {instanceID: 10070}
+      Script: {instanceID: 10312}
     - Class: 114
-      Script: {instanceID: 10134}
+      Script: {instanceID: 10358}
     - Class: 114
-      Script: {instanceID: 10150}
+      Script: {instanceID: 10410}
     - Class: 114
-      Script: {instanceID: 10174}
+      Script: {instanceID: 10434}
     - Class: 114
-      Script: {instanceID: 10190}
+      Script: {instanceID: 10470}
     - Class: 114
-      Script: {instanceID: 10212}
+      Script: {instanceID: 10486}
     - Class: 114
-      Script: {instanceID: 10230}
+      Script: {instanceID: 10514}
     - Class: 114
-      Script: {instanceID: 10258}
-    - Class: 114
-      Script: {instanceID: 10286}
-    - Class: 114
-      Script: {instanceID: 10316}
-    - Class: 114
-      Script: {instanceID: 10330}
-    - Class: 114
-      Script: {instanceID: 10350}
-    - Class: 114
-      Script: {instanceID: 10368}
-    - Class: 114
-      Script: {instanceID: 10394}
-    - Class: 114
-      Script: {instanceID: 10408}
-    - Class: 114
-      Script: {instanceID: 10420}
-    - Class: 114
-      Script: {instanceID: 10468}
-    - Class: 114
-      Script: {instanceID: 10506}
-    - Class: 114
-      Script: {instanceID: 10512}
+      Script: {instanceID: 10540}
     - Class: 114
       Script: {instanceID: 10576}
     - Class: 114
-      Script: {instanceID: 10588}
+      Script: {instanceID: 10616}
     - Class: 114
-      Script: {instanceID: 10604}
+      Script: {instanceID: 10670}
     - Class: 114
-      Script: {instanceID: 10652}
+      Script: {instanceID: 10690}
     - Class: 114
-      Script: {instanceID: 10716}
+      Script: {instanceID: 10714}
     - Class: 114
-      Script: {instanceID: 10728}
+      Script: {instanceID: 10744}
     - Class: 114
-      Script: {instanceID: 10768}
+      Script: {instanceID: 10778}
     - Class: 114
-      Script: {instanceID: 10826}
+      Script: {instanceID: 10800}
     - Class: 114
-      Script: {instanceID: 10926}
+      Script: {instanceID: 10832}
     - Class: 114
-      Script: {instanceID: 10938}
+      Script: {instanceID: 10894}
     - Class: 114
-      Script: {instanceID: 11034}
+      Script: {instanceID: 10944}
+    - Class: 114
+      Script: {instanceID: 10950}
     - Class: 114
       Script: {instanceID: 11060}
     - Class: 114
-      Script: {instanceID: 11064}
+      Script: {instanceID: 11080}
     - Class: 114
-      Script: {instanceID: 11068}
+      Script: {instanceID: 11102}
     - Class: 114
-      Script: {instanceID: 11082}
+      Script: {instanceID: 11176}
     - Class: 114
-      Script: {instanceID: 11178}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 11306}
     - Class: 114
-      Script: {instanceID: 11220}
+      Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11238}
+      Script: {instanceID: 11468}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 11606}
     - Class: 114
-      Script: {instanceID: 11274}
-    - Class: 114
-      Script: {instanceID: 11328}
-    - Class: 114
-      Script: {instanceID: 11338}
-    - Class: 114
-      Script: {instanceID: 11378}
-    - Class: 114
-      Script: {instanceID: 11440}
-    - Class: 114
-      Script: {instanceID: 11506}
-    - Class: 114
-      Script: {instanceID: 11520}
-    - Class: 114
-      Script: {instanceID: 11608}
-    - Class: 114
-      Script: {instanceID: 11668}
-    - Class: 114
-      Script: {instanceID: 11670}
-    - Class: 114
-      Script: {instanceID: 11680}
-    - Class: 114
-      Script: {instanceID: 11682}
-    - Class: 114
-      Script: {instanceID: 11704}
-    - Class: 114
-      Script: {instanceID: 11728}
-    - Class: 114
-      Script: {instanceID: 11736}
-    - Class: 114
-      Script: {instanceID: 11740}
+      Script: {instanceID: 11630}
     - Class: 114
       Script: {instanceID: 11756}
     - Class: 114
-      Script: {instanceID: 11764}
+      Script: {instanceID: 11802}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 11800}
+      Script: {instanceID: 11812}
     - Class: 114
-      Script: {instanceID: 15252}
+      Script: {instanceID: 11832}
+    - Class: 114
+      Script: {instanceID: 11980}
+    - Class: 114
+      Script: {instanceID: 12018}
+    - Class: 114
+      Script: {instanceID: 12046}
+    - Class: 114
+      Script: {instanceID: 12072}
+    - Class: 114
+      Script: {instanceID: 12108}
+    - Class: 114
+      Script: {instanceID: 12114}
+    - Class: 114
+      Script: {instanceID: 12184}
+    - Class: 114
+      Script: {instanceID: 12196}
+    - Class: 114
+      Script: {instanceID: 12228}
+    - Class: 114
+      Script: {instanceID: 12256}
+    - Class: 114
+      Script: {instanceID: 12346}
+    - Class: 114
+      Script: {instanceID: 12452}
+    - Class: 114
+      Script: {instanceID: 12476}
+    - Class: 114
+      Script: {instanceID: 12594}
+    - Class: 114
+      Script: {instanceID: 12682}
+    - Class: 114
+      Script: {instanceID: 12684}
+    - Class: 114
+      Script: {instanceID: 12718}
+    - Class: 114
+      Script: {instanceID: 12720}
+    - Class: 114
+      Script: {instanceID: 12756}
+    - Class: 114
+      Script: {instanceID: 12784}
+    - Class: 114
+      Script: {instanceID: 12808}
+    - Class: 114
+      Script: {instanceID: 12814}
+    - Class: 114
+      Script: {instanceID: 12836}
+    - Class: 114
+      Script: {instanceID: 12854}
+    - Class: 114
+      Script: {instanceID: 12908}
+    - Class: 114
+      Script: {instanceID: 12910}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -527,93 +538,93 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9722}
+      Script: {instanceID: 9834}
     - Class: 114
-      Script: {instanceID: 9742}
+      Script: {instanceID: 9858}
     - Class: 114
-      Script: {instanceID: 9912}
+      Script: {instanceID: 10090}
     - Class: 114
-      Script: {instanceID: 9914}
+      Script: {instanceID: 10092}
     - Class: 114
-      Script: {instanceID: 9954}
+      Script: {instanceID: 10154}
     - Class: 114
-      Script: {instanceID: 9960}
+      Script: {instanceID: 10164}
     - Class: 114
-      Script: {instanceID: 9962}
+      Script: {instanceID: 10166}
     - Class: 114
-      Script: {instanceID: 10032}
+      Script: {instanceID: 10264}
     - Class: 114
-      Script: {instanceID: 10190}
+      Script: {instanceID: 10486}
     - Class: 114
-      Script: {instanceID: 10212}
+      Script: {instanceID: 10514}
     - Class: 114
-      Script: {instanceID: 10230}
+      Script: {instanceID: 10540}
     - Class: 114
-      Script: {instanceID: 10258}
+      Script: {instanceID: 10576}
     - Class: 114
-      Script: {instanceID: 10282}
+      Script: {instanceID: 10612}
     - Class: 114
-      Script: {instanceID: 10316}
+      Script: {instanceID: 10670}
     - Class: 114
-      Script: {instanceID: 10394}
+      Script: {instanceID: 10778}
     - Class: 114
-      Script: {instanceID: 10406}
+      Script: {instanceID: 10798}
     - Class: 114
-      Script: {instanceID: 10408}
+      Script: {instanceID: 10800}
     - Class: 114
-      Script: {instanceID: 10468}
+      Script: {instanceID: 10894}
     - Class: 114
-      Script: {instanceID: 10470}
+      Script: {instanceID: 10898}
     - Class: 114
-      Script: {instanceID: 10562}
+      Script: {instanceID: 11020}
     - Class: 114
-      Script: {instanceID: 10588}
+      Script: {instanceID: 11080}
     - Class: 114
-      Script: {instanceID: 10652}
+      Script: {instanceID: 11176}
     - Class: 114
-      Script: {instanceID: 10696}
+      Script: {instanceID: 11254}
     - Class: 114
-      Script: {instanceID: 10716}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 10768}
+      Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 10826}
+      Script: {instanceID: 11468}
     - Class: 114
-      Script: {instanceID: 11060}
+      Script: {instanceID: 11802}
     - Class: 114
-      Script: {instanceID: 11064}
+      Script: {instanceID: 11806}
     - Class: 114
-      Script: {instanceID: 11068}
+      Script: {instanceID: 11812}
     - Class: 114
-      Script: {instanceID: 11178}
+      Script: {instanceID: 11980}
     - Class: 114
-      Script: {instanceID: 11202}
+      Script: {instanceID: 12018}
     - Class: 114
-      Script: {instanceID: 11268}
+      Script: {instanceID: 12108}
     - Class: 114
-      Script: {instanceID: 11274}
+      Script: {instanceID: 12114}
     - Class: 114
-      Script: {instanceID: 11328}
+      Script: {instanceID: 12184}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 12196}
     - Class: 114
-      Script: {instanceID: 11430}
+      Script: {instanceID: 12334}
     - Class: 114
-      Script: {instanceID: 11440}
+      Script: {instanceID: 12346}
     - Class: 114
-      Script: {instanceID: 11506}
+      Script: {instanceID: 12452}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 12594}
     - Class: 114
-      Script: {instanceID: 11676}
+      Script: {instanceID: 12714}
     - Class: 114
-      Script: {instanceID: 11740}
+      Script: {instanceID: 12814}
     - Class: 114
-      Script: {instanceID: 11756}
+      Script: {instanceID: 12836}
     - Class: 114
-      Script: {instanceID: 11798}
+      Script: {instanceID: 12908}
     - Class: 114
-      Script: {instanceID: 11800}
+      Script: {instanceID: 12910}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -643,6 +654,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: f10ac67db067cde16cc4972b892b3c8a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: EditorConsentDialogToggleUI
   - hash:
       serializedVersion: 2
       Hash: eb0922ca1386c581a1e27d0d8d436483
@@ -675,10 +692,28 @@ ScriptsOnlyBuild:
     className: TMP_Dropdown
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: Gif
+  - hash:
+      serializedVersion: 2
+      Hash: 82a8b0204076dfadf18633818e381530
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: MediaDemo
+  - hash:
+      serializedVersion: 2
       Hash: e7a73f5f78ba6445195ec23b74a1ce2d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 4d43f34eea2dd4225ef09b80421208ba
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: AlertPopup
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -691,6 +726,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: NotificationHandler
   - hash:
       serializedVersion: 2
       Hash: 72712369a7c681ad84fc255a5ec0b333
@@ -741,10 +782,22 @@ ScriptsOnlyBuild:
     className: PrefabDatabase
   - hash:
       serializedVersion: 2
+      Hash: 3aa6d928304f064171dd9e6dc36df224
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: ClipPlayer
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 05de77f416dedc22db7c430db2076c9a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: DemoHomeController
   - hash:
       serializedVersion: 2
       Hash: 234235b9fb07320d11497e08a726cc56
@@ -765,10 +818,22 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: InAppPurchasing
+  - hash:
+      serializedVersion: 2
       Hash: 0331b7821d4d934a3dd4be599229c9c3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BallControl
+  - hash:
+      serializedVersion: 2
+      Hash: a3248f711375be250db01806f7257f23
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: StringStringCollectionView
   - hash:
       serializedVersion: 2
       Hash: e46fb90fe982b931d02425fdac83d261
@@ -777,7 +842,7 @@ ScriptsOnlyBuild:
     className: FileBrowserItem
   - hash:
       serializedVersion: 2
-      Hash: b6bf4dbc7bb8d3032156818edee9ec82
+      Hash: 17d8a22d7921059ee188a3be8841b756
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelViewManager
@@ -795,6 +860,12 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: 9064d9686b217b4057d1f4a39929ebc0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: SoundManager
+  - hash:
+      serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -805,6 +876,18 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: b0780f57c75e162699dc310c46cf891e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: EM_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 72712369a7c681ad84fc255a5ec0b333
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: EditorConsentDialogClickableText
   - hash:
       serializedVersion: 2
       Hash: ce9eb51478f9f4d18f8c86710b7e2389
@@ -847,6 +930,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 32cb197771ea45335a049bfd6a142e4e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: GameServicesDemo_Multiplayer_RealtimeKitchenSink
   - hash:
       serializedVersion: 2
       Hash: 87f201ca1de3247a5ed8202d119df7d4
@@ -897,6 +986,12 @@ ScriptsOnlyBuild:
     className: GrayBall
   - hash:
       serializedVersion: 2
+      Hash: 08259231d397c2a022adf8fd3890a6ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: SharingDemo
+  - hash:
+      serializedVersion: 2
       Hash: e46fb90fe982b931d02425fdac83d261
     assemblyName: SimpleFileBrowser.Runtime.dll
     namespaceName: SimpleFileBrowser
@@ -939,6 +1034,12 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: 7e0a9f7f39f77325f608bb8c69a77f81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: GameServicesDemo
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -949,6 +1050,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LevelBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: 3aa6d928304f064171dd9e6dc36df224
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: ClipPlayerUI
+  - hash:
+      serializedVersion: 2
+      Hash: db6e3c9f680fdf7dee07f18f62d9963d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: Racing3DCarInputHandler
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -981,6 +1094,12 @@ ScriptsOnlyBuild:
     className: SwipeDetector
   - hash:
       serializedVersion: 2
+      Hash: 59469c11e49758e361f6b231a2a75bca
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: PrivacyDemo
+  - hash:
+      serializedVersion: 2
       Hash: c2080c8caceaffd2967c7ad07eba2019
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -993,10 +1112,22 @@ ScriptsOnlyBuild:
     className: TooltipController
   - hash:
       serializedVersion: 2
+      Hash: 0a2e6b38fb129a4350af041b419f41c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: Racing3DGameControl
+  - hash:
+      serializedVersion: 2
       Hash: c83fe25a3dbad638fa753f20eba94f32
     assemblyName: Assembly-CSharp.dll
     namespaceName: Assets.SimpleLocalization
     className: LocalizationSync
+  - hash:
+      serializedVersion: 2
+      Hash: 31582186ebece284a729fdc8d85c2208
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: DemoUtils
   - hash:
       serializedVersion: 2
       Hash: def0220a4f8def4dc75464eaed219263
@@ -1013,8 +1144,26 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ColorChooser
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
     namespaceName: Tutorial
     className: TutorialPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: GameServices
+  - hash:
+      serializedVersion: 2
+      Hash: fbbec32c7a9827dfdc299fe06eabd9e3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: Racing3DCarControl
   - hash:
       serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
@@ -1029,10 +1178,22 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 10d538cb955a8288a69a28723ff9f074
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ContactView
+  - hash:
+      serializedVersion: 2
       Hash: 480682940b42b4de62e3853050a4b307
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Gate
+  - hash:
+      serializedVersion: 2
+      Hash: c130489623a74655bcd098289eba13c9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ScrollableList
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1089,16 +1250,40 @@ ScriptsOnlyBuild:
     className: ButtonClickSfx
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: NativeConsentDialogListener
+  - hash:
+      serializedVersion: 2
+      Hash: e4988feb1218c7b97633fbd04dbe2ff6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: MediaResultView
+  - hash:
+      serializedVersion: 2
       Hash: 5f1752ed2092162f016c19510c28a8b9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: a5808af1697968805e992fbcc0b82dc6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: LoadingPanelController
+  - hash:
+      serializedVersion: 2
       Hash: feb9a5a121d15fa3654d4e50a5233045
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: AppLifecycleManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1113,16 +1298,34 @@ ScriptsOnlyBuild:
     className: ListItem
   - hash:
       serializedVersion: 2
+      Hash: 6569242ba17ec023558d681a395ffa54
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: UtilitiesDemo
+  - hash:
+      serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Notifications
+    className: AndroidNotificationListener
+  - hash:
+      serializedVersion: 2
       Hash: 029c97d0c776a306d131505738b12c20
     assemblyName: SimpleFileBrowser.Runtime.dll
     namespaceName: SimpleFileBrowser
     className: FileBrowserMovement
+  - hash:
+      serializedVersion: 2
+      Hash: 478db3ea376f687a1e0996363f405a2a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: TicTacToeGameControl
   - hash:
       serializedVersion: 2
       Hash: 77adb1ad79138a4c9201cf2b9fc1aacc
@@ -1135,6 +1338,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 60d913ab4307d0334fb21935a4ad6e28
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: AddedStringStringView
   - hash:
       serializedVersion: 2
       Hash: c9a8b80298a116835b51ba1cf9284367
@@ -1161,6 +1370,12 @@ ScriptsOnlyBuild:
     className: HorizontalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 3a7ad4db122aacc00b147e2c498a5878
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: TicTacToeGameView
+  - hash:
+      serializedVersion: 2
       Hash: 35a9693c388776aaf487636491a20f11
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1185,6 +1400,12 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 62d24dc9808a278c045157f0f1d572e5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ColorHandler
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1203,10 +1424,28 @@ ScriptsOnlyBuild:
     className: MyFileBrowser
   - hash:
       serializedVersion: 2
+      Hash: 93668d58b598e0170535ebaeb813f82d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: EditorConsentDialogToggleSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: DigitalClock
+  - hash:
+      serializedVersion: 2
       Hash: 2568628082d10da9880e7ae43b93c17d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Levels
+  - hash:
+      serializedVersion: 2
+      Hash: 97ee1920a4ad0337784d7a757190a52c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ContactDemo
   - hash:
       serializedVersion: 2
       Hash: 8bca93c346332209f8c6ad0dcf827a15
@@ -1233,6 +1472,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: Giphy
+  - hash:
+      serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1251,6 +1496,18 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 90162e5e5a9a203330c54e41b0391434
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: EditorConsentDialogButtonUI
+  - hash:
+      serializedVersion: 2
+      Hash: b9bf95abe18735f3ebb81aa5c605f6a5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EasyMobileManager
+  - hash:
+      serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -1261,6 +1518,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: AudioManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: Notifications
   - hash:
       serializedVersion: 2
       Hash: b30547850d06b45274999f6b514ad464
@@ -1281,10 +1544,28 @@ ScriptsOnlyBuild:
     className: HoleTarget
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: StoreReview
+  - hash:
+      serializedVersion: 2
       Hash: 7d5c8009ee873aee4b84b57b5c7e9291
     assemblyName: Assembly-CSharp.dll
     namespaceName: Assets.SimpleLocalization
     className: Example
+  - hash:
+      serializedVersion: 2
+      Hash: 657deb96e9bbe9837629887ff8a6eaa8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: NativeUIDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal
+    className: RuntimeHelper
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1293,16 +1574,34 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 0dc61040be1fc173ec3561dcd4573d17
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: ScrollableListItem
+  - hash:
+      serializedVersion: 2
       Hash: 6aae1837312903c76072ae0f873ea269
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TutorialPointData
   - hash:
       serializedVersion: 2
+      Hash: bfc3e3a0afdc0562a9f9e58a77998dcd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: GameServicesDemo_Multiplayer_TurnbasedKitchenSink
+  - hash:
+      serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: Advertising
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1317,10 +1616,22 @@ ScriptsOnlyBuild:
     className: Downloader
   - hash:
       serializedVersion: 2
+      Hash: ebd95eb01891ebeef710ba0bd1174f7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: InAppPurchasingDemo
+  - hash:
+      serializedVersion: 2
       Hash: 836ba0fc4b2f2d681a6f8d83237bb82a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Key
+  - hash:
+      serializedVersion: 2
+      Hash: e6d3ce620ee62a1c64290803fb486ff8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: NotificationsDemo
   - hash:
       serializedVersion: 2
       Hash: df434544c9f7b33d1cc7e635b180d279
@@ -1333,6 +1644,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: b09d402b561d16220fd7604a6d470045
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Internal.Privacy
+    className: EditorConsentDialogUI
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1353,6 +1670,18 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: e8ddafc6b01346f96db986b5fe8f9019
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: Racing3DCameraControl
+  - hash:
+      serializedVersion: 2
+      Hash: adcec9e3f73148a440d12f8e85112ad3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: Racing3DGameView
+  - hash:
+      serializedVersion: 2
       Hash: 69587602854df733e31c88bcf743e081
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1369,6 +1698,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 22dde1cd6dd04bbaa360da32923f3c95
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile
+    className: Recorder
   - hash:
       serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
@@ -1413,6 +1748,18 @@ ScriptsOnlyBuild:
     className: Toggle
   - hash:
       serializedVersion: 2
+      Hash: 32280b797839f393633d2652c0400d85
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: GameServicesDemo_SavedGames
+  - hash:
+      serializedVersion: 2
+      Hash: 651ffaeea29b8a0ff106c42abc6dc021
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: GifDemo
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1453,6 +1800,78 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 6a1940227f2a2b66d557f3d62a2d86c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: EasyMobile.Demo
+    className: AdvertisingDemo
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Stores.dll
+    namespaceName: UnityEngine.Purchasing
+    className: AsyncWebUtil
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Stores.dll
+    namespaceName: UnityEngine.Purchasing.Extension
+    className: UnityUtil
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Editor.dll
+    namespaceName: UnityEditor.Purchasing
+    className: ObfuscatorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Editor.dll
+    namespaceName: UnityEditor.Purchasing
+    className: ProductCatalogEditor
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Editor.dll
+    namespaceName: UnityEditor.Purchasing
+    className: RichEditorWindow
+  - hash:
+      serializedVersion: 2
+      Hash: cd0ecdca0166232906c6f2df9dddc3d3
+    assemblyName: Editor.dll
+    namespaceName: UnityEditor.Purchasing
+    className: UdpInstallInstructionsWindow
+  - hash:
+      serializedVersion: 2
+      Hash: ebd0fcfecda45cfd91320c470f790625
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: IAPDemoProductUI
+  - hash:
+      serializedVersion: 2
+      Hash: 8938bfdfe26c79d6858429a718a6d82a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.Purchasing
+    className: IAPButton
+  - hash:
+      serializedVersion: 2
+      Hash: 3bddfbf6938ea3f1a5e7b2933643730f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.Purchasing
+    className: IAPListener
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: UnityEngine.Purchasing
+    className: DemoInventory
+  - hash:
+      serializedVersion: 2
+      Hash: 08a4dc90eb8d405328ffd2b674587aba
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: 
+    className: IAPDemo
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
@@ -1460,4 +1879,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/LevelScene.unity
   - Assets/Scenes/ChooseLevelScene.unity
-  playerPath: D:/Dropbox/android/PlanetShmanet31.apk
+  playerPath: D:/Dropbox/android/planetshmanet32.aab

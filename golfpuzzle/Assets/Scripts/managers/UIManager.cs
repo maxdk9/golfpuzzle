@@ -1,14 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Management.Instrumentation;
-using System.Security.Cryptography.X509Certificates;
+﻿
 using Assets.SimpleLocalization;
 using common;
 using consts;
 using Highscores;
 using TMPro;
 using Tutorial;
-using UnityEditor;
+using UI;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -26,7 +23,7 @@ public class UIManager : MonoBehaviour
     public Button ActivateTootlipModeButton;
     public WinLevelPanel winLevelPanel;
 
-    public MessageWindow messageWindow;
+    public TutorialMesWindow tutorialMessageWindow;
 
     public Image LoadingImage;
     public TextMeshProUGUI TestLabel;
@@ -61,11 +58,11 @@ public class UIManager : MonoBehaviour
         winLevelPanelGO.SetActive(false);
 
         GameObject messageWindowGO = GameObject.Instantiate(prefabMessageWindow, UICanvas.transform);
-        messageWindow = messageWindowGO.GetComponent<MessageWindow>();
+        tutorialMessageWindow = messageWindowGO.GetComponent<TutorialMesWindow>();
         
-        GameManager.WinLevelEvent.AddListener(messageWindow.Hide);
+        GameManager.WinLevelEvent.AddListener(tutorialMessageWindow.Hide);
             //TutorialManager.ClearLastTutorialPointEvent.AddListener(messageWindow.Hide);
-        TutorialManager.ShowTutorialMessageEvent.AddListener(messageWindow.ShowKey);
+        TutorialManager.ShowTutorialMessageEvent.AddListener(tutorialMessageWindow.ShowKey);
         
         
     }

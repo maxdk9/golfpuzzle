@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Assets.SimpleLocalization;
 using DG.Tweening;
+using Preferences;
 using UnityEngine;
 
 namespace Tutorial
@@ -21,6 +22,7 @@ namespace Tutorial
 
         public void Activate()
         {
+            
             TutorialManager tutorialManager = FindObjectOfType<TutorialManager>();
             tutorialManager.ActivateEventByName(data.TutorialEventName,data.MessageKey);
         }
@@ -29,7 +31,10 @@ namespace Tutorial
         {
             if (other.transform.tag.CompareTo("Ball") == 0)
             {
-
+                if (!GamePreferences.ShowTutorial())
+                {
+                    return;
+                }
                 this.StartCoroutine(ActivateTutorialPointRoutine());
             }
         }

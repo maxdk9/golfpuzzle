@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 using UnityEngine.UI;
 
 
@@ -8,11 +9,12 @@ public class LevelViewManager : MonoBehaviour
     {
         public List<LevelView> mLevelViewList;
         [SerializeField] public GameObject LevelViewPrefab;
-        
-        
         private RectTransform ScrollRectTransform;
         private ScrollRect mScrollRect;
         private RectTransform mContent;
+        
+        
+        
 
         
         
@@ -25,15 +27,12 @@ public class LevelViewManager : MonoBehaviour
         {
             ScrollRectTransform = GetComponent<RectTransform>();
             mScrollRect = GetComponent<ScrollRect>();
-            mContent = mScrollRect.content;
-            
+            mContent = mScrollRect.content;    
         }
 
+
         
-        
-        
-        
-        
+
 
         private void Start()
         {

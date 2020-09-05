@@ -97,7 +97,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2794277143429515822}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -106,10 +106,10 @@ RectTransform:
   m_Father: {fileID: 5797625747043749281}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -45}
-  m_SizeDelta: {x: 1080, y: 80}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -206}
+  m_SizeDelta: {x: 0, y: -200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3162951018867731737
 MonoBehaviour:
@@ -157,7 +157,7 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5797625747043749282}
+      - m_Target: {fileID: -8771987256793814127}
         m_MethodName: DisableTutorialMessages
         m_Mode: 1
         m_Arguments:
@@ -334,9 +334,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5797625747043749281}
   - component: {fileID: 5797625747043749283}
-  - component: {fileID: 5797625747043749282}
   - component: {fileID: 9003462929449860728}
   - component: {fileID: 7710267241024400561}
+  - component: {fileID: -8771987256793814127}
   m_Layer: 5
   m_Name: MessageWindow
   m_TagString: Untagged
@@ -373,20 +373,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5797625747043749310}
   m_CullTransparentMesh: 0
---- !u!114 &5797625747043749282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5797625747043749310}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58be89d3f5370bf4992ffceaad735cbb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  messageLabel: {fileID: 5797625746506360633}
-  showed: 0
 --- !u!114 &9003462929449860728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,6 +402,22 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &-8771987256793814127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5797625747043749310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e489c761f24ad1996a076642af2a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  messageLabel: {fileID: 5797625746506360633}
+  backImage: {fileID: 5797625747166857823}
+  disableTutorialToggle: {fileID: 3162951018867731737}
+  showed: 0
 --- !u!1 &5797625747166857821
 GameObject:
   m_ObjectHideFlags: 0
@@ -524,7 +526,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73, y: 0}
+  m_AnchoredPosition: {x: 123, y: 0}
   m_SizeDelta: {x: 800, y: 77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1731536199175036313
@@ -602,8 +604,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 74, y: -32}
-  m_SizeDelta: {x: 60, y: 60}
+  m_AnchoredPosition: {x: 99, y: -48}
+  m_SizeDelta: {x: 60, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4290804303101351554
 CanvasRenderer:

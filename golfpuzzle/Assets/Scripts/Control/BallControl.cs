@@ -27,15 +27,21 @@ public class BallControl : MonoBehaviour
     private float minYLength;
     
     public string SolutionSave="";
-    
+
+
+    private void OnDestroy()
+    {
+        SwipeDetector.OnSwipe -= MoveBallOnDirection;
+    }
 
     private void Start()
     {
         aspectRatio = (float)Screen.width / (float)Screen.height;
         minXLength = (float)(Screen.width) * .15f;
         minYLength = (float)(Screen.height) * .15f*aspectRatio;
-    
-      
+            
+        
+             
         SwipeDetector.OnSwipe += MoveBallOnDirection;
     }
 
@@ -76,95 +82,35 @@ public class BallControl : MonoBehaviour
     #endif
 
 #if UNITY_ANDROID && !UNITY_EDITOR
-                if (GameManager.Instance.mReadyForInput)
-                {
-                    //OnTouch();
-                }
+                // if (GameManager.Instance.mReadyForInput)
+                // {
+                //     //OnTouch();
+                // }
 #endif
     }
 
-    // private void OnTouch()
-    // {
-    //     if (Input.touchCount > 0)
-    //     {
-    //         Touch touch = Input.GetTouch(0);
-    //
-    //         // Move the cube if the screen has the finger moving.
-    //         if (touch.phase == TouchPhase.Began)
-    //         {
-    //               startPositionTouch = touch.position;
-    //               _followTrail.transform.position = startPositionTouch;
-    //         }
-    //         
-    //         if (touch.phase == TouchPhase.Ended)
-    //         {
-    //             
-    //             GameManager.Instance.mReadyForInput = false;
-    //             finPositionTouch = touch.position;
-    //             
-    //             Vector2 moveInput = finPositionTouch-startPositionTouch;
-    //             if((Mathf.Abs(moveInput.x)<=minXLength)&&(Mathf.Abs(moveInput.y)<=minYLength))
-    //             {
-    //                 
-    //                 GameManager.Instance.mReadyForInput = true;
-    //                 return;
-    //             }
-    //
-    //             if  (Mathf.Abs(moveInput.x) > Mathf.Abs(moveInput.y*aspectRatio))
-    //             {
-    //                 moveInput.y = 0;
-    //                 
-    //             }
-    //             else
-    //             {
-    //                 moveInput.x = 0;
-    //             }
-    //             
-    //             moveInput.Normalize();
-    //             if (moveInput.SqrMagnitude() > .5f)
-    //             {
-    //                 
-    //                 GameManager.Instance.SetBalls();
-    //                 GameManager.Instance.MoveCounter++;
-    //                 GameManager.Instance.uiManager.TestLabel.text = "Ball number = "+GameManager.Instance.Balls.Length;
-    //                 
-    //                 BallMoveEvent.Invoke();
-    //                 AddMoveToSolutionSave(moveInput);
-    //                 foreach (iBall iBall in GameManager.Instance.Balls)
-    //                 {           
-    //                     iBall.Move(moveInput);    
-    //                     _followTrail.Move(moveInput);
-    //                 }
-    //                 UIManager.UpdateMoveCounterEvent.Invoke();   
-    //             }
-    //             else
-    //             {
-    //                 GameManager.Instance.mReadyForInput = true;
-    //             }
-    //         }
-    //
-    //         
-    //     }
-    // }
+
 
 
     public void MoveBallOnDirection(SwipeData swipeData)
     {
-
-        Vector2 direction=GetDirection(swipeData.Direction);
-        GameManager.Instance.mReadyForInput = false;
-        GameManager.Instance.SetBalls();
-        GameManager.Instance.MoveCounter++;
-        GameManager.Instance.uiManager.TestLabel.text = "Ball number = "+GameManager.Instance.Balls.Length;
-                    
-        BallMoveEvent.Invoke();
-        AddMoveToSolutionSave(direction);
-        foreach (iBall iBall in GameManager.Instance.Balls)
-        {           
-            iBall.Move(direction);    
+        if (GameManager.Instance.mReadyForInput)
+        {
+            Vector2 direction = GetDirection(swipeData.Direction);
+            GameManager.Instance.mReadyForInput = false;
+            GameManager.Instance.ResetBalls();
+            GameManager.Instance.MoveCounter++;
+            AddMoveToSolutionSave(direction);
+            BallMoveEvent.Invoke();
             
+            foreach (iBall iBall in GameManager.Instance.Balls)
+            {
+                iBall.Move(direction);
+
+            }
+
+            UIManager.UpdateMoveCounterEvent.Invoke();
         }
-        UIManager.UpdateMoveCounterEvent.Invoke();
     }
 
     private Vector2 GetDirection(SwipeDirection swipeDirection)

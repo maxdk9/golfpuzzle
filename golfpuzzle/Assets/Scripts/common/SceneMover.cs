@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 namespace common
@@ -8,6 +9,8 @@ namespace common
     public class SceneMover : Singleton<SceneMover>
     {
         private enumScreen currentScreen;
+        
+        public static UnityEvent OnMainMenuLoadEvent=new UnityEvent();
 
         public void SetCurrentScreen(enumScreen s)
         {
@@ -30,12 +33,33 @@ namespace common
                     this.StartCoroutine(LoadSampleSceneRoutine());
                     break;
                 case enumScreen.mainmenu:
-                    SceneManager.LoadSceneAsync("MainMenuScene");
+                    this.StartCoroutine(LoadMainMenuRoutine());
+                    
                     break;
                 case enumScreen.chooselevel:
                     SceneManager.LoadSceneAsync("ChooseLevelScene");
                     break;
             }
+        }
+
+        private IEnumerator LoadMainMenuRoutine()
+        {
+            AsyncOperation asyncOperation = SceneManager.LoadSceneAsync("MainMenuScene");
+            while (!asyncOperation.isDone)
+            {
+                yield return null;
+            }
+
+            OnMainMenuLoadEvent.Invoke();
+            
+        }
+
+        private void Start()
+        {
+            OnMainMenuLoadEvent.AddListener((() =>
+            {
+                Debug.Log("OnMainMenuLoadEvent");
+            }));
         }
 
         private IEnumerator LoadLevelEditorRoutine()
