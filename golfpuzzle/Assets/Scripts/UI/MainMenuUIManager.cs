@@ -23,27 +23,25 @@ public class MainMenuUIManager : MonoBehaviour
     {
         newGameButton.onClick.AddListener(newGameButtonOnClick);
         editorButton.onClick.AddListener(editorButtonOnClick);
-        testLevelButton.onClick.AddListener(testLevelButtonOnClick);
+       
         
     }
 
     private void newGameButtonOnClick()
     {
-        //GameManager.TestMap = false;
+        
         SceneMover.Instance.SetCurrentScreen(SceneMover.enumScreen.chooselevel);
-        //SceneManager.LoadSceneAsync("SampleScene");
+       
     }
 
     private void editorButtonOnClick()
     {
         SceneMover.Instance.SetCurrentScreen(SceneMover.enumScreen.editor);
-        //SceneManager.LoadSceneAsync("LevelEditor");
+       
     }
 
     private void testLevelButtonOnClick()
     {
-        // GameManager.TestMap = true;
-        // SceneManager.LoadSceneAsync("SampleScene");
         SceneMover.Instance.SetCurrentScreen(SceneMover.enumScreen.gametesmap);
     }
     

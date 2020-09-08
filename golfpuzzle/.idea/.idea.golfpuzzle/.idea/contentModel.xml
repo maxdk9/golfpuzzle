@@ -820,10 +820,7 @@
           </e>
         </e>
         <e p="Resources" t="Include">
-          <e p="levels" t="Include">
-            <e p="level 1.txt" t="Include" />
-            <e p="level.txt" t="Include" />
-          </e>
+          <e p="solution.txt" t="Include" />
           <e p="UnityPurchasing" t="Include">
             <e p="generated" t="Include">
               <e p="AppleTangle.cs" t="Include" />

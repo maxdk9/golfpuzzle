@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using Highscores;
 using Newtonsoft.Json;
 using UnityEngine;
 
@@ -42,9 +43,59 @@ public class Levels : MonoBehaviour
         }
 
 
-        
+        PrintLevelSolution();
+
+
     }
     
+    
+    private void PrintLevelSolution()
+    {
+        string path = "Assets/Resources/solution.txt";
+
+        //Write some text to the test.txt file
+        StreamWriter writer = new StreamWriter(path, true);       
+        for (int i = 0; i <= 91; i++)
+        {
+
+            Level checkedLevel = null;
+            string levelSolution = "";
+            foreach (Level level in mLevels)
+            {
+                if (level.levelNumber == i)
+                {
+                    checkedLevel = level;
+                }
+            }
+
+            if (checkedLevel != null&&checkedLevel.solution!=null)
+            {
+                levelSolution = checkedLevel.solution;
+            }
+
+            string mysolution = HighscoreManager.GetInstance().GetLevelSolution(i);
+            string resstring = "";
+            try
+            {
+                if (mysolution.Equals("") && levelSolution.Equals(""))
+                {
+                    resstring = String.Format("Level number = {0}; NO SOLUTION", i);
+                }
+                else
+                {
+                    resstring = String.Format("Level number = {0}; my solution = {1} ; def solution = {2}", i,
+                        mysolution, levelSolution);
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.Log(e.Message);
+            }
+
+            writer.WriteLine(resstring);
+        }
+        writer.Close();
+    }
     
     private void Awake()
     {

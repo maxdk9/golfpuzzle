@@ -14,6 +14,7 @@ public class EasyMobileManager: Singleton<EasyMobileManager>
         private GameObject progressBarInapp;
         public static UnityEvent LevelPackPurchased=new UnityEvent();
         
+        
         private void Start()
         {
             

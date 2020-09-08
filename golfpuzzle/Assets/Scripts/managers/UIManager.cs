@@ -21,6 +21,8 @@ public class UIManager : MonoBehaviour
     public Button NextLevelButton;
     public Button ToEditorButton;
     public Button ActivateTootlipModeButton;
+    public Button ToMainMenuButton;
+    
     public WinLevelPanel winLevelPanel;
 
     public TutorialMesWindow tutorialMessageWindow;
@@ -47,6 +49,10 @@ public class UIManager : MonoBehaviour
         UpdateGameUIEvent.AddListener(UpdateBestResultCounter);
         UpdateGameUIEvent.AddListener(UpdateSolutionCounter);
         
+        
+        ToMainMenuButton.onClick.AddListener(ToMainMenuButtonClick);
+        
+        
         UpdateMoveCounterEvent.AddListener(UpdateMoveCounter);
         ToEditorButton.onClick.AddListener(ToEditorButtonClick);
         ToEditorButton.gameObject.SetActive(GameManager.TestMap);
@@ -65,6 +71,11 @@ public class UIManager : MonoBehaviour
         TutorialManager.ShowTutorialMessageEvent.AddListener(tutorialMessageWindow.ShowKey);
         
         
+    }
+
+    private void ToMainMenuButtonClick()
+    {
+        SceneMover.Instance.SetCurrentScreen(SceneMover.enumScreen.mainmenu);
     }
 
 

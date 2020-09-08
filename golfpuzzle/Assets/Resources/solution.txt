@@ -1,0 +1,644 @@
+Level number = 0; NO SOLUTION
+Level number = 1; my solution = urd ; def solution = urd
+Level number = 2; my solution = uur ; def solution = uur
+Level number = 3; my solution = uldrul ; def solution = uldrul
+Level number = 4; my solution = dlurd ; def solution = dlurd
+Level number = 5; my solution = uldrdlu ; def solution = uldrdlu
+Level number = 6; my solution = dru ; def solution = dru
+Level number = 7; my solution = lurulur ; def solution = lurulur
+Level number = 8; my solution = rruuldl ; def solution = rruuldl
+Level number = 9; my solution = rrurlu ; def solution = rrurlu
+Level number = 10; my solution = rrudlu ; def solution = rrudlu
+Level number = 11; my solution = ururl ; def solution = ururl
+Level number = 12; my solution = urdl ; def solution = urdl
+Level number = 13; my solution = ulur ; def solution = ulur
+Level number = 14; my solution = ldlur ; def solution = ldlur
+Level number = 15; my solution = drdlu ; def solution = drdlu
+Level number = 16; my solution = rdlu ; def solution = rdlu
+Level number = 17; my solution = rdlul ; def solution = rdlul
+Level number = 18; my solution = rlrdlud ; def solution = rlrdlud
+Level number = 19; my solution = ulruld ; def solution = ulruld
+Level number = 20; my solution = ulurul ; def solution = ulurul
+Level number = 21; my solution = drul ; def solution = drul
+Level number = 22; my solution = rdlurdrld ; def solution = rdlurdrld
+Level number = 23; my solution = urludlrd ; def solution = urludlrd
+Level number = 24; my solution = drurl ; def solution = drurl
+Level number = 25; my solution = ludldrdruu ; def solution = ludldrdruu
+Level number = 26; my solution = ruldr ; def solution = ruldr
+Level number = 27; my solution = lurururd ; def solution = lurururd
+Level number = 28; my solution = rululd ; def solution = rululd
+Level number = 29; my solution = rdlru ; def solution = rdlru
+Level number = 30; my solution = rulu ; def solution = rulu
+Level number = 31; my solution = ulululdldld ; def solution = ulululdldld
+Level number = 32; my solution = ldrur ; def solution = ldrur
+Level number = 33; my solution = ldrulurl ; def solution = ldrulurl
+Level number = 34; my solution = rlurulurd ; def solution = rlurulurd
+Level number = 35; my solution = luruldd ; def solution = luruldd
+Level number = 36; my solution = urululuulur ; def solution = urululuulur
+Level number = 37; my solution = ldluldluldldr ; def solution = ldluldluldldr
+Level number = 38; my solution = udl ; def solution = udl
+Level number = 39; my solution = drdrdlrdrdlrdldlduru ; def solution = drdrdlrdrdlrdldlduru
+Level number = 40; my solution = ruldr ; def solution = ruldr
+Level number = 41; my solution = uuur ; def solution = uuur
+Level number = 42; my solution = uldllur ; def solution = uldllur
+Level number = 43; my solution = urllrul ; def solution = urllrul
+Level number = 44; my solution = drurd ; def solution = drurd
+Level number = 45; my solution = urrru ; def solution = urrru
+Level number = 46; my solution = ldrul ; def solution = ldrul
+Level number = 47; my solution = ulululurr ; def solution = ulululurr
+Level number = 48; my solution = udlur ; def solution = udlur
+Level number = 49; my solution = ruldlu ; def solution = ruldlu
+Level number = 50; my solution = udu ; def solution = udu
+Level number = 51; my solution = dlulld ; def solution = dlulld
+Level number = 52; my solution = ulllldddrdrlu ; def solution = ulllldddrdrlu
+Level number = 53; my solution = rdlurdlurd ; def solution = rdlurdlurd
+Level number = 54; my solution = drd ; def solution = drd
+Level number = 55; my solution = rulrd ; def solution = rulrd
+Level number = 56; my solution = lulrd ; def solution = lulrd
+Level number = 57; my solution = rddrdld ; def solution = 
+Level number = 58; NO SOLUTION
+Level number = 59; my solution = drurulrlurd ; def solution = 
+Level number = 60; my solution = uuuldrddlu ; def solution = 
+Level number = 61; my solution = rruld ; def solution = 
+Level number = 62; my solution = ulldruurdluulldruldrul ; def solution = 
+Level number = 63; my solution = ldru ; def solution = 
+Level number = 64; my solution = lldr ; def solution = 
+Level number = 65; my solution = rdrdlu ; def solution = 
+Level number = 66; my solution = rruru ; def solution = rruru
+Level number = 67; my solution =  ; def solution = drdrrur
+Level number = 68; my solution =  ; def solution = ruurulld
+Level number = 69; my solution =  ; def solution = udldr
+Level number = 70; my solution =  ; def solution = dludru
+Level number = 71; my solution =  ; def solution = lruldr
+Level number = 72; my solution =  ; def solution = druld
+Level number = 73; my solution =  ; def solution = dluldrur
+Level number = 74; my solution =  ; def solution = uldlu
+Level number = 75; my solution =  ; def solution = rrrdrd
+Level number = 76; my solution = ulrdr ; def solution = nwese
+Level number = 77; my solution = lluddr ; def solution = wwnsse
+Level number = 78; my solution = ldlldr ; def solution = wssws
+Level number = 79; my solution = uldlld ; def solution = nwswws
+Level number = 80; my solution = ulullu ; def solution = nwnwwn
+Level number = 81; my solution =  ; def solution = wnwnnesswn
+Level number = 82; my solution = rulldd ; def solution = enwwss
+Level number = 83; my solution = uudrdrrdddr ; def solution = uudrdrrdddr
+Level number = 84; my solution = ldulu ; def solution = wsnwn
+Level number = 85; my solution = ldruldlrluu ; def solution = wseneswewn
+Level number = 86; my solution = uuuurdldulur ; def solution = nnnneswsnwne
+Level number = 87; my solution = ruruldlurrr ; def solution = enenwswneee
+Level number = 88; my solution =  ; def solution = ssssnene
+Level number = 89; my solution =  ; def solution = nnwnwwsesesensesennwnwnwnwnnwesesesese
+Level number = 90; my solution = lluldu ; def solution = wwnwsn
+Level number = 91; my solution = dulur ; def solution = rdlulurd
+Level number = 0; NO SOLUTION
+Level number = 1; my solution = urd ; def solution = urd
+Level number = 2; my solution = uur ; def solution = uur
+Level number = 3; my solution = uldrul ; def solution = uldrul
+Level number = 4; my solution = dlurd ; def solution = dlurd
+Level number = 5; my solution = uldrdlu ; def solution = uldrdlu
+Level number = 6; my solution = dru ; def solution = dru
+Level number = 7; my solution = lurulur ; def solution = lurulur
+Level number = 8; my solution = rruuldl ; def solution = rruuldl
+Level number = 9; my solution = rrurlu ; def solution = rrurlu
+Level number = 10; my solution = rrudlu ; def solution = rrudlu
+Level number = 11; my solution = ururl ; def solution = ururl
+Level number = 12; my solution = urdl ; def solution = urdl
+Level number = 13; my solution = ulur ; def solution = ulur
+Level number = 14; my solution = ldlur ; def solution = ldlur
+Level number = 15; my solution = drdlu ; def solution = drdlu
+Level number = 16; my solution = rdlu ; def solution = rdlu
+Level number = 17; my solution = rdlul ; def solution = rdlul
+Level number = 18; my solution = rlrdlud ; def solution = rlrdlud
+Level number = 19; my solution = ulruld ; def solution = ulruld
+Level number = 20; my solution = ulurul ; def solution = ulurul
+Level number = 21; my solution = drul ; def solution = drul
+Level number = 22; my solution = rdlurdrld ; def solution = rdlurdrld
+Level number = 23; my solution = urludlrd ; def solution = urludlrd
+Level number = 24; my solution = drurl ; def solution = drurl
+Level number = 25; my solution = ludldrdruu ; def solution = ludldrdruu
+Level number = 26; my solution = ruldr ; def solution = ruldr
+Level number = 27; my solution = lurururd ; def solution = lurururd
+Level number = 28; my solution = rululd ; def solution = rululd
+Level number = 29; my solution = rdlru ; def solution = rdlru
+Level number = 30; my solution = rulu ; def solution = rulu
+Level number = 31; my solution = ulululdldld ; def solution = ulululdldld
+Level number = 32; my solution = ldrur ; def solution = ldrur
+Level number = 33; my solution = ldrulurl ; def solution = ldrulurl
+Level number = 34; my solution = rlurulurd ; def solution = rlurulurd
+Level number = 35; my solution = luruldd ; def solution = luruldd
+Level number = 36; my solution = urululuulur ; def solution = urululuulur
+Level number = 37; my solution = ldluldluldldr ; def solution = ldluldluldldr
+Level number = 38; my solution = udl ; def solution = udl
+Level number = 39; my solution = drdrdlrdrdlrdldlduru ; def solution = drdrdlrdrdlrdldlduru
+Level number = 40; my solution = ruldr ; def solution = ruldr
+Level number = 41; my solution = uuur ; def solution = uuur
+Level number = 42; my solution = uldllur ; def solution = uldllur
+Level number = 43; my solution = urllrul ; def solution = urllrul
+Level number = 44; my solution = drurd ; def solution = drurd
+Level number = 45; my solution = urrru ; def solution = urrru
+Level number = 46; my solution = ldrul ; def solution = ldrul
+Level number = 47; my solution = ulululurr ; def solution = ulululurr
+Level number = 48; my solution = udlur ; def solution = udlur
+Level number = 49; my solution = ruldlu ; def solution = ruldlu
+Level number = 50; my solution = udu ; def solution = udu
+Level number = 51; my solution = dlulld ; def solution = dlulld
+Level number = 52; my solution = ulllldddrdrlu ; def solution = ulllldddrdrlu
+Level number = 53; my solution = rdlurdlurd ; def solution = rdlurdlurd
+Level number = 54; my solution = drd ; def solution = drd
+Level number = 55; my solution = rulrd ; def solution = rulrd
+Level number = 56; my solution = lulrd ; def solution = lulrd
+Level number = 57; my solution = rddrdld ; def solution = 
+Level number = 58; NO SOLUTION
+Level number = 59; my solution = drurulrlurd ; def solution = 
+Level number = 60; my solution = uuuldrddlu ; def solution = 
+Level number = 61; my solution = rruld ; def solution = 
+Level number = 62; my solution = ulldruurdluulldruldrul ; def solution = 
+Level number = 63; my solution = ldru ; def solution = 
+Level number = 64; my solution = lldr ; def solution = 
+Level number = 65; my solution = rdrdlu ; def solution = 
+Level number = 66; my solution = rruru ; def solution = rruru
+Level number = 67; my solution =  ; def solution = drdrrur
+Level number = 68; my solution =  ; def solution = ruurulld
+Level number = 69; my solution =  ; def solution = udldr
+Level number = 70; my solution =  ; def solution = dludru
+Level number = 71; my solution =  ; def solution = lruldr
+Level number = 72; my solution =  ; def solution = druld
+Level number = 73; my solution =  ; def solution = dluldrur
+Level number = 74; my solution =  ; def solution = uldlu
+Level number = 75; my solution =  ; def solution = rrrdrd
+Level number = 76; my solution = ulrdr ; def solution = nwese
+Level number = 77; my solution = lluddr ; def solution = wwnsse
+Level number = 78; my solution = ldlldr ; def solution = wssws
+Level number = 79; my solution = uldlld ; def solution = nwswws
+Level number = 80; my solution = ulullu ; def solution = nwnwwn
+Level number = 81; my solution =  ; def solution = wnwnnesswn
+Level number = 82; my solution = rulldd ; def solution = enwwss
+Level number = 83; my solution = uudrdrrdddr ; def solution = uudrdrrdddr
+Level number = 84; my solution = ldulu ; def solution = wsnwn
+Level number = 85; my solution = ldruldlrluu ; def solution = wseneswewn
+Level number = 86; my solution = uuuurdldulur ; def solution = nnnneswsnwne
+Level number = 87; my solution = ruruldlurrr ; def solution = enenwswneee
+Level number = 88; my solution =  ; def solution = ssssnene
+Level number = 89; my solution =  ; def solution = nnwnwwsesesensesennwnwnwnwnnwesesesese
+Level number = 90; my solution = lluldu ; def solution = wwnwsn
+Level number = 91; my solution = dulur ; def solution = rdlulurd
+Level number = 0; NO SOLUTION
+Level number = 1; my solution = urd ; def solution = urd
+Level number = 2; my solution = uur ; def solution = uur
+Level number = 3; my solution = uldrul ; def solution = uldrul
+Level number = 4; my solution = dlurd ; def solution = dlurd
+Level number = 5; my solution = uldrdlu ; def solution = uldrdlu
+Level number = 6; my solution = dru ; def solution = dru
+Level number = 7; my solution = lurulur ; def solution = lurulur
+Level number = 8; my solution = rruuldl ; def solution = rruuldl
+Level number = 9; my solution = rrurlu ; def solution = rrurlu
+Level number = 10; my solution = rrudlu ; def solution = rrudlu
+Level number = 11; my solution = ururl ; def solution = ururl
+Level number = 12; my solution = urdl ; def solution = urdl
+Level number = 13; my solution = ulur ; def solution = ulur
+Level number = 14; my solution = ldlur ; def solution = ldlur
+Level number = 15; my solution = drdlu ; def solution = drdlu
+Level number = 16; my solution = rdlu ; def solution = rdlu
+Level number = 17; my solution = rdlul ; def solution = rdlul
+Level number = 18; my solution = rlrdlud ; def solution = rlrdlud
+Level number = 19; my solution = ulruld ; def solution = ulruld
+Level number = 20; my solution = ulurul ; def solution = ulurul
+Level number = 21; my solution = drul ; def solution = drul
+Level number = 22; my solution = rdlurdrld ; def solution = rdlurdrld
+Level number = 23; my solution = urludlrd ; def solution = urludlrd
+Level number = 24; my solution = drurl ; def solution = drurl
+Level number = 25; my solution = ludldrdruu ; def solution = ludldrdruu
+Level number = 26; my solution = ruldr ; def solution = ruldr
+Level number = 27; my solution = lurururd ; def solution = lurururd
+Level number = 28; my solution = rululd ; def solution = rululd
+Level number = 29; my solution = rdlru ; def solution = rdlru
+Level number = 30; my solution = rulu ; def solution = rulu
+Level number = 31; my solution = ulululdldld ; def solution = ulululdldld
+Level number = 32; my solution = ldrur ; def solution = ldrur
+Level number = 33; my solution = ldrulurl ; def solution = ldrulurl
+Level number = 34; my solution = rlurulurd ; def solution = rlurulurd
+Level number = 35; my solution = luruldd ; def solution = luruldd
+Level number = 36; my solution = urululuulur ; def solution = urululuulur
+Level number = 37; my solution = ldluldluldldr ; def solution = ldluldluldldr
+Level number = 38; my solution = udl ; def solution = udl
+Level number = 39; my solution = drdrdlrdrdlrdldlduru ; def solution = drdrdlrdrdlrdldlduru
+Level number = 40; my solution = ruldr ; def solution = ruldr
+Level number = 41; my solution = uuur ; def solution = uuur
+Level number = 42; my solution = uldllur ; def solution = uldllur
+Level number = 43; my solution = urllrul ; def solution = urllrul
+Level number = 44; my solution = drurd ; def solution = drurd
+Level number = 45; my solution = urrru ; def solution = urrru
+Level number = 46; my solution = ldrul ; def solution = ldrul
+Level number = 47; my solution = ulululurr ; def solution = ulululurr
+Level number = 48; my solution = udlur ; def solution = udlur
+Level number = 49; my solution = ruldlu ; def solution = ruldlu
+Level number = 50; my solution = udu ; def solution = udu
+Level number = 51; my solution = dlulld ; def solution = dlulld
+Level number = 52; my solution = ulllldddrdrlu ; def solution = ulllldddrdrlu
+Level number = 53; my solution = rdlurdlurd ; def solution = rdlurdlurd
+Level number = 54; my solution = drd ; def solution = drd
+Level number = 55; my solution = rulrd ; def solution = rulrd
+Level number = 56; my solution = lulrd ; def solution = lulrd
+Level number = 57; my solution = rddrdld ; def solution = 
+Level number = 58; NO SOLUTION
+Level number = 59; my solution = drurulrlurd ; def solution = 
+Level number = 60; my solution = uuuldrddlu ; def solution = 
+Level number = 61; my solution = rruld ; def solution = 
+Level number = 62; my solution = ulldruurdluulldruldrul ; def solution = 
+Level number = 63; my solution = ldru ; def solution = 
+Level number = 64; my solution = lldr ; def solution = 
+Level number = 65; my solution = rdrdlu ; def solution = 
+Level number = 66; my solution = rruru ; def solution = rruru
+Level number = 67; my solution =  ; def solution = drdrrur
+Level number = 68; my solution =  ; def solution = ruurulld
+Level number = 69; my solution =  ; def solution = udldr
+Level number = 70; my solution =  ; def solution = dludru
+Level number = 71; my solution =  ; def solution = lruldr
+Level number = 72; my solution =  ; def solution = druld
+Level number = 73; my solution =  ; def solution = dluldrur
+Level number = 74; my solution =  ; def solution = uldlu
+Level number = 75; my solution =  ; def solution = rrrdrd
+Level number = 76; my solution = ulrdr ; def solution = nwese
+Level number = 77; my solution = lluddr ; def solution = wwnsse
+Level number = 78; my solution = ldlldr ; def solution = wssws
+Level number = 79; my solution = uldlld ; def solution = nwswws
+Level number = 80; my solution = ulullu ; def solution = nwnwwn
+Level number = 81; my solution =  ; def solution = wnwnnesswn
+Level number = 82; my solution = rulldd ; def solution = enwwss
+Level number = 83; my solution = uudrdrrdddr ; def solution = uudrdrrdddr
+Level number = 84; my solution = ldulu ; def solution = wsnwn
+Level number = 85; my solution = ldruldlrluu ; def solution = wseneswewn
+Level number = 86; my solution = uuuurdldulur ; def solution = nnnneswsnwne
+Level number = 87; my solution = ruruldlurrr ; def solution = enenwswneee
+Level number = 88; my solution =  ; def solution = ssssnene
+Level number = 89; my solution =  ; def solution = nnwnwwsesesensesennwnwnwnwnnwesesesese
+Level number = 90; my solution = lluldu ; def solution = wwnwsn
+Level number = 91; my solution = dulur ; def solution = rdlulurd
+Level number = 0; NO SOLUTION
+Level number = 1; my solution = urd ; def solution = urd
+Level number = 2; my solution = uur ; def solution = uur
+Level number = 3; my solution = uldrul ; def solution = uldrul
+Level number = 4; my solution = dlurd ; def solution = dlurd
+Level number = 5; my solution = uldrdlu ; def solution = uldrdlu
+Level number = 6; my solution = dru ; def solution = dru
+Level number = 7; my solution = lurulur ; def solution = lurulur
+Level number = 8; my solution = rruuldl ; def solution = rruuldl
+Level number = 9; my solution = rrurlu ; def solution = rrurlu
+Level number = 10; my solution = rrudlu ; def solution = rrudlu
+Level number = 11; my solution = ururl ; def solution = ururl
+Level number = 12; my solution = urdl ; def solution = urdl
+Level number = 13; my solution = ulur ; def solution = ulur
+Level number = 14; my solution = ldlur ; def solution = ldlur
+Level number = 15; my solution = drdlu ; def solution = drdlu
+Level number = 16; my solution = rdlu ; def solution = rdlu
+Level number = 17; my solution = rdlul ; def solution = rdlul
+Level number = 18; my solution = rlrdlud ; def solution = rlrdlud
+Level number = 19; my solution = ulruld ; def solution = ulruld
+Level number = 20; my solution = ulurul ; def solution = ulurul
+Level number = 21; my solution = drul ; def solution = drul
+Level number = 22; my solution = rdlurdrld ; def solution = rdlurdrld
+Level number = 23; my solution = urludlrd ; def solution = urludlrd
+Level number = 24; my solution = drurl ; def solution = drurl
+Level number = 25; my solution = ludldrdruu ; def solution = ludldrdruu
+Level number = 26; my solution = ruldr ; def solution = ruldr
+Level number = 27; my solution = lurururd ; def solution = lurururd
+Level number = 28; my solution = rululd ; def solution = rululd
+Level number = 29; my solution = rdlru ; def solution = rdlru
+Level number = 30; my solution = rulu ; def solution = rulu
+Level number = 31; my solution = ulululdldld ; def solution = ulululdldld
+Level number = 32; my solution = ldrur ; def solution = ldrur
+Level number = 33; my solution = ldrulurl ; def solution = ldrulurl
+Level number = 34; my solution = rlurulurd ; def solution = rlurulurd
+Level number = 35; my solution = luruldd ; def solution = luruldd
+Level number = 36; my solution = urululuulur ; def solution = urululuulur
+Level number = 37; my solution = ldluldluldldr ; def solution = ldluldluldldr
+Level number = 38; my solution = udl ; def solution = udl
+Level number = 39; my solution = drdrdlrdrdlrdldlduru ; def solution = drdrdlrdrdlrdldlduru
+Level number = 40; my solution = ruldr ; def solution = ruldr
+Level number = 41; my solution = uuur ; def solution = uuur
+Level number = 42; my solution = uldllur ; def solution = uldllur
+Level number = 43; my solution = urllrul ; def solution = urllrul
+Level number = 44; my solution = drurd ; def solution = drurd
+Level number = 45; my solution = urrru ; def solution = urrru
+Level number = 46; my solution = ldrul ; def solution = ldrul
+Level number = 47; my solution = ulululurr ; def solution = ulululurr
+Level number = 48; my solution = udlur ; def solution = udlur
+Level number = 49; my solution = ruldlu ; def solution = ruldlu
+Level number = 50; my solution = udu ; def solution = udu
+Level number = 51; my solution = dlulld ; def solution = dlulld
+Level number = 52; my solution = ulllldddrdrlu ; def solution = ulllldddrdrlu
+Level number = 53; my solution = rdlurdlurd ; def solution = rdlurdlurd
+Level number = 54; my solution = drd ; def solution = drd
+Level number = 55; my solution = rulrd ; def solution = rulrd
+Level number = 56; my solution = lulrd ; def solution = lulrd
+Level number = 57; my solution = rddrdld ; def solution = 
+Level number = 58; NO SOLUTION
+Level number = 59; my solution = drurulrlurd ; def solution = 
+Level number = 60; my solution = uuuldrddlu ; def solution = 
+Level number = 61; my solution = rruld ; def solution = 
+Level number = 62; my solution = ulldruurdluulldruldrul ; def solution = 
+Level number = 63; my solution = ldru ; def solution = 
+Level number = 64; my solution = lldr ; def solution = 
+Level number = 65; my solution = rdrdlu ; def solution = 
+Level number = 66; my solution = rruru ; def solution = rruru
+Level number = 67; my solution =  ; def solution = drdrrur
+Level number = 68; my solution =  ; def solution = ruurulld
+Level number = 69; my solution =  ; def solution = udldr
+Level number = 70; my solution =  ; def solution = dludru
+Level number = 71; my solution =  ; def solution = lruldr
+Level number = 72; my solution =  ; def solution = druld
+Level number = 73; my solution =  ; def solution = dluldrur
+Level number = 74; my solution =  ; def solution = uldlu
+Level number = 75; my solution =  ; def solution = rrrdrd
+Level number = 76; my solution = ulrdr ; def solution = nwese
+Level number = 77; my solution = lluddr ; def solution = wwnsse
+Level number = 78; my solution = ldlldr ; def solution = wssws
+Level number = 79; my solution = uldlld ; def solution = nwswws
+Level number = 80; my solution = ulullu ; def solution = nwnwwn
+Level number = 81; my solution =  ; def solution = wnwnnesswn
+Level number = 82; my solution = rulldd ; def solution = enwwss
+Level number = 83; my solution = uudrdrrdddr ; def solution = uudrdrrdddr
+Level number = 84; my solution = ldulu ; def solution = wsnwn
+Level number = 85; my solution = ldruldlrluu ; def solution = wseneswewn
+Level number = 86; my solution = uuuurdldulur ; def solution = nnnneswsnwne
+Level number = 87; my solution = ruruldlurrr ; def solution = enenwswneee
+Level number = 88; my solution =  ; def solution = ssssnene
+Level number = 89; my solution =  ; def solution = nnwnwwsesesensesennwnwnwnwnnwesesesese
+Level number = 90; my solution = lluldu ; def solution = wwnwsn
+Level number = 91; my solution = dulur ; def solution = rdlulurd
+Level number = 0; NO SOLUTION
+Level number = 1; my solution = urd ; def solution = urd
+Level number = 2; my solution = uur ; def solution = uur
+Level number = 3; my solution = uldrul ; def solution = uldrul
+Level number = 4; my solution = dlurd ; def solution = dlurd
+Level number = 5; my solution = uldrdlu ; def solution = uldrdlu
+Level number = 6; my solution = dru ; def solution = dru
+Level number = 7; my solution = lurulur ; def solution = lurulur
+Level number = 8; my solution = rruuldl ; def solution = rruuldl
+Level number = 9; my solution = rrurlu ; def solution = rrurlu
+Level number = 10; my solution = rrudlu ; def solution = rrudlu
+Level number = 11; my solution = ururl ; def solution = ururl
+Level number = 12; my solution = urdl ; def solution = urdl
+Level number = 13; my solution = ulur ; def solution = ulur
+Level number = 14; my solution = ldlur ; def solution = ldlur
+Level number = 15; my solution = drdlu ; def solution = drdlu
+Level number = 16; my solution = rdlu ; def solution = rdlu
+Level number = 17; my solution = rdlul ; def solution = rdlul
+Level number = 18; my solution = rlrdlud ; def solution = rlrdlud
+Level number = 19; my solution = ulruld ; def solution = ulruld
+Level number = 20; my solution = ulurul ; def solution = ulurul
+Level number = 21; my solution = drul ; def solution = drul
+Level number = 22; my solution = rdlurdrld ; def solution = rdlurdrld
+Level number = 23; my solution = urludlrd ; def solution = urludlrd
+Level number = 24; my solution = drurl ; def solution = drurl
+Level number = 25; my solution = ludldrdruu ; def solution = ludldrdruu
+Level number = 26; my solution = ruldr ; def solution = ruldr
+Level number = 27; my solution = lurururd ; def solution = lurururd
+Level number = 28; my solution = rululd ; def solution = rululd
+Level number = 29; my solution = rdlru ; def solution = rdlru
+Level number = 30; my solution = rulu ; def solution = rulu
+Level number = 31; my solution = ulululdldld ; def solution = ulululdldld
+Level number = 32; my solution = ldrur ; def solution = ldrur
+Level number = 33; my solution = ldrulurl ; def solution = ldrulurl
+Level number = 34; my solution = rlurulurd ; def solution = rlurulurd
+Level number = 35; my solution = luruldd ; def solution = luruldd
+Level number = 36; my solution = urululuulur ; def solution = urululuulur
+Level number = 37; my solution = ldluldluldldr ; def solution = ldluldluldldr
+Level number = 38; my solution = udl ; def solution = udl
+Level number = 39; my solution = drdrdlrdrdlrdldlduru ; def solution = drdrdlrdrdlrdldlduru
+Level number = 40; my solution = ruldr ; def solution = ruldr
+Level number = 41; my solution = uuur ; def solution = uuur
+Level number = 42; my solution = uldllur ; def solution = uldllur
+Level number = 43; my solution = urllrul ; def solution = urllrul
+Level number = 44; my solution = drurd ; def solution = drurd
+Level number = 45; my solution = urrru ; def solution = urrru
+Level number = 46; my solution = ldrul ; def solution = ldrul
+Level number = 47; my solution = ulululurr ; def solution = ulululurr
+Level number = 48; my solution = udlur ; def solution = udlur
+Level number = 49; my solution = ruldlu ; def solution = ruldlu
+Level number = 50; my solution = udu ; def solution = udu
+Level number = 51; my solution = dlulld ; def solution = dlulld
+Level number = 52; my solution = ulllldddrdrlu ; def solution = ulllldddrdrlu
+Level number = 53; my solution = rdlurdlurd ; def solution = rdlurdlurd
+Level number = 54; my solution = drd ; def solution = drd
+Level number = 55; my solution = rulrd ; def solution = rulrd
+Level number = 56; my solution = lulrd ; def solution = lulrd
+Level number = 57; my solution = rddrdld ; def solution = 
+Level number = 58; NO SOLUTION
+Level number = 59; my solution = drurulrlurd ; def solution = 
+Level number = 60; my solution = uuuldrddlu ; def solution = 
+Level number = 61; my solution = rruld ; def solution = 
+Level number = 62; my solution = ulldruurdluulldruldrul ; def solution = 
+Level number = 63; my solution = ldru ; def solution = 
+Level number = 64; my solution = lldr ; def solution = 
+Level number = 65; my solution = rdrdlu ; def solution = 
+Level number = 66; my solution = rruru ; def solution = rruru
+Level number = 67; my solution =  ; def solution = drdrrur
+Level number = 68; my solution =  ; def solution = ruurulld
+Level number = 69; my solution =  ; def solution = udldr
+Level number = 70; my solution =  ; def solution = dludru
+Level number = 71; my solution =  ; def solution = lruldr
+Level number = 72; my solution =  ; def solution = druld
+Level number = 73; my solution =  ; def solution = dluldrur
+Level number = 74; my solution =  ; def solution = uldlu
+Level number = 75; my solution =  ; def solution = rrrdrd
+Level number = 76; my solution = ulrdr ; def solution = nwese
+Level number = 77; my solution = lluddr ; def solution = wwnsse
+Level number = 78; my solution = ldlldr ; def solution = wssws
+Level number = 79; my solution = uldlld ; def solution = nwswws
+Level number = 80; my solution = ulullu ; def solution = nwnwwn
+Level number = 81; my solution =  ; def solution = wnwnnesswn
+Level number = 82; my solution = rulldd ; def solution = enwwss
+Level number = 83; my solution = uudrdrrdddr ; def solution = uudrdrrdddr
+Level number = 84; my solution = ldulu ; def solution = wsnwn
+Level number = 85; my solution = ldruldlrluu ; def solution = wseneswewn
+Level number = 86; my solution = uuuurdldulur ; def solution = nnnneswsnwne
+Level number = 87; my solution = ruruldlurrr ; def solution = enenwswneee
+Level number = 88; my solution =  ; def solution = ssssnene
+Level number = 89; my solution =  ; def solution = nnwnwwsesesensesennwnwnwnwnnwesesesese
+Level number = 90; my solution = lluldu ; def solution = wwnwsn
+Level number = 91; my solution = dulur ; def solution = rdlulurd
+Level number = 0; NO SOLUTION
+Level number = 1; my solution = urd ; def solution = urd
+Level number = 2; my solution = uur ; def solution = uur
+Level number = 3; my solution = uldrul ; def solution = uldrul
+Level number = 4; my solution = dlurd ; def solution = dlurd
+Level number = 5; my solution = uldrdlu ; def solution = uldrdlu
+Level number = 6; my solution = dru ; def solution = dru
+Level number = 7; my solution = lurulur ; def solution = lurulur
+Level number = 8; my solution = rruuldl ; def solution = rruuldl
+Level number = 9; my solution = rrurlu ; def solution = rrurlu
+Level number = 10; my solution = rrudlu ; def solution = rrudlu
+Level number = 11; my solution = ururl ; def solution = ururl
+Level number = 12; my solution = urdl ; def solution = urdl
+Level number = 13; my solution = ulur ; def solution = ulur
+Level number = 14; my solution = ldlur ; def solution = ldlur
+Level number = 15; my solution = drdlu ; def solution = drdlu
+Level number = 16; my solution = rdlu ; def solution = rdlu
+Level number = 17; my solution = rdlul ; def solution = rdlul
+Level number = 18; my solution = rlrdlud ; def solution = rlrdlud
+Level number = 19; my solution = ulruld ; def solution = ulruld
+Level number = 20; my solution = ulurul ; def solution = ulurul
+Level number = 21; my solution = drul ; def solution = drul
+Level number = 22; my solution = rdlurdrld ; def solution = rdlurdrld
+Level number = 23; my solution = urludlrd ; def solution = urludlrd
+Level number = 24; my solution = drurl ; def solution = drurl
+Level number = 25; my solution = ludldrdruu ; def solution = ludldrdruu
+Level number = 26; my solution = ruldr ; def solution = ruldr
+Level number = 27; my solution = lurururd ; def solution = lurururd
+Level number = 28; my solution = rululd ; def solution = rululd
+Level number = 29; my solution = rdlru ; def solution = rdlru
+Level number = 30; my solution = rulu ; def solution = rulu
+Level number = 31; my solution = ulululdldld ; def solution = ulululdldld
+Level number = 32; my solution = ldrur ; def solution = ldrur
+Level number = 33; my solution = ldrulurl ; def solution = ldrulurl
+Level number = 34; my solution = rlurulurd ; def solution = rlurulurd
+Level number = 35; my solution = luruldd ; def solution = luruldd
+Level number = 36; my solution = urululuulur ; def solution = urululuulur
+Level number = 37; my solution = ldluldluldldr ; def solution = ldluldluldldr
+Level number = 38; my solution = udl ; def solution = udl
+Level number = 39; my solution = drdrdlrdrdlrdldlduru ; def solution = drdrdlrdrdlrdldlduru
+Level number = 40; my solution = ruldr ; def solution = ruldr
+Level number = 41; my solution = uuur ; def solution = uuur
+Level number = 42; my solution = uldllur ; def solution = uldllur
+Level number = 43; my solution = urllrul ; def solution = urllrul
+Level number = 44; my solution = drurd ; def solution = drurd
+Level number = 45; my solution = urrru ; def solution = urrru
+Level number = 46; my solution = ldrul ; def solution = ldrul
+Level number = 47; my solution = ulululurr ; def solution = ulululurr
+Level number = 48; my solution = udlur ; def solution = udlur
+Level number = 49; my solution = ruldlu ; def solution = ruldlu
+Level number = 50; my solution = udu ; def solution = udu
+Level number = 51; my solution = dlulld ; def solution = dlulld
+Level number = 52; my solution = ulllldddrdrlu ; def solution = ulllldddrdrlu
+Level number = 53; my solution = rdlurdlurd ; def solution = rdlurdlurd
+Level number = 54; my solution = drd ; def solution = drd
+Level number = 55; my solution = rulrd ; def solution = rulrd
+Level number = 56; my solution = lulrd ; def solution = lulrd
+Level number = 57; my solution = rddrdld ; def solution = 
+Level number = 58; NO SOLUTION
+Level number = 59; my solution = drurulrlurd ; def solution = 
+Level number = 60; my solution = uuuldrddlu ; def solution = 
+Level number = 61; my solution = rruld ; def solution = 
+Level number = 62; my solution = ulldruurdluulldruldrul ; def solution = 
+Level number = 63; my solution = ldru ; def solution = 
+Level number = 64; my solution = lldr ; def solution = 
+Level number = 65; my solution = rdrdlu ; def solution = 
+Level number = 66; my solution = rruru ; def solution = rruru
+Level number = 67; my solution =  ; def solution = drdrrur
+Level number = 68; my solution =  ; def solution = ruurulld
+Level number = 69; my solution =  ; def solution = udldr
+Level number = 70; my solution =  ; def solution = dludru
+Level number = 71; my solution =  ; def solution = lruldr
+Level number = 72; my solution =  ; def solution = druld
+Level number = 73; my solution =  ; def solution = dluldrur
+Level number = 74; my solution =  ; def solution = uldlu
+Level number = 75; my solution =  ; def solution = rrrdrd
+Level number = 76; my solution = ulrdr ; def solution = nwese
+Level number = 77; my solution = lluddr ; def solution = wwnsse
+Level number = 78; my solution = ldlldr ; def solution = wssws
+Level number = 79; my solution = uldlld ; def solution = nwswws
+Level number = 80; my solution = ulullu ; def solution = nwnwwn
+Level number = 81; my solution =  ; def solution = wnwnnesswn
+Level number = 82; my solution = rulldd ; def solution = enwwss
+Level number = 83; my solution = uudrdrrdddr ; def solution = uudrdrrdddr
+Level number = 84; my solution = ldulu ; def solution = wsnwn
+Level number = 85; my solution = ldruldlrluu ; def solution = wseneswewn
+Level number = 86; my solution = uuuurdldulur ; def solution = nnnneswsnwne
+Level number = 87; my solution = ruruldlurrr ; def solution = enenwswneee
+Level number = 88; my solution =  ; def solution = ssssnene
+Level number = 89; my solution =  ; def solution = nnwnwwsesesensesennwnwnwnwnnwesesesese
+Level number = 90; my solution = lluldu ; def solution = wwnwsn
+Level number = 91; my solution = dulur ; def solution = rdlulurd
+Level number = 0; NO SOLUTION
+Level number = 1; my solution = urd ; def solution = urd
+Level number = 2; my solution = uur ; def solution = uur
+Level number = 3; my solution = uldrul ; def solution = uldrul
+Level number = 4; my solution = dlurd ; def solution = dlurd
+Level number = 5; my solution = uldrdlu ; def solution = uldrdlu
+Level number = 6; my solution = dru ; def solution = dru
+Level number = 7; my solution = lurulur ; def solution = lurulur
+Level number = 8; my solution = rruuldl ; def solution = rruuldl
+Level number = 9; my solution = rrurlu ; def solution = rrurlu
+Level number = 10; my solution = rrudlu ; def solution = rrudlu
+Level number = 11; my solution = ururl ; def solution = ururl
+Level number = 12; my solution = urdl ; def solution = urdl
+Level number = 13; my solution = ulur ; def solution = ulur
+Level number = 14; my solution = ldlur ; def solution = ldlur
+Level number = 15; my solution = drdlu ; def solution = drdlu
+Level number = 16; my solution = rdlu ; def solution = rdlu
+Level number = 17; my solution = rdlul ; def solution = rdlul
+Level number = 18; my solution = rlrdlud ; def solution = rlrdlud
+Level number = 19; my solution = ulruld ; def solution = ulruld
+Level number = 20; my solution = ulurul ; def solution = ulurul
+Level number = 21; my solution = drul ; def solution = drul
+Level number = 22; my solution = rdlurdrld ; def solution = rdlurdrld
+Level number = 23; my solution = urludlrd ; def solution = urludlrd
+Level number = 24; my solution = drurl ; def solution = drurl
+Level number = 25; my solution = ludldrdruu ; def solution = ludldrdruu
+Level number = 26; my solution = ruldr ; def solution = ruldr
+Level number = 27; my solution = lurururd ; def solution = lurururd
+Level number = 28; my solution = rululd ; def solution = rululd
+Level number = 29; my solution = rdlru ; def solution = rdlru
+Level number = 30; my solution = rulu ; def solution = rulu
+Level number = 31; my solution = ulululdldld ; def solution = ulululdldld
+Level number = 32; my solution = ldrur ; def solution = ldrur
+Level number = 33; my solution = ldrulurl ; def solution = ldrulurl
+Level number = 34; my solution = rlurulurd ; def solution = rlurulurd
+Level number = 35; my solution = luruldd ; def solution = luruldd
+Level number = 36; my solution = urululuulur ; def solution = urululuulur
+Level number = 37; my solution = ldluldluldldr ; def solution = ldluldluldldr
+Level number = 38; my solution = udl ; def solution = udl
+Level number = 39; my solution = drdrdlrdrdlrdldlduru ; def solution = drdrdlrdrdlrdldlduru
+Level number = 40; my solution = ruldr ; def solution = ruldr
+Level number = 41; my solution = uuur ; def solution = uuur
+Level number = 42; my solution = uldllur ; def solution = uldllur
+Level number = 43; my solution = urllrul ; def solution = urllrul
+Level number = 44; my solution = drurd ; def solution = drurd
+Level number = 45; my solution = urrru ; def solution = urrru
+Level number = 46; my solution = ldrul ; def solution = ldrul
+Level number = 47; my solution = ulululurr ; def solution = ulululurr
+Level number = 48; my solution = udlur ; def solution = udlur
+Level number = 49; my solution = ruldlu ; def solution = ruldlu
+Level number = 50; my solution = udu ; def solution = udu
+Level number = 51; my solution = dlulld ; def solution = dlulld
+Level number = 52; my solution = ulllldddrdrlu ; def solution = ulllldddrdrlu
+Level number = 53; my solution = rdlurdlurd ; def solution = rdlurdlurd
+Level number = 54; my solution = drd ; def solution = drd
+Level number = 55; my solution = rulrd ; def solution = rulrd
+Level number = 56; my solution = lulrd ; def solution = lulrd
+Level number = 57; my solution = rddrdld ; def solution = 
+Level number = 58; NO SOLUTION
+Level number = 59; my solution = drurulrlurd ; def solution = 
+Level number = 60; my solution = uuuldrddlu ; def solution = 
+Level number = 61; my solution = rruld ; def solution = 
+Level number = 62; my solution = ulldruurdluulldruldrul ; def solution = 
+Level number = 63; my solution = ldru ; def solution = 
+Level number = 64; my solution = lldr ; def solution = 
+Level number = 65; my solution = rdrdlu ; def solution = 
+Level number = 66; my solution = rruru ; def solution = rruru
+Level number = 67; my solution =  ; def solution = drdrrur
+Level number = 68; my solution =  ; def solution = ruurulld
+Level number = 69; my solution =  ; def solution = udldr
+Level number = 70; my solution =  ; def solution = dludru
+Level number = 71; my solution =  ; def solution = lruldr
+Level number = 72; my solution =  ; def solution = druld
+Level number = 73; my solution =  ; def solution = dluldrur
+Level number = 74; my solution =  ; def solution = uldlu
+Level number = 75; my solution =  ; def solution = rrrdrd
+Level number = 76; my solution = ulrdr ; def solution = nwese
+Level number = 77; my solution = lluddr ; def solution = wwnsse
+Level number = 78; my solution = ldlldr ; def solution = wssws
+Level number = 79; my solution = uldlld ; def solution = nwswws
+Level number = 80; my solution = ulullu ; def solution = nwnwwn
+Level number = 81; my solution =  ; def solution = wnwnnesswn
+Level number = 82; my solution = rulldd ; def solution = enwwss
+Level number = 83; my solution = uudrdrrdddr ; def solution = uudrdrrdddr
+Level number = 84; my solution = ldulu ; def solution = wsnwn
+Level number = 85; my solution = ldruldlrluu ; def solution = wseneswewn
+Level number = 86; my solution = uuuurdldulur ; def solution = nnnneswsnwne
+Level number = 87; my solution = ruruldlurrr ; def solution = enenwswneee
+Level number = 88; my solution =  ; def solution = ssssnene
+Level number = 89; my solution =  ; def solution = nnwnwwsesesensesennwnwnwnwnnwesesesese
+Level number = 90; my solution = lluldu ; def solution = wwnwsn
+Level number = 91; my solution = dulur ; def solution = rdlulurd

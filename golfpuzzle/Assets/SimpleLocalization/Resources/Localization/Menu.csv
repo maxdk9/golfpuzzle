@@ -139,3 +139,26 @@ tutorial18,Now the path is clear and you can send the asteroid to warp hole. Swi
 Options.LanguageEnglish,English,Английский,Английська
 Options.LanguageRussian,Russian,Русский,Росийська
 Options.LanguageUkrainian,Ukrainian,Украинский,Украинська
+RATE_LOC_TITLE,Rate,Оценить,Оцінити
+RATE_LOC_MESSAGE,How would you rate,Как бы Вы оценили,Як би ви оцінили
+RATE_LOC_LOWRATINGMESSAGE,That's bad. Would you like to give us some feedback instead?,"Печально, возможно вы лучше дадите фидбек разрабочикам, поможете сделать приложение лучше?","Сумно, можливо ви краще надасте фідбек розробникам та допоможете зробити гру краще?"
+RATE_LOC_HIGHRATINGMESSAGE,Awesome! Let's do it!,Это здорово!,Це дуже добре!
+RATE_LOC_POSTPONEBUTTONLABEL,Not Now,Не сейчас!,Не зараз!
+RATE_LOC_REFUSEBUTTONLABEL,Don't Ask Again,Больше не спрашивать.,Більше не питати.
+RATE_LOC_RATEBUTTONLABEL,Rate Now!,Оценить!,Оцінити!
+RATE_LOC_CANCELBUTTONLABEL,Cancel,Отмена,Відміна
+RATE_LOC_FEEDBACKBUTTONLABEL,Send Feedback,Послать фидбек,Відправити фідбек
+music_credits1,"""Inspired"" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+","""Inspired"" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+","""Inspired"" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+"
+music_credits2,"""A million light years between us"" Alexandr Zhelanov
+licensed under free licence of Creative Commons CC BY 4.0.","""A million light years between us"" Alexandr Zhelanov
+licensed under free licence of Creative Commons CC BY 4.0.","""A million light years between us"" Alexandr Zhelanov
+licensed under free licence of Creative Commons CC BY 4.0."
+labelProgrammer,Programmer,Программист,Розробник
+valueProgrammer,Max Matyushenko,Max Matyushenko,Max Matyushenko
+labelMusic,Music,Музыка,Музика

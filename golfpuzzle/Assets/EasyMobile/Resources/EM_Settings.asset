@@ -243,12 +243,14 @@ MonoBehaviour:
     mValidateAppleReceipt: 0
     mValidateGooglePlayReceipt: 0
     mProducts:
-    - _name: 'spacepuzzle_premiumlevels50_100 '
+    - _name: spacepuzzle_premiumlevels50_100
       _type: 1
-      _id: 'spacepuzzle_premiumlevels50_100 '
+      _id: spacepuzzle_premiumlevels50_100
       _price: 1
       _description: 
-      _storeSpecificIds: []
+      _storeSpecificIds:
+      - store: 0
+        id: spacepuzzle_premiumlevels50_100
       _isEditingAdvanced: 1
   mNotificationSettings:
     mAutoInit: 1
@@ -298,12 +300,12 @@ MonoBehaviour:
       mRateButtonText: Rate Now!
       mCancelButtonText: Cancel
       mFeedbackButtonText: Send Feedback
-    mMinimumAcceptedStars: 4
-    mSupportEmail: 
+    mMinimumAcceptedStars: 3
+    mSupportEmail: maxdk9@gmail.com
     mIosAppId: 
-    mAnnualCap: 12
-    mDelayAfterInstallation: 10
-    mCoolingOffPeriod: 10
+    mAnnualCap: 10
+    mDelayAfterInstallation: 3
+    mCoolingOffPeriod: 5
     mIgnoreContraintsInDevelopment: 0
   mSharingSettings:
     mAndroidPermissions:

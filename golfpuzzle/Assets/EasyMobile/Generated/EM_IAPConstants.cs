@@ -8,7 +8,7 @@ namespace EasyMobile
 {
 	public static class EM_IAPConstants
 	{
-		public const string Product_spacepuzzle_premiumlevels50_100 = "spacepuzzle_premiumlevels50_100 ";
+		public const string Product_spacepuzzle_premiumlevels50_100 = "spacepuzzle_premiumlevels50_100";
 
 	}
 }

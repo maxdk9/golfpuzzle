@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using common;
+using Highscores;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,16 +16,13 @@ public class LevelView : MonoBehaviour
     public TextMeshProUGUI levelNumberLabel;
     public Image[] starImages;
     public Image dollarImage;
-
     public GameObject StarImagesGroup;
-    
-    
     public Sprite starGray;
     public Sprite starGold;
-    
-
     private Color colorEnabled = Color.white;
     private Color colorDisabled = Color.gray;
+    
+    
     
     
     
@@ -66,14 +64,22 @@ public class LevelView : MonoBehaviour
     {
         EasyMobileManager.LevelPackPurchased.AddListener((() =>
             {
-                LevelPurchased = LevelAvailability.LevelPurchased(this.levelResult.levelNumber);
+                UpdateLevelPurchased();
             }));
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (!levelPurchased)
+        {
+            UpdateLevelPurchased();
+        }
+    }
+
+    private void UpdateLevelPurchased()
+    {
+        LevelPurchased = LevelAvailability.LevelPurchased(levelResult.levelNumber);
     }
     
     
@@ -82,13 +88,14 @@ public class LevelView : MonoBehaviour
     public void SetResult(LevelResult result)
     {
         levelResult = result;
-        LevelPurchased = LevelAvailability.LevelPurchased(result.levelNumber);
+        UpdateLevelPurchased();
         UpdateUI();
     }
 
     private void UpdateUI()
     {
         levelNumberLabel.text = levelResult.levelNumber.ToString();
+    
         for (int i = 0; i < starImages.Length; i++)
         {
             if (i < levelResult.starNumber)
@@ -100,6 +107,13 @@ public class LevelView : MonoBehaviour
                 starImages[i].sprite = starGray;
             }
         }
+    }
+
+    private string GetCurrentSolution()
+    {
+        string solution = HighscoreManager.GetInstance()
+            .GetLevelSolution(this.levelResult.levelNumber);
+        return solution;
     }
 
     public void StartLevel()

@@ -1,5 +1,10 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.IO;
+using Highscores;
+using TMPro;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Experimental.PlayerLoop;
 using UnityEngine.UI;
@@ -12,6 +17,9 @@ public class LevelViewManager : MonoBehaviour
         private RectTransform ScrollRectTransform;
         private ScrollRect mScrollRect;
         private RectTransform mContent;
+
+        public GameObject CheckPurchaseGroup;
+        public Slider CheckPurchaseSlider;
         
         
         
@@ -31,11 +39,15 @@ public class LevelViewManager : MonoBehaviour
         }
 
 
-        
+        private void Update()
+        {
+             
+        }
 
 
         private void Start()
         {
+            
             levels = FindObjectOfType<Levels>();
             int lastLevelSolved = levels.GetLastLevelSolved();
 
@@ -65,16 +77,36 @@ public class LevelViewManager : MonoBehaviour
             {
                 
                 mScrollRect.verticalNormalizedPosition = 1-((float) (focusIndex/4) / (float) (levels.mResults.Count/4));
-
-
                 //MoveToTarget(focusLevelTransform);
             }
+
+
+            CheckPurchaseGroup.SetActive(true);
+            CheckPurchaseSlider.value = 0;
+            StartCoroutine(ShowCheckPurchaseRoutine());
+
+           // PrintLevelSolution();
+
+
         }
 
+       
 
-        public void MoveToTarget(RectTransform target)
+        private IEnumerator ShowCheckPurchaseRoutine()
         {
+            float fillSpeed = .03f;
+            float cycleDuration = .3f;
             
-            mScrollRect.verticalNormalizedPosition = .5f;// itemY / difference;
+            while (!EasyMobileManager.Instance.ProductChecked)
+            {
+                yield return new WaitForSeconds(cycleDuration);
+                CheckPurchaseSlider.value += fillSpeed;
+            }   
+            CheckPurchaseSlider.value = 1;
+            yield return new WaitForSeconds(.3f);
+           CheckPurchaseGroup.SetActive(false);
+       
         }
+
+       
     }

@@ -526,8 +526,6 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\EasyMobile\Third-Party Notices.txt" />
-     <None Include="Assets\Resources\levels\level.txt" />
-     <None Include="Assets\Resources\levels\level 1.txt" />
      <None Include="Assets\EasyMobile\link.xml" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -536,6 +534,7 @@
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\JsonDotNet\link.xml" />
+     <None Include="Assets\Resources\solution.txt" />
      <None Include="Assets\EasyMobile\Demo\Materials\VerticalGradientSkybox.shader" />
      <None Include="Assets\Demigiant\DOTween\readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
