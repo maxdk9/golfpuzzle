@@ -29,7 +29,7 @@ public class LevelView : MonoBehaviour
 
     public bool LevelEnabled
     {
-        get => levelEnabled;
+        
         set
         {
             levelEnabled = value;
@@ -40,7 +40,7 @@ public class LevelView : MonoBehaviour
 
     public bool LevelPurchased
     {
-        get => levelPurchased;
+        
         set
         {
             levelPurchased = value;

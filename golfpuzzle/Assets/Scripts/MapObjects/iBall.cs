@@ -59,8 +59,14 @@ namespace MapObjects
                     continue;
                 }
 
+                if (gateComponent.mBusy)
+                {
+                    continue;
+                }
+
                 if (VARIABLE.transform.position.x == newPos.x && VARIABLE.transform.position.y == newPos.y)
                 {
+                    Debug.Log(this.gameObject.name+"Blocked by the gate");
                     return true;
                 }
             }

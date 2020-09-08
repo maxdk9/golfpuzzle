@@ -5,6 +5,7 @@
     <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
     <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
     <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -49,1099 +50,1099 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
-      <HintPath>E:\Unity\2019.2.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+      <HintPath>D:\apps\2019.2.15f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>E:\Unity\2019.2.15f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
+      <HintPath>D:\apps\2019.2.15f1\Editor\Data\Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
-     <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\AdsSection.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\AdvertisingDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\BannerSection.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\InterstitialSection.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\LoadAndShowSection.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\RewardedVideoSection.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\AlertPopup.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\ColorChooser.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\ColorHandler.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\DemoHomeController.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\DemoUtils.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\DigitalClock.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\LoadingPanelController.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\SoundManager.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\TextureGenerator.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_Multiplayer_BaseControl.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_Multiplayer_RealtimeKitchenSink.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_Multiplayer_TurnbasedKitchenSink.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_SavedGames.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DCameraControl.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DCarControl.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DCarInputHandler.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DGameControl.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DGameModel.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DGameView.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\TicTacToe\TicTacToeGameControl.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\TicTacToe\TicTacToeGameModel.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\TicTacToe\TicTacToeGameView.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\GifDemo\GifDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\InAppPurchasingDemo\InAppPurchasingDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\AddedStringStringView.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\ContactDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\ContactView.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\StringStringCollectionView.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\MediaDemo\MediaDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\MediaDemo\MediaResultView.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\NativeUIDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\NotificationsDemo\NotificationHandler.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\NotificationsDemo\NotificationsDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\PrivacyDemo\DemoAppConsent.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\PrivacyDemo\PrivacyDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\SharingDemo\SharingDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\Scripts\UtilitiesDemo\UtilitiesDemo.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\ScrollableList\ScrollableList.cs" />
-     <Compile Include="Assets\EasyMobile\Demo\ScrollableList\ScrollableListItem.cs" />
-     <Compile Include="Assets\EasyMobile\Generated\EM_IAPConstants.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\AppLifecyleHandler\AndroidAppLifecyleHandler.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\AppLifecyleHandler\DummyAppLifecyleHandler.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\AppLifecyleHandler\IAppLifecycleHandler.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Attributes\EnumFlagsAttribute.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Attributes\RenameAttribute.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableDictionary.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableDictionaryBase.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableDictionaryDefinition.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableKeyValuePair.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableKeyValuePairDefinition.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\StrongToWeakDictionary.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Extensions\ColorExt.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Extensions\DateTimeExt.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Helpers\RuntimeHelper.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ActionElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ActivityAliasElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ActivityElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ApplicationElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\Base\AndroidManifestElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\Base\AndroidManifestElementStyles.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\CategoryElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\DataElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\GrantUriPermissionElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\InstrumentationElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\IntentFilterElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ManifestElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\MetaDataElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PathPermissionElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PermissionElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PermissionGroupElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PermissionTreeElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ProviderElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ReceiverElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ServiceElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\SupportsGlTextureElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\SupportsScreensElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesConfigurationElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesFeatureElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesLibraryElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesPermissionElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesPermissionSdk23Element.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesSdkElement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\FolderHelper.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\GeneratableAndroidManifest.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\MiniJSON\MiniJSON.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\AndroidUtil.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\FileUtil.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\PInvokeCallbackUtil.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\PInvokeUtil.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\ReflectionUtil.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\StorageUtil.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\TextureUtilities.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\Util.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Core\AndroidPermission.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Core\AppLifecycleManager.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Core\CrossPlatformId.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Core\EM_Settings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Core\IAndroidPermissionRequired.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Core\IIOSInfoItemRequired.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Core\iOSInfoPlistItem.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Core\Module.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Core\RuntimeManager.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Core\Submodule.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdChildDirectedTreatment.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdId.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdLocation.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdNetwork.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdOrientation.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdPlacement.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdType.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\Advertising.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdvertisingConsentManager.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AutoAdLoadingMode.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\BannerAdPosition.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\BannerAdSize.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AdClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AdColonyClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AdMobClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AppLovinClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AudienceNetworkClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\ChartboostClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\FairBidClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\IAdClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\IronSourceClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\MoPubClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\NoOpClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\TapjoyClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\UnityAdsClientImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AdColonySettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AdMobSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AdNetworkSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AppLovinSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AudienceNetworkSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\ChartboostSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\FairBidSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\IronSourceSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\MoPubSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\TapjoySettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\UnityAdsSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\GameServices.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\GameServicesItem.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\GameServicesSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\GameServices_Multiplayer.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\GameServicesSettings_Multiplayer.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Invitation.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\IRealTimeMultiplayerClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\IRealTimeMultiplayerListener.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\ITurnBasedMultiplayerClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\MatchOutcome.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\MatchRequest.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\MatchType.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Participant.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\EditorRealTimeMultiplayerClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\EditorTurnBasedMultiplayerClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCRealTimeMultiplayerClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GameKitTypeConverter.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKLocalPlayerListenerImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKMatchDelegateImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKMatchmakerViewControllerDelegateImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKTurnBasedMatchmakerViewControllerDelegateImpl.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKTurnBasedParticipantExt.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCTurnBasedMultiplayerClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GPGRealTimeMultiplayerClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GPGSupport\GPGTypeConverter.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GPGTurnBasedMultiplayerClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\UnsupportedRealTimeMultiplayerClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\UnsupportedTurnBasedMultiplayerClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\TurnBasedMatch.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Platforms\GCSupport\GameKitTypeConverter.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Player.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\GameServices_SavedGames.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\GameServicesSettings_SavedGames.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\ISavedGameClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Native\iOSSavedGameNative.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\AndroidSavedGameClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\EditorSavedGameClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\iOSSavedGameClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\UnsupportedSavedGameClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\SavedGame.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\SavedGameInfoUpdate.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\AnimatedClip.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\ClipPlayer.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\ClipPlayerScaleMode.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\ClipPlayerUI.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Gif.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\GifExportTask.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Giphy\Giphy.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Giphy\GiphyUploadParams.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\IClipPlayer.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\GifEncoder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\GifFrame.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\LzwEncoder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\NeuQuant.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\MinAttribute.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\ReflectionUtils.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Worker.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Platforms\AndroidNativeGif.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Platforms\iOSNativeGif.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Platforms\NativeGifTypes.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Recorder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\IAPProduct.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\IAPSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\IAPStore.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\InAppPurchasing.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Contact.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\ContactsAPISettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\DeviceContacts.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidContactBridge.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidContactsProvider.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidGetContactsProxy.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidPickContactProxy.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\StringStringPairBridge.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\INativeContactsProvider.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\IOS\IOSContactsPickerCallback.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\IOS\IOSContactsProvider.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\IOS\Utilities.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\UnsupportedContactProvider.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\CameraType.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\IDeviceCamera.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\IDeviceGallery.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\ImageFormat.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidDeviceCamera.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidDeviceGallery.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidMediaResultBridge.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidLoadImageProxy.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidMediaCollectedProxy.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidPickFromGalleryProxy.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidSaveImageProxy.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\IOS\InternalUIImagePickerControllerDelegate.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\IOS\IOSDeviceCamera.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\IOS\IOSDeviceGallery.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Unsupported\UnsupportedDeviceCamera.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Unsupported\UnsupportedDeviceGallery.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Media.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\MediaAPISettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\MediaResult.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\MediaType.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeApisSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\NativeUI.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\NativeUI_AlertPopup.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\Platforms\AndroidNativeAlert.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\Platforms\iOSNativeAlert.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\FirebaseMessagingPayLoad.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\AndroidNotificationListener.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\EditorNotificationListener.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\INotificationListener.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\iOSNotificationListener.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\UnsupportedNotificationListener.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\AndroidLocalNotificationClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\EditorLocalNotificationClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\ILocalNotificationClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\iOSLocalNotificationClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\UnsupportedLocalNotificationClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Native\AndroidNotificationNative.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Native\iOSNotificationNative.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\RemoteNotification\FirebaseMessagingHelper.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\RemoteNotification\OneSignalHelper.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Notification.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationCategory.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationContent.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationRepeat.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationRequest.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Notifications.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationsConsentManager.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationsSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\OneSignalNotificationPayload.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentDialog.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentManager.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentStatus.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentStorage.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEACountries.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEARegionStatus.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEARegionValidationMethods.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEARegionValidator.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\AndroidEEARegionValidator.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\BaseNativeEEARegionValidator.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\iOSEEARegionValidator.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\IPlatformEEARegionValidator.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\UnsupportedEEARegionValidator.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\GlobalConsentManager.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\IConsentRequirable.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\ConsentDialogContentSerializer.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogButtonUI.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogClickableText.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogToggleSwitch.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogToggleUI.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogUI.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\Listener\NativeConsentDialogListener.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\AndroidConsentDialog.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\EditorConsentDialog.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\iOSConsentDialog.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\IPlatformConsentDialog.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\UnsupportedConsentDialog.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Privacy.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\PrivacySettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\AndroidSharingClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\iOSSharingClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\ISharingClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\UnsupportedSharingClient.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Sharing.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\SharingSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\Platforms\AndroidNativeUtility.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\Platforms\iOSNativeUtility.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\RatingDialogContent.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\RatingRequestSettings.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\StoreReview.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\Android\Common\EMAndroidJavaObject.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\Common\IInteropObject.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\Common\InteropObject.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\Common\InteropObjectFactory.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSDelegateForwarder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSInteropObject.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSMulticastDelegateForwarder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSObjectProxy.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\Utils\iOSInteropUtil.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContact.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactFetchRequest.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactFormatter.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactProperty.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactSortOrder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactStore.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNKeyDescriptor.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNLabeledValue.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNMutableContact.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNPhoneNumber.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNPostalAddress.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNSaveRequest.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\Constants.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\Internal\InternalCNKeyDescriptor.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\Internal\InternalCNLabeledValue.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\ContactsUI\CNContactPickerDelegate.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\ContactsUI\CNContactPickerViewController.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\ContactsUI\Internal\CNContactPickerDelegateForwarder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\CoreFoundation\Functions\CFFunctions_CFType.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\CoreGraphics\CGSize.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\CoreTelephony\CTCarrier.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSArray.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSData.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSDateComponents.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSDictionary.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSError.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSFileManager.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSLocale.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSMutableArray.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSPredicate.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSRange.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSString.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSTimeZone.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSURL.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKErrorCode.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKInvite.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKInviteEventListener.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKLocalPlayer.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKLocalPlayerListener.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatch.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatchmaker.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatchmakerViewController.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatchRequest.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKPlayer.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedEventListener.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedMatch.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedMatchmakerViewController.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedParticipant.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKInviteEventListenerForwarder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKLocalPlayerListenerForwarder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKMatchDelegateForwarder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKMatchmakerViewControllerDelegateForwarder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKTurnBasedEventListenerForwarder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKTurnBasedMatchmakerViewControllerDelegateForwarder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\MobileCoreServices\Constants\UTTypeConstants.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\Functions\UIFunctions_ImagesAndPDF_ImageCreation.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\Functions\UIFunctions_ImagesAndPDF_PhotoAlbum.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\Internal\UIImagePickerControllerDelegateForwarder.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIActivity.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIActivityViewController.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIApplication.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIImage.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIImagePickerController.cs" />
-     <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIViewController.cs" />
-     <Compile Include="Assets\EasyMobileManager.cs" />
-     <Compile Include="Assets\MessageWindowCommon.cs" />
-     <Compile Include="Assets\Resources\UnityPurchasing\generated\AppleTangle.cs" />
-     <Compile Include="Assets\Resources\UnityPurchasing\generated\GooglePlayTangle.cs" />
-     <Compile Include="Assets\Scripts\Audio\AudioEvents.cs" />
-     <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
-     <Compile Include="Assets\Scripts\Audio\ButtonClickSfx.cs" />
-     <Compile Include="Assets\Scripts\common\DataHolder.cs" />
-     <Compile Include="Assets\Scripts\common\SceneMover.cs" />
-     <Compile Include="Assets\Scripts\common\Singleton.cs" />
-     <Compile Include="Assets\Scripts\configs\ImageDatabase.cs" />
-     <Compile Include="Assets\Scripts\configs\PrefabDatabase.cs" />
-     <Compile Include="Assets\Scripts\consts\StringConstants.cs" />
-     <Compile Include="Assets\Scripts\Control\BallControl.cs" />
-     <Compile Include="Assets\Scripts\Control\SwipeDetector.cs" />
-     <Compile Include="Assets\Scripts\Highscores\HighscoreManager.cs" />
-     <Compile Include="Assets\Scripts\Level\ColorToPrefab.cs" />
-     <Compile Include="Assets\Scripts\Level\LevelAvailability.cs" />
-     <Compile Include="Assets\Scripts\Level\LevelBuilder.cs" />
-     <Compile Include="Assets\Scripts\Level\LevelResults.cs" />
-     <Compile Include="Assets\Scripts\Level\Levels.cs" />
-     <Compile Include="Assets\Scripts\Level\LevelView.cs" />
-     <Compile Include="Assets\Scripts\Level\LevelViewManager.cs" />
-     <Compile Include="Assets\Scripts\leveleditor\EditorTile.cs" />
-     <Compile Include="Assets\Scripts\leveleditor\LevelEditor.cs" />
-     <Compile Include="Assets\Scripts\leveleditor\MapObjectEd.cs" />
-     <Compile Include="Assets\Scripts\leveleditor\TouchEditorTile.cs" />
-     <Compile Include="Assets\Scripts\leveleditor\TouchMapObjectEd.cs" />
-     <Compile Include="Assets\Scripts\leveleditor\UIManagerEditor.cs" />
-     <Compile Include="Assets\Scripts\managers\GameManager.cs" />
-     <Compile Include="Assets\Scripts\managers\UIManager.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\Ball.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\Bomb.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\Explosion.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\Gate.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\GrayBall.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\HoleTarget.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\iBall.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\iWall.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\Key.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\MetalBlock.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\Sand.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\Wall.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\WallDestructable.cs" />
-     <Compile Include="Assets\Scripts\MapObjects\Water.cs" />
-     <Compile Include="Assets\Scripts\Preferences\GamePreferences.cs" />
-     <Compile Include="Assets\Scripts\Tools\FollowTrail.cs" />
-     <Compile Include="Assets\Scripts\Tools\GolfTools.cs" />
-     <Compile Include="Assets\Scripts\Tools\LevelGenerator.cs" />
-     <Compile Include="Assets\Scripts\Tutorial\IntEvent.cs" />
-     <Compile Include="Assets\Scripts\Tutorial\ScaledChosenComponent.cs" />
-     <Compile Include="Assets\Scripts\Tutorial\TutorialManager.cs" />
-     <Compile Include="Assets\Scripts\Tutorial\TutorialMonobeh.cs" />
-     <Compile Include="Assets\Scripts\Tutorial\TutorialPoint.cs" />
-     <Compile Include="Assets\Scripts\Tutorial\TutorialPointData.cs" />
-     <Compile Include="Assets\Scripts\UI\HideBeyondScreenComponent.cs" />
-     <Compile Include="Assets\Scripts\UI\LocalizedTextMeshPro.cs" />
-     <Compile Include="Assets\Scripts\UI\MainMenuMover.cs" />
-     <Compile Include="Assets\Scripts\UI\MainMenuUIManager.cs" />
-     <Compile Include="Assets\Scripts\UI\MyFileBrowser.cs" />
-     <Compile Include="Assets\Scripts\UI\OptionsMenu.cs" />
-     <Compile Include="Assets\Scripts\UI\Tooltip\Tooltip.cs" />
-     <Compile Include="Assets\Scripts\UI\Tooltip\TooltipController.cs" />
-     <Compile Include="Assets\Scripts\UI\TutorialMesWindow.cs" />
-     <Compile Include="Assets\Scripts\UI\WinLevelPanel.cs" />
-     <Compile Include="Assets\SimpleLocalization\Downloader.cs" />
-     <Compile Include="Assets\SimpleLocalization\Example.cs" />
-     <Compile Include="Assets\SimpleLocalization\LocalizationLoad.cs" />
-     <Compile Include="Assets\SimpleLocalization\LocalizationManager.cs" />
-     <Compile Include="Assets\SimpleLocalization\LocalizationSync.cs" />
-     <Compile Include="Assets\SimpleLocalization\LocalizedDropdown.cs" />
-     <Compile Include="Assets\SimpleLocalization\LocalizedText.cs" />
-     <Compile Include="Assets\SimpleLocalization\Sheet.cs" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\EasyMobile\Third-Party Notices.txt" />
-     <None Include="Assets\EasyMobile\link.xml" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets\EasyMobile\Plugins\Android\m2repository\com\sglib\easymobile\easy-mobile\maven-metadata.xml" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\JsonDotNet\link.xml" />
-     <None Include="Assets\Resources\solution.txt" />
-     <None Include="Assets\EasyMobile\Demo\Materials\VerticalGradientSkybox.shader" />
-     <None Include="Assets\Demigiant\DOTween\readme.txt" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\EasyMobile\Demo\Materials\GradientSkybox.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
-     <None Include="Assets\EasyMobile\Demo\Materials\VerticalGradient.shader" />
-     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Moments_License.txt" />
-     <None Include="Assets\EasyMobile\GUISkins\Fonts\Montserrat\Montserrat - SIL Open Font License.txt" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\NewFile1.txt" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\EasyMobile\Demo\Fonts\JosefinSans\JosefinSans - SIL Open Font License.txt" />
- <Reference Include="Unity.Timeline.Editor">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.VSCode.Editor">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Timeline">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Rider.Editor">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.UI">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AIModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ARModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AccessibilityModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AndroidJNIModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AnimationModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AssetBundleModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.AudioModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ClothModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.CoreModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.CrashReportingModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.DSPGraphModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.DirectorModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.FileSystemHttpModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.GameCenterModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.GridModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.HotReloadModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.IMGUIModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ImageConversionModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.InputModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.InputLegacyModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.JSONSerializeModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.LocalizationModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ParticleSystemModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.PerformanceReportingModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.PhysicsModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Physics2DModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ProfilerModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.ScreenCaptureModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SharedInternalsModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpriteMaskModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SpriteShapeModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.StreamingModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.SubstanceModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TLSModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TerrainModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TerrainPhysicsModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TextCoreModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TextRenderingModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.TilemapModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UIModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UIElementsModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UNETModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UmbraModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityAnalyticsModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityConnectModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityTestProtocolModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestAudioModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestTextureModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.UnityWebRequestWWWModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VFXModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VRModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VehiclesModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.VideoModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.WindModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.XRModule">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
- </Reference>
- <Reference Include="Editor">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
- </Reference>
- <Reference Include="Purchasing.Common">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
- </Reference>
- <Reference Include="Stores">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
- </Reference>
- <Reference Include="Apple">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
- </Reference>
- <Reference Include="FacebookStore">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
- </Reference>
- <Reference Include="Security">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
- </Reference>
- <Reference Include="winrt">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>E:/git_repo/golfpuzzle/golfpuzzle/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="mscorlib">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
- </Reference>
- <Reference Include="System">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
- </Reference>
- <Reference Include="System.Core">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.Linq">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
- </Reference>
- <Reference Include="System.Numerics.Vectors">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Http">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.CSharp">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
- </Reference>
- <Reference Include="System.Data">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
- </Reference>
- <Reference Include="Microsoft.Win32.Primitives">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="netstandard">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
- </Reference>
- <Reference Include="System.AppContext">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.Concurrent">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.NonGeneric">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
- </Reference>
- <Reference Include="System.Collections.Specialized">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.Annotations">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.EventBasedAsync">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.Primitives">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.ComponentModel.TypeConverter">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
- </Reference>
- <Reference Include="System.Console">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
- </Reference>
- <Reference Include="System.Data.Common">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Contracts">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Debug">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.FileVersionInfo">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Process">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.StackTrace">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.TextWriterTraceListener">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.Tools">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
- </Reference>
- <Reference Include="System.Diagnostics.TraceSource">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
- </Reference>
- <Reference Include="System.Drawing.Primitives">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Dynamic.Runtime">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="System.Globalization.Calendars">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
- </Reference>
- <Reference Include="System.Globalization">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
- </Reference>
- <Reference Include="System.Globalization.Extensions">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Compression.ZipFile">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
- </Reference>
- <Reference Include="System.IO">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem.DriveInfo">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem.Primitives">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.FileSystem.Watcher">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.IsolatedStorage">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.MemoryMappedFiles">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.Pipes">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
- </Reference>
- <Reference Include="System.IO.UnmanagedMemoryStream">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq.Expressions">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq.Parallel">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
- </Reference>
- <Reference Include="System.Linq.Queryable">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Http.Rtc">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.NameResolution">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.NetworkInformation">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Ping">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Primitives">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Requests">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Security">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.Sockets">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.WebHeaderCollection">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.WebSockets.Client">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
- </Reference>
- <Reference Include="System.Net.WebSockets">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
- </Reference>
- <Reference Include="System.ObjectModel">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Emit">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Emit.ILGeneration">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Emit.Lightweight">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Extensions">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Reflection.Primitives">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Resources.Reader">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
- </Reference>
- <Reference Include="System.Resources.ResourceManager">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
- </Reference>
- <Reference Include="System.Resources.Writer">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.CompilerServices.VisualC">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Extensions">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Handles">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.InteropServices">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Numerics">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Formatters">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Json">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Primitives">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Runtime.Serialization.Xml">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Claims">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Algorithms">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Csp">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Encoding">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.Primitives">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Cryptography.X509Certificates">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.Principal">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
- </Reference>
- <Reference Include="System.Security.SecureString">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.Duplex">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.Http">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.NetTcp">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.Primitives">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
- </Reference>
- <Reference Include="System.ServiceModel.Security">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.Encoding">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.Encoding.Extensions">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="System.Text.RegularExpressions">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Overlapped">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Tasks">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Tasks.Parallel">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Thread">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.ThreadPool">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading.Timer">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
- </Reference>
- <Reference Include="System.ValueTuple">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.ReaderWriter">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XDocument">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XmlDocument">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XmlSerializer">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XPath">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
- </Reference>
- <Reference Include="System.Xml.XPath.XDocument">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
- </Reference>
- <Reference Include="UnityScript">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
- </Reference>
- <Reference Include="UnityScript.Lang">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
- </Reference>
- <Reference Include="Boo.Lang">
- <HintPath>E:/Unity/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleAudio.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModulePhysics2D.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleSprite.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUI.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUnityVersion.cs" />
+    <Compile Include="Assets\Demigiant\DOTween\Modules\DOTweenModuleUtils.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\AdsSection.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\AdvertisingDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\BannerSection.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\InterstitialSection.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\LoadAndShowSection.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\AdvertisingDemo\RewardedVideoSection.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\AlertPopup.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\ColorChooser.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\ColorHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\DemoHomeController.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\DemoUtils.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\DigitalClock.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\LoadingPanelController.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\SoundManager.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\Common\TextureGenerator.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_Multiplayer_BaseControl.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_Multiplayer_RealtimeKitchenSink.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_Multiplayer_TurnbasedKitchenSink.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\GameServicesDemo_SavedGames.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DCameraControl.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DCarControl.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DCarInputHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DGameControl.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DGameModel.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\Racing3D\Racing3DGameView.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\TicTacToe\TicTacToeGameControl.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\TicTacToe\TicTacToeGameModel.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GameServicesDemo\TicTacToe\TicTacToeGameView.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\GifDemo\GifDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\InAppPurchasingDemo\InAppPurchasingDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\AddedStringStringView.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\ContactDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\ContactView.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\ContactsDemo\StringStringCollectionView.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\MediaDemo\MediaDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\MediaDemo\MediaResultView.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NativeAPIsDemo\NativeUIDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NotificationsDemo\NotificationHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\NotificationsDemo\NotificationsDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\PrivacyDemo\DemoAppConsent.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\PrivacyDemo\PrivacyDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\SharingDemo\SharingDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\Scripts\UtilitiesDemo\UtilitiesDemo.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\ScrollableList\ScrollableList.cs" />
+    <Compile Include="Assets\EasyMobile\Demo\ScrollableList\ScrollableListItem.cs" />
+    <Compile Include="Assets\EasyMobile\Generated\EM_IAPConstants.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\AppLifecyleHandler\AndroidAppLifecyleHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\AppLifecyleHandler\DummyAppLifecyleHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\AppLifecyleHandler\IAppLifecycleHandler.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Attributes\EnumFlagsAttribute.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Attributes\RenameAttribute.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableDictionary.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableDictionaryBase.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableDictionaryDefinition.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableKeyValuePair.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\SerializableKeyValuePairDefinition.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\CustomTypes\StrongToWeakDictionary.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Extensions\ColorExt.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Extensions\DateTimeExt.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Helpers\RuntimeHelper.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ActionElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ActivityAliasElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ActivityElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ApplicationElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\Base\AndroidManifestElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\Base\AndroidManifestElementStyles.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\CategoryElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\DataElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\GrantUriPermissionElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\InstrumentationElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\IntentFilterElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ManifestElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\MetaDataElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PathPermissionElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PermissionElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PermissionGroupElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\PermissionTreeElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ProviderElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ReceiverElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\ServiceElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\SupportsGlTextureElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\SupportsScreensElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesConfigurationElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesFeatureElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesLibraryElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesPermissionElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesPermissionSdk23Element.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\AndroidManifestElements\UsesSdkElement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\FolderHelper.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\ManifestGenerator\GeneratableAndroidManifest.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\MiniJSON\MiniJSON.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\AndroidUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\FileUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\PInvokeCallbackUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\PInvokeUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\ReflectionUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\StorageUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\TextureUtilities.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Common\Utils\Util.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\AndroidPermission.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\AppLifecycleManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\CrossPlatformId.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\EM_Settings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\IAndroidPermissionRequired.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\IIOSInfoItemRequired.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\iOSInfoPlistItem.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\Module.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\RuntimeManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Core\Submodule.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdChildDirectedTreatment.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdId.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdLocation.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdNetwork.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdOrientation.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdPlacement.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdType.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\Advertising.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AdvertisingConsentManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\AutoAdLoadingMode.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\BannerAdPosition.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\BannerAdSize.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AdClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AdColonyClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AdMobClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AppLovinClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\AudienceNetworkClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\ChartboostClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\FairBidClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\IAdClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\IronSourceClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\MoPubClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\NoOpClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\TapjoyClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkClients\UnityAdsClientImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AdColonySettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AdMobSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AdNetworkSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AppLovinSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\AudienceNetworkSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\ChartboostSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\FairBidSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\IronSourceSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\MoPubSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\TapjoySettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Advertising\NetworkSettings\UnityAdsSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\GameServices.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\GameServicesItem.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\GameServicesSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\GameServices_Multiplayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\GameServicesSettings_Multiplayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Invitation.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\IRealTimeMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\IRealTimeMultiplayerListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\ITurnBasedMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\MatchOutcome.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\MatchRequest.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\MatchType.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Participant.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\EditorRealTimeMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\EditorTurnBasedMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCRealTimeMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GameKitTypeConverter.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKLocalPlayerListenerImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKMatchDelegateImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKMatchmakerViewControllerDelegateImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKTurnBasedMatchmakerViewControllerDelegateImpl.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCSupport\GKTurnBasedParticipantExt.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GCTurnBasedMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GPGRealTimeMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GPGSupport\GPGTypeConverter.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\GPGTurnBasedMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\UnsupportedRealTimeMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\Platforms\UnsupportedTurnBasedMultiplayerClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Multiplayer\TurnBasedMatch.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Platforms\GCSupport\GameKitTypeConverter.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\Player.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\GameServices_SavedGames.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\GameServicesSettings_SavedGames.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\ISavedGameClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Native\iOSSavedGameNative.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\AndroidSavedGameClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\EditorSavedGameClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\iOSSavedGameClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\Platforms\UnsupportedSavedGameClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\SavedGame.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GameServices\SavedGames\SavedGameInfoUpdate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\AnimatedClip.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\ClipPlayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\ClipPlayerScaleMode.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\ClipPlayerUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Gif.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\GifExportTask.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Giphy\Giphy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Giphy\GiphyUploadParams.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\IClipPlayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\GifEncoder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\GifFrame.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\LzwEncoder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Gif\NeuQuant.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\MinAttribute.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\ReflectionUtils.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Scripts\Worker.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Platforms\AndroidNativeGif.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Platforms\iOSNativeGif.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Platforms\NativeGifTypes.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\GIF\Recorder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\IAPProduct.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\IAPSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\IAPStore.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\InAppPurchasing\InAppPurchasing.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Contact.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\ContactsAPISettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\DeviceContacts.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidContactBridge.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidContactsProvider.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidGetContactsProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\AndroidPickContactProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\Android\StringStringPairBridge.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\INativeContactsProvider.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\IOS\IOSContactsPickerCallback.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\IOS\IOSContactsProvider.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\IOS\Utilities.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Contacts\Internal\UnsupportedContactProvider.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\CameraType.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\IDeviceCamera.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\IDeviceGallery.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\ImageFormat.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidDeviceCamera.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidDeviceGallery.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidMediaResultBridge.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidLoadImageProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidMediaCollectedProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidPickFromGalleryProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Android\AndroidProxies\AndroidSaveImageProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\IOS\InternalUIImagePickerControllerDelegate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\IOS\IOSDeviceCamera.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\IOS\IOSDeviceGallery.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Unsupported\UnsupportedDeviceCamera.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Internal\Unsupported\UnsupportedDeviceGallery.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\Media.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\MediaAPISettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\MediaResult.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\Media\MediaType.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeApisSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\NativeUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\NativeUI_AlertPopup.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\Platforms\AndroidNativeAlert.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\NativeAPIs\NativeUI\Platforms\iOSNativeAlert.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\FirebaseMessagingPayLoad.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\AndroidNotificationListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\EditorNotificationListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\INotificationListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\iOSNotificationListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Listener\UnsupportedNotificationListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\AndroidLocalNotificationClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\EditorLocalNotificationClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\ILocalNotificationClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\iOSLocalNotificationClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\LocalNotification\UnsupportedLocalNotificationClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Native\AndroidNotificationNative.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\Native\iOSNotificationNative.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\RemoteNotification\FirebaseMessagingHelper.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Internal\RemoteNotification\OneSignalHelper.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Notification.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationCategory.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationContent.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationRepeat.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationRequest.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\Notifications.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationsConsentManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\NotificationsSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Notifications\OneSignalNotificationPayload.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentStatus.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\ConsentStorage.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEACountries.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEARegionStatus.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEARegionValidationMethods.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\EEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\AndroidEEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\BaseNativeEEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\iOSEEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\IPlatformEEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\EEARegion\Internal\UnsupportedEEARegionValidator.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\GlobalConsentManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\IConsentRequirable.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\ConsentDialogContentSerializer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogButtonUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogClickableText.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogToggleSwitch.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogToggleUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\EditorUI\EditorConsentDialogUI.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\Listener\NativeConsentDialogListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\AndroidConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\EditorConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\iOSConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\IPlatformConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Internal\PlatformConsentDialog\UnsupportedConsentDialog.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\Privacy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Privacy\PrivacySettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\AndroidSharingClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\iOSSharingClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\ISharingClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Platforms\UnsupportedSharingClient.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\Sharing.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Sharing\SharingSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\Platforms\AndroidNativeUtility.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\Platforms\iOSNativeUtility.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\RatingDialogContent.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\RatingRequestSettings.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Modules\Utilities\StoreReview\StoreReview.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\Android\Common\EMAndroidJavaObject.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\Common\IInteropObject.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\Common\InteropObject.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\Common\InteropObjectFactory.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSInteropObject.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSMulticastDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\iOSObjectProxy.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Common\Utils\iOSInteropUtil.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContact.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactFetchRequest.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactFormatter.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactProperty.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactSortOrder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNContactStore.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNKeyDescriptor.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNLabeledValue.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNMutableContact.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNPhoneNumber.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNPostalAddress.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\CNSaveRequest.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\Constants.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\Internal\InternalCNKeyDescriptor.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Contacts\Internal\InternalCNLabeledValue.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\ContactsUI\CNContactPickerDelegate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\ContactsUI\CNContactPickerViewController.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\ContactsUI\Internal\CNContactPickerDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\CoreFoundation\Functions\CFFunctions_CFType.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\CoreGraphics\CGSize.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\CoreTelephony\CTCarrier.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSArray.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSData.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSDateComponents.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSDictionary.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSError.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSFileManager.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSLocale.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSMutableArray.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSPredicate.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSRange.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSString.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSTimeZone.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\Foundation\NSURL.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKErrorCode.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKInvite.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKInviteEventListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKLocalPlayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKLocalPlayerListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatch.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatchmaker.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatchmakerViewController.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKMatchRequest.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKPlayer.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedEventListener.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedMatch.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedMatchmakerViewController.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\GKTurnBasedParticipant.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKInviteEventListenerForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKLocalPlayerListenerForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKMatchDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKMatchmakerViewControllerDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKTurnBasedEventListenerForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\GameKit\Internal\GKTurnBasedMatchmakerViewControllerDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\MobileCoreServices\Constants\UTTypeConstants.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\Functions\UIFunctions_ImagesAndPDF_ImageCreation.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\Functions\UIFunctions_ImagesAndPDF_PhotoAlbum.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\Internal\UIImagePickerControllerDelegateForwarder.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIActivity.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIActivityViewController.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIApplication.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIImage.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIImagePickerController.cs" />
+    <Compile Include="Assets\EasyMobile\Scripts\Native\iOS\UIKit\UIViewController.cs" />
+    <Compile Include="Assets\EasyMobileManager.cs" />
+    <Compile Include="Assets\MessageWindowCommon.cs" />
+    <Compile Include="Assets\Resources\UnityPurchasing\generated\AppleTangle.cs" />
+    <Compile Include="Assets\Resources\UnityPurchasing\generated\GooglePlayTangle.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioEvents.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Audio\ButtonClickSfx.cs" />
+    <Compile Include="Assets\Scripts\common\DataHolder.cs" />
+    <Compile Include="Assets\Scripts\common\SceneMover.cs" />
+    <Compile Include="Assets\Scripts\common\Singleton.cs" />
+    <Compile Include="Assets\Scripts\configs\ImageDatabase.cs" />
+    <Compile Include="Assets\Scripts\configs\PrefabDatabase.cs" />
+    <Compile Include="Assets\Scripts\consts\StringConstants.cs" />
+    <Compile Include="Assets\Scripts\Control\BallControl.cs" />
+    <Compile Include="Assets\Scripts\Control\SwipeDetector.cs" />
+    <Compile Include="Assets\Scripts\Highscores\HighscoreManager.cs" />
+    <Compile Include="Assets\Scripts\Level\ColorToPrefab.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelAvailability.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelBuilder.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelResults.cs" />
+    <Compile Include="Assets\Scripts\Level\Levels.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelView.cs" />
+    <Compile Include="Assets\Scripts\Level\LevelViewManager.cs" />
+    <Compile Include="Assets\Scripts\leveleditor\EditorTile.cs" />
+    <Compile Include="Assets\Scripts\leveleditor\LevelEditor.cs" />
+    <Compile Include="Assets\Scripts\leveleditor\MapObjectEd.cs" />
+    <Compile Include="Assets\Scripts\leveleditor\TouchEditorTile.cs" />
+    <Compile Include="Assets\Scripts\leveleditor\TouchMapObjectEd.cs" />
+    <Compile Include="Assets\Scripts\leveleditor\UIManagerEditor.cs" />
+    <Compile Include="Assets\Scripts\managers\GameManager.cs" />
+    <Compile Include="Assets\Scripts\managers\UIManager.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\Ball.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\Bomb.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\Explosion.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\Gate.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\GrayBall.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\HoleTarget.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\iBall.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\iWall.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\Key.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\MetalBlock.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\Sand.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\Wall.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\WallDestructable.cs" />
+    <Compile Include="Assets\Scripts\MapObjects\Water.cs" />
+    <Compile Include="Assets\Scripts\Preferences\GamePreferences.cs" />
+    <Compile Include="Assets\Scripts\Tools\FollowTrail.cs" />
+    <Compile Include="Assets\Scripts\Tools\GolfTools.cs" />
+    <Compile Include="Assets\Scripts\Tools\LevelGenerator.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\IntEvent.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\ScaledChosenComponent.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\TutorialManager.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\TutorialMonobeh.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\TutorialPoint.cs" />
+    <Compile Include="Assets\Scripts\Tutorial\TutorialPointData.cs" />
+    <Compile Include="Assets\Scripts\UI\HideBeyondScreenComponent.cs" />
+    <Compile Include="Assets\Scripts\UI\LocalizedTextMeshPro.cs" />
+    <Compile Include="Assets\Scripts\UI\MainMenuMover.cs" />
+    <Compile Include="Assets\Scripts\UI\MainMenuUIManager.cs" />
+    <Compile Include="Assets\Scripts\UI\MyFileBrowser.cs" />
+    <Compile Include="Assets\Scripts\UI\OptionsMenu.cs" />
+    <Compile Include="Assets\Scripts\UI\Tooltip\Tooltip.cs" />
+    <Compile Include="Assets\Scripts\UI\Tooltip\TooltipController.cs" />
+    <Compile Include="Assets\Scripts\UI\TutorialMesWindow.cs" />
+    <Compile Include="Assets\Scripts\UI\WinLevelPanel.cs" />
+    <Compile Include="Assets\SimpleLocalization\Downloader.cs" />
+    <Compile Include="Assets\SimpleLocalization\Example.cs" />
+    <Compile Include="Assets\SimpleLocalization\LocalizationLoad.cs" />
+    <Compile Include="Assets\SimpleLocalization\LocalizationManager.cs" />
+    <Compile Include="Assets\SimpleLocalization\LocalizationSync.cs" />
+    <Compile Include="Assets\SimpleLocalization\LocalizedDropdown.cs" />
+    <Compile Include="Assets\SimpleLocalization\LocalizedText.cs" />
+    <Compile Include="Assets\SimpleLocalization\Sheet.cs" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\EasyMobile\Third-Party Notices.txt" />
+    <None Include="Assets\EasyMobile\link.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\EasyMobile\Plugins\Android\m2repository\com\sglib\easymobile\easy-mobile\maven-metadata.xml" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\JsonDotNet\link.xml" />
+    <None Include="Assets\Resources\solution.txt" />
+    <None Include="Assets\EasyMobile\Demo\Materials\VerticalGradientSkybox.shader" />
+    <None Include="Assets\Demigiant\DOTween\readme.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\EasyMobile\Demo\Materials\GradientSkybox.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\EasyMobile\Demo\Materials\VerticalGradient.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\EasyMobile\Scripts\Modules\GIF\Moments\Moments_License.txt" />
+    <None Include="Assets\EasyMobile\GUISkins\Fonts\Montserrat\Montserrat - SIL Open Font License.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\NewFile1.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\EasyMobile\Demo\Fonts\JosefinSans\JosefinSans - SIL Open Font License.txt" />
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Editor">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Purchasing.Common">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Stores">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Apple">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="FacebookStore">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+    </Reference>
+    <Reference Include="Security">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+    </Reference>
+    <Reference Include="winrt">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>D:/git_repo/golfpuzzle/golfpuzzle/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Annotations">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Rtc">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.ILGeneration">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Emit.Lightweight">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Duplex">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Http">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.NetTcp">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Primitives">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Security">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>D:/apps/2019.2.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
@@ -1169,4 +1170,9 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>D:\apps\2019.2.15f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

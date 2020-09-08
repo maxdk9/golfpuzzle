@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\User\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\User\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_golfpuzzle.96000208.00" t="ExcludeRecursive" />
-    <e p="E:\git_repo\golfpuzzle\golfpuzzle" t="IncludeRecursive">
+    <e p="C:\Users\maxdk9\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\maxdk9\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_golfpuzzle.-873580815.00" t="ExcludeRecursive" />
+    <e p="D:\git_repo\golfpuzzle\golfpuzzle" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -771,12 +771,14 @@
               <e p="NSShareResultCallbackAndroid.cs" t="Include" />
             </e>
             <e p="Editor" t="Include">
+              <e p="NativeShare.Editor.asmdef" t="Include" />
               <e p="NSPostProcessBuild.cs" t="Include" />
             </e>
             <e p="iOS" t="Include">
               <e p="NSShareResultCallbackiOS.cs" t="Include" />
             </e>
             <e p="NativeShare.cs" t="Include" />
+            <e p="NativeShare.Runtime.asmdef" t="Include" />
             <e p="readme.txt" t="Include" />
           </e>
           <e p="SimpleFileBrowser" t="Include">
@@ -798,6 +800,7 @@
                 <e p="RecycledListView.cs" t="Include" />
               </e>
             </e>
+            <e p="SimpleFileBrowser.Runtime.asmdef" t="Include" />
           </e>
           <e p="UnityPurchasing" t="Include">
             <e p="Editor" t="Include">
@@ -964,12 +967,15 @@
         </e>
       </e>
       <e p="golfpuzzle.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
       <e p="NativeShare.Editor.csproj" t="IncludeRecursive" />
       <e p="NativeShare.Runtime.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="SimpleFileBrowser.Runtime.csproj" t="IncludeRecursive" />
-      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
     </e>
   </component>
 </project>
