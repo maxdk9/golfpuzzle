@@ -8,6 +8,7 @@ public class MainMenuMover : MonoBehaviour
     
     public RectTransform OptionsTransform;
     public RectTransform CreditsTransform;
+    public RectTransform ShareTransform;
 
     public Vector3 hidePosition=new Vector3(3000,0,0);
     public Vector3 showPosition=new Vector3(0,0,0);
@@ -20,6 +21,7 @@ public class MainMenuMover : MonoBehaviour
     {
         OptionsTransform.DOMove(hidePosition, duration);
         CreditsTransform.DOMove(hidePosition, duration);
+        ShareTransform.DOMove(hidePosition, duration);
     }
 
 
@@ -27,14 +29,23 @@ public class MainMenuMover : MonoBehaviour
     {
         CreditsTransform.DOMove(showPosition, duration);
         OptionsTransform.DOMove(hidePosition, duration);
+        ShareTransform.DOMove(hidePosition, duration);
     }
 
     public void ShowOptionsMenu()
     {
         CreditsTransform.DOMove(hidePosition, duration);
         OptionsTransform.DOMove(showPosition, duration);
+        ShareTransform.DOMove(hidePosition, duration);
     }
-    
+
+
+    public void ShowShareMenu()
+    {
+        CreditsTransform.DOMove(hidePosition, duration);
+        OptionsTransform.DOMove(hidePosition, duration);
+        ShareTransform.DOMove(showPosition, duration);
+    }
     
     
     
