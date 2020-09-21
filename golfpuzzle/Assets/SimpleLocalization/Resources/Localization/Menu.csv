@@ -1,144 +1,149 @@
 Key,English,Russian,Ukrainian
-hptooltip,Health points1,Health points1,Health points1
-attacktooltip,Attack strength,Attack strength,Attack strength
-Reset,Reset,Reset,Reset
-Levellabel,Level,Level,Level
-Moveslabel,Moves,Moves,Moves
-Bestmoveslabel,Best,Best,Best
-Nextlevel,Next Level,Next Level,Next Level
-Winlevel,Level Won,Level Won,Level Won
-NewGameButton,New Game,New Game,New Game
-ContinueGameButton,Continue,Continue,Continue
-EditorGameButton,Editor,Editor,Editor
-TestLevelButton,Test Level,Test Level,Test Level
-OptionsGameButton,Options,Options,Options
+Reset,Reset,Сброс,Сброс
+Levellabel,Level,Уровень,Рівень
+Moveslabel,Moves,Ходы,Ходи
+Bestmoveslabel,Best,Рекорд,Рекорд
+Nextlevel,Next Level,След. Уровень,Наст. рівень
+Winlevel,Level Won,Победа,Перемога
+NewGameButton,New Game,Новая игра,Нова гра
+ContinueGameButton,Continue,Продолжить,Продовжити
+EditorGameButton,EDITOR,Редактор,Редактор
+TestLevelButton,Test Level,Проверка ,Перевирка
+OptionsGameButton,OPTIONS,Настройки,Опції
 tooltipBomb,"Bomb. Explodes on impact 
 with the wall or any moving
 objects. Explodes  an asteroid
-or warehouse on impact","Bomb. Explodes on impact 
-with the wall or any moving
-objects. Explodes  an asteroid
-or warehouse on impact","Bomb. Explodes on impact 
-with the wall or any moving
-objects. Explodes  an asteroid
-or warehouse on impact"
+or warehouse on impact","Бомба. Взрывается при ударе со 
+стеной или перемещающимися
+объектами. При взрыве уничтожает 
+астероиды и склады","Бомба. Вибухає при ударі зі
+стіною або переміщаються
+об'єктами. Під час вибуху знищує
+астероїди і склади"
 tooltipAsteroid,"Asteroid which you must
  move to the warp hole. 
 Can only be moved 
 in one direction per turn.
-Stops only if blocked","Asteroid which you must
- move to the warp hole. 
-Can only be moved 
-in one direction per turn.
-Stops only if blocked","Asteroid which you must
- move to the warp hole. 
-Can only be moved 
-in one direction per turn.
-Stops only if blocked"
+Stops only if blocked","Астероид который ты должен 
+провести в варп-портал. Может
+быть передвинут только в одном 
+направлении за ход. 
+Останавливается только если
+заблокирован
+","Астероїд який ти повинен
+провести в варп-портал. Може
+бути пересунутий тільки в одному
+напрямку за хід.
+Зупиняється тільки якщо
+заблокований
+"
 tooltipGrayball,"Empty asteroid. 
 Can only be moved in one
 direction per turn. Stops only
 if blocked. It can not be moved
- to the warp hole","Empty asteroid. 
-Can only be moved in one
-direction per turn. Stops only
-if blocked. It can not be moved
- to the warp hole","Empty asteroid. 
-Can only be moved in one
-direction per turn. Stops only
-if blocked. It can not be moved
- to the warp hole"
+ to the warp hole","Пустой астероид. Может
+быть передвинут только в одном 
+направлении за ход. 
+Останавливается только если
+заблокирован. Не может быть 
+помещен в варп портал
+","Порожній астероїд. може
+бути пересунутий тільки в одному
+напрямку за хід.
+Зупиняється тільки якщо
+заблокований. Не може бути
+поміщений у варп портал
+"
 tooltipKey,"Tumbler  to open power shields
 on the level. The power shields
 will open as soon as all tumblers
-are pressed simultaneously","Tumbler  to open power shields
-on the level. The power shields
-will open as soon as all tumblers
-are pressed simultaneously","Tumbler  to open power shields
-on the level. The power shields
-will open as soon as all tumblers
-are pressed simultaneously"
+are pressed simultaneously","Тумблер для выключения силовых
+щитов. Силовые щиты откроются
+как только все тумблеры будут
+нажаты одновременно","Тумблер для виключення силових
+щитів. Силові щити відкриються
+як тільки все тумблери будуть
+натиснуті одночасно"
 tooltipMark,"Warp hole. You must move asteroid 
 to this target. Remember, One asteroid 
-- one warp hole","Warp hole. You must move asteroid 
-to this target. Remember, One asteroid 
-- one warp hole","Warp hole. You must move asteroid 
-to this target. Remember, One asteroid 
-- one warp hole"
+- one warp hole","Варп-портал. Ты должен поместить
+в этот портал красный астероид. 
+Помни, один портал-один астероид.","Варп-портал. Ти повинен помістити
+в цей портал червоний астероїд.
+Пам'ятай, один портал-один астероїд."
 tooltipMetalblock,"Heavy factory platforms.
 Always move only one tile,
-then stop","Heavy factory platforms.
-Always move only one tile,
-then stop","Heavy factory platforms.
-Always move only one tile,
-then stop"
+then stop","Тяжелые фабричные платформы.
+Всегда двигаются только на один тайл
+а потом останавливаются.","Важкі фабричні платформи.
+Завжди рухаються тільки на один тайл
+а потім зупиняються."
 tooltipGate,"Power shields. Blocks objects. 
-Can be disconnected by a tumbler","Power shields. Blocks objects. 
-Can be disconnected by a tumbler","Power shields. Blocks objects. 
-Can be disconnected by a tumbler"
+Can be disconnected by a tumbler","Силовые щиты. Блокируют объекты.
+Могут быть отключены с помощью
+тумблера","Силові щити. Блокують об'єкти.
+Можуть бути відключені за допомогою
+тумблера"
 tooltipSand,"Small ""sandy"" nebula. 
-Slows down any moving body","Small ""sandy"" nebula. 
-Slows down any moving body","Small ""sandy"" nebula. 
-Slows down any moving body"
+Slows down any moving body","Маленькая ""песчаная туманность"". 
+Останавливает любой движущийся 
+объект.","Маленька ""піщана туманність"".
+Зупиняє будь-який рухомий
+об'єкт."
 tooltipWall,"Space station wall. 
 Can not move. 
 Blocks moving objects. 
-Can't be destroyed","Space station wall. 
-Can not move. 
-Blocks moving objects. 
-Can't be destroyed","Space station wall. 
-Can not move. 
-Blocks moving objects. 
-Can't be destroyed"
+Can't be destroyed","Стена космической станции. 
+Не двигается. Блокирует
+Двигающиеся предметы. Не 
+может быть разрушена","Стіна космічної станції.
+Не рухається. Блокує
+Рухомі предмети. Не
+може бути зруйнована"
 tooltipDestructibleWall,"Warehouse platform. 
 Can not move. 
 Blocks moving objects.
-Can be destroyed","Warehouse platform. 
-Can not move. 
-Blocks moving objects.
-Can be destroyed","Warehouse platform. 
-Can not move. 
-Blocks moving objects.
-Can be destroyed"
+Can be destroyed","Складская платформа.
+Не двигается. Блокирует 
+Двигающиеся предметы.
+Может быть разрушена.","Складська платформа.
+Не рухається. Блокує
+Рухомі предмети.
+Може бути зруйнована."
 tooltipWater,"Black hole. Any object
-caught in it is destroyed","Black hole. Any object
-caught in it is destroyed","Black hole. Any object
-caught in it is destroyed"
-tutorial1,Swipe screen to move objects . Get a red asteroid to the warp hole. Swipe upwards,Swipe screen to move objects . Get a red asteroid to the warp hole. Swipe upwards,Swipe screen to move objects . Get a red asteroid to the warp hole. Swipe upwards
-tutorialMetalblock,"All objects move together, 
-but some of them have
-different behaviour. Metal block 
-moved on one space, then stop","All objects move together, 
-but some of them have
-different behaviour. Metal block 
-moved on one space, then stop","All objects move together, 
-but some of them have
-different behaviour. Metal block 
-moved on one space, then stop"
-tutorialSand,"Some objects on the map are static, they do not move. The yellow nebula helps you to navigate. Move left and you asteroid stops in yellow nebula",The yellow nebula helps you to navigate. ,The yellow nebula helps you to navigate. 
-tutorialWater,"Avoid red holes, any moving object caught in it will be destroyed","Avoid red holes, any moving object caught in it will be destroyed","Avoid red holes, any moving object caught in it will be destroyed"
-tutorialBomb,With bomb you can clean warehouse platforms and open the way. Swipe up.,With bomb you can clean warehouse platforms and open the way.,With bomb you can clean warehouse platforms and open the way.
-loading,Loading,Loading,Loading
-tutorial2,Swipe to right. ,Swipe to right. ,Swipe to right. 
-tutorial3,Swipe down towards the warp hole,Swipe down towards the warp hole,Swipe down towards the warp hole
-tutorial5,Swipe up one more time to move the remaining block. ,Swipe up one more time to move the remaining block. ,Swipe up one more time to move the remaining block. 
-tutorial6,"Then, move asteroid to the warp hole!","Then, move asteroid to the warp hole!","Then, move asteroid to the warp hole!"
-tutorial8,"Avoid red holes, any moving object caught in it will be destroyed. Keep the moving via yellow nebulas to the warp hole.","Avoid red holes, any moving object caught in it will be destroyed. Keep the moving via yellow nebulas to the warp hole.","Avoid red holes, any moving object caught in it will be destroyed. Keep the moving via yellow nebulas to the warp hole."
-OptionsHeader,Options,Options,Options
-sfxMute,Mute SFX,Отключить SFX,вимкнути SFX
-musicMute,Mute Music,Отключить Музыку,вимкнути Музыку
-languageDropdown,Language,Language,Language
-disableTutorial,Disable Tutorial,Disable Tutorial,Disable Tutorial
-CreditsHeader,Credits,Credits,Credits
-tutorial12,"Gray asteroids can be used as helpful tools, for example for disable force barriers. Swipe right.","Gray asteroids can be used as helpful tools, for example for disable force barriers. Swipe right.","Gray asteroids can be used as helpful tools, for example for disable force barriers. Swipe right."
-tutorial13,Then swipe up and the force barriers will unlock.,Then swipe up and the force barriers will unlock.,Then swipe up and the force barriers will unlock.
-tutorial14,"If you made a wrong move, you can always start the level over, just press the reset button. now swipe to the left","If you made a wrong move, you can always start the level over, just press the reset button. now swipe to the left","If you made a wrong move, you can always start the level over, just press the reset button. now swipe to the left"
-tutorial15,"Finally finish the level, swipe up","Finally finish the level, swipe up","Finally finish the level, swipe up"
-tutorial17,Destroy other platforms - move down.,Destroy other platforms - move down.,Destroy other platforms - move down.
-tutorial18,Now the path is clear and you can send the asteroid to warp hole. Swipe left.,Now the path is clear and you can send the asteroid to warp hole. Swipe left.,Now the path is clear and you can send the asteroid to warp hole. Swipe left.
-Options.LanguageEnglish,English,Английский,Английська
-Options.LanguageRussian,Russian,Русский,Росийська
-Options.LanguageUkrainian,Ukrainian,Украинский,Украинська
+caught in it is destroyed","Черная дыра. Любой объект 
+попавший в нее будет разрушен","Чорна діра. Будь-який об'єкт
+потрапив в неї буде зруйнований"
+tutorial1,Swipe screen to move objects . Get a red asteroid to the warp hole. Swipe upwards,"Сделай свайп для того чтобы передвинуть 
+объекты. Тебе нужно переместить красный 
+астероид в варп портал. Свайпни вверх","Зроби свайп для того щоб пересунути
+об'єкти. Тобі потрібно перемістити червоний
+астероїд в варп портал. Свайпні вгору"
+tutorialMetalblock,"All objects move together, but some of them have different behaviour. Metal block moved on one space, then stop","Все объекты перемещаются одновременно, но некоторые из них имеют различное поведение. Фабричный блок перемещается  только на один тайл и останавливается","Всі об'єкти пересуваються одночасно, але деякі з них мають різну поведінку. Фабричний блок пересуваеться тільки на один тайл і зупиняється"
+tutorialSand,"Some objects on the map are static, they do not move. The yellow nebula helps you to navigate. Move left and you asteroid stops in yellow nebula","Некоторые объекты являются статичными, они не двигаются. Желтая Туманность поможет в передвижении астероидов. Свайпни влево и астероид остановится в желтой туманности","Деякі об'єкти є статичними, вони не рухаються. Жовта Туманність допоможе в пересуванні астероїдів. Свайпні вліво і астероїд зупиниться в жовтій туманності"
+tutorialWater,"Avoid red holes, any moving object caught in it will be destroyed","Избегай попаданий в красные дыры,так как попавший туда объект будет уничтожен","Уникай влучень в червоні діри, об'єкт що потрапив туди  буде знищений"
+tutorialBomb,With bomb you can clean warehouse platforms and open the way. Swipe up.,С помощью бомб ты сможешь уничтожить складские платформы и очистить путь. Свайп вверх!,За допомогою бомб ти зможеш знищити складські платформи і очистити шлях. Свайп вгору!
+loading,Loading,Загрузка,Загрузка
+tutorial2,Swipe to right. ,Свайп вправо...,Свайп вправо ...
+tutorial3,Swipe down towards the warp hole,Свайп вниз по направлению к варп порталу,Свайп вниз у напрямку до варп порталу
+tutorial5,Swipe up one more time to move the remaining block. ,Свайпни вверх еще раз чтобы продвинуть оставшийся блок,Свайпні вгору ще раз щоб просунути залишився блок
+tutorial6,"Then, move asteroid to the warp hole!",А затем перемести астероид в варп портал,А потім перетягни астероїд до варп порталу
+tutorial8,"Avoid red holes, any moving object caught in it will be destroyed. Keep the moving via yellow nebulas to the warp hole.","Избегайте красных дыр, любой объект попавший в него будет уничтожен. Перемещайтесь по желтым туманностям к варп -порталу","Уникайте червоних дірок, будь-який об'єкт потрапив в нього буде знищений. Просувайтесь по жовтим туманностям до варп-порталу"
+OptionsHeader,Options,Настройки,налаштування
+sfxMute,Mute SFX,Отключить SFX,відключити SFX
+musicMute,Mute Music,Отключить Музыку,відключити Музику
+languageDropdown,Language,Язык,Мова
+disableTutorial,Disable Tutorial,Отключить обучение,Відключити навчання
+CreditsHeader,CREDITS,О Программе,Про програму
+tutorial12,"Gray asteroids can be used as helpful tools, for example for disable force barriers. Swipe right.","Серые астероиды могут быть использованы как вспомогательные средства, к примеру для разблокирования силовых щитов. Свайпни вправо","Сірі астероїди можуть бути використані як допоміжні засоби, Наприклад для розблокування силових щитів. Свайпні вправо"
+tutorial13,Then swipe up and the force barriers will unlock.,А теперь свайпни вверх и силовые щиты будут  разблокированы,А тепер свайпні вгору і силові щити будуть розблоковані
+tutorial14,"If you made a wrong move, you can always start the level over, just press the reset button. now swipe to the left",Если ты сделаешь неверный ход ты всегда можешь начать уровень сначала. Просто нажми кнопку СБРОС. А теперь свайпни влево,Якщо ти зробиш неправильний хід ти завжди можеш почати рівень спочатку. Просто натисни на кнопку СКИДАННЯ. А тепер свайпні вліво
+tutorial15,"Finally finish the level, swipe up",И наконец закончи уровень свайпом вверх,І нарешті закінчи рівень свайпом вгору
+tutorial17,Destroy other platforms - move down.,Уничтожь остальные платформы свайпом вверх,Знищ інші платформи свайпом вгору
+tutorial18,Now the path is clear and you can send the asteroid to warp hole. Swipe left.,Теперь путь открыт и ты можешь отправить астероид в варп портал. Свайп влево...,Тепер шлях відкритий і ти можеш відправити астероїд в варп портал. Свайп вліво ...
+Options.LanguageEnglish,English,Английский,Англійська
+Options.LanguageRussian,Russian,Русский,Русский
+Options.LanguageUkrainian,Ukrainian,Украинский,Український
 RATE_LOC_TITLE,Rate,Оценить,Оцінити
 RATE_LOC_MESSAGE,How would you rate,Как бы Вы оценили,Як би ви оцінили
 RATE_LOC_LOWRATINGMESSAGE,That's bad. Would you like to give us some feedback instead?,"Печально, возможно вы лучше дадите фидбек разрабочикам, поможете сделать приложение лучше?","Сумно, можливо ви краще надасте фідбек розробникам та допоможете зробити гру краще?"
@@ -162,3 +167,13 @@ licensed under free licence of Creative Commons CC BY 4.0."
 labelProgrammer,Programmer,Программист,Розробник
 valueProgrammer,Max Matyushenko,Max Matyushenko,Max Matyushenko
 labelMusic,Music,Музыка,Музика
+RateButton,RATE,Оценить,Оцінити
+ShareButton,SHARE,Поделится,Поділиться
+SupportButton,SUPPORT,Поддержка,Підтримка
+ShareHeader,SHARE,Поделится,Поділитись
+PlayButton,PLAY,Играть,Грати
+YourScoreLabel,YOUR SCORE,ТВОЙ РЕЗУЛЬТАТ,Твій Результат
+MilestoneHeader,MILESTONE LEVEL,КОНТРОЛЬНЫЙ УРОВЕНЬ,КОНТРОЛЬНЫЙ РIВЕНЬ
+SuggestionLevelPack1,"You have reached the free level limit. But if you liked the game, I suggest buying another set of 50 even more difficult and exciting levels of the game","Вы достигли последнего бесплатного уровня. Но если вам понравилась игра, я предлагаю купить еще один набор из 50 еще более сложных и захватывающих уровней игры","Ви досягли останнього безкоштовного рівня. Але якщо вам сподобалася гра, я пропоную купити ще один набір з 50 ще більш складних і захоплюючих рівнів гри"
+BuyButton,Buy,Купить,Купити
+MainMenuButton,Main Menu,Глав. Меню,Гол. Меню

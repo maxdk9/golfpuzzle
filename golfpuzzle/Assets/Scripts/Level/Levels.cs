@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using Highscores;
 using Newtonsoft.Json;
+using Tools;
 using UnityEngine;
 
 
@@ -15,19 +16,17 @@ public class Levels : MonoBehaviour
 
 
 
-    
-    
-    
-    
-    public void LoadLevels()
+
+    public static List<Level> GetLevels()
     {
+        List<Level> reslevels=new List<Level>();
         String filename = "cards1.json";
         string filePath = GetStreamingAssetsFilePath.GetPath(filename);
         string dataAsJson="";
         if (File.Exists(filePath))
         {
             dataAsJson = File.ReadAllText(filePath);
-            mLevels = JsonConvert.DeserializeObject<List<Level>>(dataAsJson,
+            reslevels = JsonConvert.DeserializeObject<List<Level>>(dataAsJson,
                 new Newtonsoft.Json.Converters.StringEnumConverter());
         }
         else
@@ -36,66 +35,30 @@ public class Levels : MonoBehaviour
         }
         
         
-        foreach (var VARIABLE in mLevels)
+        foreach (var VARIABLE in reslevels)
         {
             VARIABLE.Init();
-         
         }
 
-
-        PrintLevelSolution();
-
-
+        return reslevels;
     }
     
     
-    private void PrintLevelSolution()
+    
+    public void LoadLevels()
     {
-        string path = "Assets/Resources/solution.txt";
 
-        //Write some text to the test.txt file
-        StreamWriter writer = new StreamWriter(path, true);       
-        for (int i = 0; i <= 91; i++)
-        {
-
-            Level checkedLevel = null;
-            string levelSolution = "";
-            foreach (Level level in mLevels)
-            {
-                if (level.levelNumber == i)
-                {
-                    checkedLevel = level;
-                }
-            }
-
-            if (checkedLevel != null&&checkedLevel.solution!=null)
-            {
-                levelSolution = checkedLevel.solution;
-            }
-
-            string mysolution = HighscoreManager.GetInstance().GetLevelSolution(i);
-            string resstring = "";
-            try
-            {
-                if (mysolution.Equals("") && levelSolution.Equals(""))
-                {
-                    resstring = String.Format("Level number = {0}; NO SOLUTION", i);
-                }
-                else
-                {
-                    resstring = String.Format("Level number = {0}; my solution = {1} ; def solution = {2}", i,
-                        mysolution, levelSolution);
-                }
-            }
-            catch (Exception e)
-            {
-                Debug.Log(e.Message);
-            }
-
-            writer.WriteLine(resstring);
-        }
-        writer.Close();
+        mLevels = GetLevels();
+        
+        // TestLevels.Instance.PrintLevelSolution(mLevels);
     }
+
+    
+
+   
+
+
+    
     
     private void Awake()
     {

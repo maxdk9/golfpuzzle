@@ -7,11 +7,24 @@ namespace Control
     {
         private Vector2 fingerDownPosition;
         private Vector2 fingerUpPosition;
+        
+        private Vector2 fingerDownPosition1=new Vector2();
+        private Vector2 fingerUpPosition1=new Vector2();
+        
+        
         private float minDistanceForSwipe;
         private float aspectRatio;
         
-        public static event Action<SwipeData> OnSwipe=delegate(SwipeData data) {  }; 
-        
+        public static event Action<SwipeData> OnSwipe=delegate(SwipeData data) {  };
+
+
+        private UIManager uiManager;
+
+        private void Awake()
+        {
+            uiManager = FindObjectOfType<UIManager>();
+        }
+
 
         private void Start()
         {
@@ -55,12 +68,26 @@ namespace Control
         {
             if (SwipeDistanceSheckMet())
             {
+
+                fingerDownPosition1.x = fingerDownPosition.x;
+                fingerDownPosition1.y = fingerDownPosition.y;
+
+                fingerUpPosition1.x = fingerUpPosition.x;
+                fingerUpPosition1.y = fingerUpPosition.y;
+                
+                
+                
+                
+                
                 if (isVerticalSwipe())
                 {
                     SwipeDirection direction = fingerDownPosition.y - fingerUpPosition.y > 0
                         ? SwipeDirection.up
                         : SwipeDirection.down;
 
+                    string teststring =
+                        String.Format("direction {0} Up = {1} Down {2}",direction.ToString(),fingerUpPosition1.ToString() , fingerDownPosition1.ToString());
+                    uiManager.SetTestLabelText(teststring);
                     SendSwipe(direction);
                 }
                 else
@@ -68,9 +95,16 @@ namespace Control
                     SwipeDirection direction = fingerDownPosition.x - fingerUpPosition.x > 0
                         ? SwipeDirection.right
                         : SwipeDirection.left;
+                    
+                    string teststring =
+                        String.Format("direction {0} Up = {1} Down {2}",direction.ToString(),fingerUpPosition1.ToString() , fingerDownPosition1.ToString());
+                    
+                    
+                    uiManager.SetTestLabelText(teststring);
+                    
                     SendSwipe(direction);
                 }
-                
+                fingerUpPosition = fingerDownPosition;
             }
         }
 
@@ -79,8 +113,8 @@ namespace Control
             SwipeData swipeData = new SwipeData()
             {
                 Direction=direction,
-                StartPosition = fingerDownPosition,
-                EndPosition = fingerUpPosition
+                StartPosition = fingerDownPosition1,
+                EndPosition = fingerUpPosition1
                     
                     
             };
@@ -119,6 +153,13 @@ namespace Control
         public Vector2 StartPosition;
         public Vector2 EndPosition;
 
+        public string GetDescription()
+        {
+            string res = "";
+            res = String.Format("Direction : {0} ,start position x {1},y{2} ,fin position x {1},y{2}",
+                Direction.ToString(), StartPosition.x, StartPosition.y, EndPosition.x, EndPosition.y);
+            return res;
+        }
     }
 
     public enum SwipeDirection

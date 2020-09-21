@@ -16,6 +16,7 @@ public class UIManager : MonoBehaviour
     public TextMeshProUGUI MoveCounter;
     public TextMeshProUGUI BestResultCounter;
     public TextMeshProUGUI SolutionLabel;
+    public TextMeshProUGUI SolutionLabel2;
     
     public Button ResetButton;
     public Button NextLevelButton;
@@ -26,6 +27,11 @@ public class UIManager : MonoBehaviour
     public WinLevelPanel winLevelPanel;
 
     public TutorialMesWindow tutorialMessageWindow;
+    public MilestoneWindow milestoneWindow;
+    
+    
+    public BuyInappWindow buyInappWindow;
+    
 
     public Image LoadingImage;
     public TextMeshProUGUI TestLabel;
@@ -36,6 +42,9 @@ public class UIManager : MonoBehaviour
 
     [SerializeField]
     public GameObject prefabWinLevelPanel;
+
+    [SerializeField] public GameObject prefabMilestoneWindow;
+    [SerializeField] public GameObject prefabBuyInappWindow;
 
     public GameObject prefabMessageWindow;
     [SerializeField]
@@ -48,6 +57,7 @@ public class UIManager : MonoBehaviour
         UpdateGameUIEvent.AddListener(UpdateMoveCounter);
         UpdateGameUIEvent.AddListener(UpdateBestResultCounter);
         UpdateGameUIEvent.AddListener(UpdateSolutionCounter);
+        UpdateGameUIEvent.AddListener(UpdateSolutionLabel2);
         
         
         ToMainMenuButton.onClick.AddListener(ToMainMenuButtonClick);
@@ -65,6 +75,19 @@ public class UIManager : MonoBehaviour
 
         GameObject messageWindowGO = GameObject.Instantiate(prefabMessageWindow, UICanvas.transform);
         tutorialMessageWindow = messageWindowGO.GetComponent<TutorialMesWindow>();
+
+
+
+        GameObject buyInappWindowGO = GameObject.Instantiate(prefabBuyInappWindow, UICanvas.transform);
+        buyInappWindow = buyInappWindowGO.GetComponent<BuyInappWindow>();
+        buyInappWindowGO.transform.position=new Vector3(2000,0,0);
+        
+        
+        GameObject milestonWindowGO = GameObject.Instantiate(prefabMilestoneWindow, UICanvas.transform);
+        milestoneWindow = milestonWindowGO.GetComponent<MilestoneWindow>();
+        milestonWindowGO.transform.position=new Vector3(2000,0,0);
+        
+        
         
         GameManager.WinLevelEvent.AddListener(tutorialMessageWindow.Hide);
             //TutorialManager.ClearLastTutorialPointEvent.AddListener(messageWindow.Hide);
@@ -91,7 +114,14 @@ public class UIManager : MonoBehaviour
 
     private void NextLevelButtonClick()
     {
-        GameManager.Instance.NextLevel();
+        if (LevelBuilder.MilestoneLevel())
+        {
+            milestoneWindow.Show();
+        }
+        else
+        {
+            GameManager.Instance.NextLevel();
+        }        
     }
 
     // Update is called once per frame
@@ -118,10 +148,17 @@ public class UIManager : MonoBehaviour
 
         int hsresult=HighscoreManager.GetInstance().GetLevelScore(GameManager.Instance.mLevelBuilder.GetCurrentLevel().levelNumber);
 
-        string solution = GameManager.Instance.mLevelBuilder.GetCurrentLevel().solution;
+        
         
         BestResultCounter.text = LocalizationManager.Localize(StringConstants.Bestmoveslabel) + ":" +
-                                 hsresult.ToString()+" "+solution;
+                                 hsresult.ToString();
+    }
+
+    public void UpdateSolutionLabel2()
+    {
+        string solution = GameManager.Instance.mLevelBuilder.GetCurrentLevel().solution;
+        
+        SolutionLabel2.text = " "+solution;
     }
 
 
@@ -149,6 +186,16 @@ public class UIManager : MonoBehaviour
     }
 
 
-    
+
+    public void ShowMilestoneWindow()
+    {
+        milestoneWindow.Show();
+    }
+
+
+    public void SetTestLabelText(string s)
+    {
+        TestLabel.text = s;
+    }
     
 }

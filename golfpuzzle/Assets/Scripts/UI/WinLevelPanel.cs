@@ -19,6 +19,8 @@ public class WinLevelPanel : MonoBehaviour
     public List<Image> StarImages; 
     public float moveDuration = .3f;
     public Button NextLevelButton;
+    public Button ReplayLevelButton;
+    
 
     private Vector3 startPosition=new Vector3(0,150);
     // Start is called before the first frame update
@@ -29,6 +31,10 @@ public class WinLevelPanel : MonoBehaviour
         
         NextLevelButton.onClick.AddListener(Hide);
         NextLevelButton.onClick.AddListener(GameManager.Instance.NextLevel);
+        
+        ReplayLevelButton.onClick.AddListener(Hide);
+        ReplayLevelButton.onClick.AddListener(GameManager.Instance.ResetScene);
+        
     }
 
     // Update is called once per frame

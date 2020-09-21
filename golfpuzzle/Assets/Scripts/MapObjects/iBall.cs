@@ -90,6 +90,11 @@ namespace MapObjects
                             return true;
                         }
 
+                        if (!ball.moved)
+                        {
+                            return true;
+                        }
+
                         if (isSunked)
                         {
                             return false;
@@ -110,6 +115,10 @@ namespace MapObjects
                     if (grayBall)
                     {
                         if (grayBall.inSand)
+                        {
+                            return true;
+                        }
+                        if (!grayBall.moved)
                         {
                             return true;
                         }

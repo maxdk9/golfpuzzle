@@ -114,9 +114,6 @@ public class GameManager : Singleton<GameManager>
             string solution = this.ballControl.SolutionSave;
             int starNumber = GetWinLevelScoreStar();
             int currentLevelNumber = mLevelBuilder.GetCurrentLevel().levelNumber;
-            
-            
-            
             LevelResult levelResult=new LevelResult();
             levelResult.levelNumber = currentLevelNumber;
             levelResult.starNumber = starNumber;
@@ -127,8 +124,6 @@ public class GameManager : Singleton<GameManager>
             HighscoreManager.GetInstance().SetLevelSolution(currentLevelNumber,solution);
             
             mLevelBuilder.GetComponent<Levels>().AddResult(levelResult);
-            
-            uiManager.TestLabel.text = "Solution="+this.ballControl.SolutionSave;
             uiManager.winLevelPanel.Show(starNumber);
             Debug.Log("Level win");
             

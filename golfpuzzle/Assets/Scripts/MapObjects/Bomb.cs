@@ -150,6 +150,7 @@ public class Bomb : iBall
         
         
         
+        
         if (other.transform.tag.CompareTo("Ball") == 0)
         {
             Bomb tBomb = other.GetComponent<Bomb>();

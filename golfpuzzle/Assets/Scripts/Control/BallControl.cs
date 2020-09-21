@@ -28,6 +28,8 @@ public class BallControl : MonoBehaviour
     
     public string SolutionSave="";
 
+    private UIManager uiManager;
+
 
     private void OnDestroy()
     {
@@ -39,8 +41,8 @@ public class BallControl : MonoBehaviour
         aspectRatio = (float)Screen.width / (float)Screen.height;
         minXLength = (float)(Screen.width) * .15f;
         minYLength = (float)(Screen.height) * .15f*aspectRatio;
-            
-        
+
+        uiManager = FindObjectOfType<UIManager>();
              
         SwipeDetector.OnSwipe += MoveBallOnDirection;
     }
@@ -101,6 +103,8 @@ public class BallControl : MonoBehaviour
             GameManager.Instance.ResetBalls();
             GameManager.Instance.MoveCounter++;
             AddMoveToSolutionSave(direction);
+           // uiManager.SetTestLabelText(swipeData.GetDescription());
+            
             BallMoveEvent.Invoke();
             
             foreach (iBall iBall in GameManager.Instance.Balls)

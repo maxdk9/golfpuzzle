@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\maxdk9\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\maxdk9\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_golfpuzzle.-873580815.00" t="ExcludeRecursive" />
-    <e p="D:\git_repo\golfpuzzle\golfpuzzle" t="IncludeRecursive">
+    <e p="C:\Users\User\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\User\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_golfpuzzle.96000208.00" t="ExcludeRecursive" />
+    <e p="E:\git_repo\golfpuzzle\golfpuzzle" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -823,6 +823,7 @@
           </e>
         </e>
         <e p="Resources" t="Include">
+          <e p="levels.txt" t="Include" />
           <e p="solution.txt" t="Include" />
           <e p="UnityPurchasing" t="Include">
             <e p="generated" t="Include">
@@ -853,7 +854,11 @@
             <e p="BallControl.cs" t="Include" />
             <e p="SwipeDetector.cs" t="Include" />
           </e>
+          <e p="Editor" t="Include">
+            <e p="MyToolsEditor.cs" t="Include" />
+          </e>
           <e p="Highscores" t="Include">
+            <e p="GameScore.cs" t="Include" />
             <e p="HighscoreManager.cs" t="Include" />
           </e>
           <e p="Level" t="Include">
@@ -897,9 +902,12 @@
             <e p="GamePreferences.cs" t="Include" />
           </e>
           <e p="Tools" t="Include">
+            <e p="ChangeFontTextMeshPro.cs" t="Include" />
             <e p="FollowTrail.cs" t="Include" />
             <e p="GolfTools.cs" t="Include" />
             <e p="LevelGenerator.cs" t="Include" />
+            <e p="RateMyApp.cs" t="Include" />
+            <e p="TestLevels.cs" t="Include" />
           </e>
           <e p="Tutorial" t="Include">
             <e p="IntEvent.cs" t="Include" />
@@ -912,10 +920,21 @@
           <e p="UI" t="Include">
             <e p="HideBeyondScreenComponent.cs" t="Include" />
             <e p="LocalizedTextMeshPro.cs" t="Include" />
-            <e p="MainMenuMover.cs" t="Include" />
-            <e p="MainMenuUIManager.cs" t="Include" />
-            <e p="MyFileBrowser.cs" t="Include" />
-            <e p="OptionsMenu.cs" t="Include" />
+            <e p="MainMenu" t="Include">
+              <e p="MainMenuMover.cs" t="Include" />
+              <e p="MainMenuUIManager.cs" t="Include" />
+              <e p="OptionsMenu.cs" t="Include" />
+              <e p="PlanetShooter.cs" t="Include" />
+            </e>
+            <e p="SimpleCanvasWindow" t="Include">
+              <e p="BuyInappWindow.cs" t="Include" />
+              <e p="MilestoneWindow.cs" t="Include" />
+              <e p="SimpleWindow.cs" t="Include" />
+            </e>
+            <e p="Tools" t="Include">
+              <e p="MyFileBrowser.cs" t="Include" />
+              <e p="ShowChronometer.cs" t="Include" />
+            </e>
             <e p="Tooltip" t="Include">
               <e p="Tooltip.cs" t="Include" />
               <e p="TooltipController.cs" t="Include" />
@@ -967,15 +986,12 @@
         </e>
       </e>
       <e p="golfpuzzle.sln" t="IncludeFlat" />
-      <e p="Library" t="ExcludeRecursive" />
       <e p="NativeShare.Editor.csproj" t="IncludeRecursive" />
       <e p="NativeShare.Runtime.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="SimpleFileBrowser.Runtime.csproj" t="IncludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>

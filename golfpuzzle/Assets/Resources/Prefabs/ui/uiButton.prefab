@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 9131372129711177616}
   - component: {fileID: 9131372129711177619}
   m_Layer: 5
-  m_Name: ResetButton
+  m_Name: uiButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,8 +184,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Reset
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2482f97ea32914548995f60d102d2363, type: 2}
+  m_sharedMaterial: {fileID: 664283970062849175, guid: 2482f97ea32914548995f60d102d2363,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

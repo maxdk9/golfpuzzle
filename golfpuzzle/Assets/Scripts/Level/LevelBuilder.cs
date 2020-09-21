@@ -42,9 +42,9 @@ public class LevelBuilder : MonoBehaviour
     public void NextLevel()
     {
         mCurrentLevel++;
-        if (mCurrentLevel >= GetComponent<Levels>().mLevels.Count)
+        if (mCurrentLevel > GetComponent<Levels>().mLevels.Count)
         {
-            mCurrentLevel = 0;
+            mCurrentLevel = 1;
         }
 
         SetCurrentLevel();
@@ -130,6 +130,47 @@ public class LevelBuilder : MonoBehaviour
         }
         
         
+    }
+
+    public static bool MilestoneLevel()
+    {
+        LevelBuilder levelBuilder = FindObjectOfType<LevelBuilder>();
+        if (levelBuilder == null)
+        {
+            return false;
+        }
+        return levelBuilder.mCurrentLevel % 50 == 0;
+    }
+
+    public static bool NextLevelAvailable()
+    {
+        LevelBuilder levelBuilder = FindObjectOfType<LevelBuilder>();
+        EasyMobileManager easyMobileManager = FindObjectOfType<EasyMobileManager>();
+        if (levelBuilder == null)
+        {
+            return false;
+        }
+
+        if (easyMobileManager == null)
+        {
+            return false;
+        }
+        
+        
+        int nextLevelNumber = levelBuilder.mCurrentLevel + 1;
+        if(nextLevelNumber<=50)
+        {
+            return true;
+        }
+
+        if (nextLevelNumber > 50 &&nextLevelNumber<=100&& easyMobileManager.AdvancedUnlocked)
+        {
+            return true;
+        }
+
+        return false;
+
+
     }
 }
 

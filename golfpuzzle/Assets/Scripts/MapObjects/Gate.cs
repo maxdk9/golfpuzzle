@@ -39,6 +39,11 @@ public class Gate : MonoBehaviour
     {
         if (other.GetComponent<iBall>() != null)
         {
+
+            if (other.GetComponent<Bomb>() != null)
+            {
+                return;
+            }
             mBusy = true;
         }
     }

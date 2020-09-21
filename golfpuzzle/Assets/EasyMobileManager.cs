@@ -137,7 +137,10 @@ public class EasyMobileManager: Singleton<EasyMobileManager>
             
         
         
-
+        public void SendMailToDeveloper()
+        {
+            Application.OpenURL("mailto:maxdk9@gmail.com?subject=Cosmic Brain Puzzle mobile app&body=Hi, i have a problem...");
+        }
 
 
 
@@ -203,5 +206,10 @@ public class EasyMobileManager: Singleton<EasyMobileManager>
         {
             yield return new WaitForEndOfFrame();
             string path = Sharing.SaveScreenshot("screenshot");
+        }
+
+        public void OpenMyGames()
+        {
+            Application.OpenURL("https://play.google.com/store/apps/developer?id=Maxim+Matyushenko");
         }
     }
